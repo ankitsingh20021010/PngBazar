@@ -46,7 +46,23 @@ function renderHomePNGs() {
 
     grid.innerHTML = "";
 
-    pngItems.forEach(item => {
+    /*
+     * HOME PAGE ROTATION
+     * ---------------------------------------------------------
+     * Every time the homepage opens, the PNG order changes.
+     *
+     * The current batch is saved in localStorage so the same
+     * PNGs are not repeated until the available PNGs have
+     * been cycled through.
+     *
+     * IDs remain unchanged. Only the homepage display order
+     * changes. Category, search and image-detail pages are
+     * not affected.
+     */
+
+    const homeItems = getRotatingHomeItems();
+
+    homeItems.forEach(item => {
 
         const card =
             createPNGCard(item);
@@ -55,6 +71,190 @@ function renderHomePNGs() {
 
     });
 
+}
+
+
+/* =========================================================
+   HOME PAGE ROTATION HELPERS
+   ========================================================= */
+
+/*
+ * Stores the homepage rotation state.
+ * This is kept in the browser only.
+ */
+const HOME_ROTATION_KEY = "pngbazarHomeRotation";
+
+
+/*
+ * Returns all PNGs in a shuffled order while avoiding
+ * previously displayed PNGs until the current cycle ends.
+ */
+function getRotatingHomeItems() {
+
+    const currentIds =
+        pngItems.map(item => String(item.id));
+
+    let rotation = {
+        queue: [],
+        shown: []
+    };
+
+    try {
+
+        const saved =
+            localStorage.getItem(
+                HOME_ROTATION_KEY
+            );
+
+        if (saved) {
+            rotation =
+                JSON.parse(saved);
+        }
+
+    } catch (error) {
+
+        console.warn(
+            "Home rotation data could not be read:",
+            error
+        );
+
+    }
+
+
+    /*
+     * Remove IDs that no longer exist in png-data.js.
+     */
+    rotation.queue =
+        Array.isArray(rotation.queue)
+            ? rotation.queue.filter(id =>
+                currentIds.includes(String(id))
+            )
+            : [];
+
+    rotation.shown =
+        Array.isArray(rotation.shown)
+            ? rotation.shown.filter(id =>
+                currentIds.includes(String(id))
+            )
+            : [];
+
+
+    /*
+     * Build a new shuffled queue when the old queue
+     * has been consumed.
+     */
+    if (rotation.queue.length === 0) {
+
+        const remainingIds =
+            currentIds.filter(id =>
+                !rotation.shown.includes(id)
+            );
+
+        /*
+         * If every PNG has already been shown,
+         * start a completely new cycle.
+         */
+        const idsToShuffle =
+            remainingIds.length > 0
+                ? remainingIds
+                : currentIds.slice();
+
+        rotation.queue =
+            shuffleHomeIds(idsToShuffle);
+
+        if (remainingIds.length === 0) {
+            rotation.shown = [];
+        }
+
+    }
+
+
+    /*
+     * IMPORTANT:
+     * Keep the same number of images that the homepage
+     * normally renders. We only change their order.
+     */
+    const orderedItems =
+        rotation.queue.map(id =>
+            pngItems.find(item =>
+                String(item.id) === String(id)
+            )
+        ).filter(Boolean);
+
+
+    /*
+     * Mark these PNGs as shown.
+     */
+    orderedItems.forEach(item => {
+
+        const id =
+            String(item.id);
+
+        if (!rotation.shown.includes(id)) {
+            rotation.shown.push(id);
+        }
+
+    });
+
+
+    rotation.queue = [];
+
+
+    /*
+     * Save the new state.
+     */
+    try {
+
+        localStorage.setItem(
+            HOME_ROTATION_KEY,
+            JSON.stringify(rotation)
+        );
+
+    } catch (error) {
+
+        console.warn(
+            "Home rotation data could not be saved:",
+            error
+        );
+
+    }
+
+
+    return orderedItems;
+}
+
+
+/*
+ * Fisher-Yates shuffle.
+ * This gives a proper random order.
+ */
+function shuffleHomeIds(ids) {
+
+    const shuffled =
+        [...ids];
+
+    for (
+        let i = shuffled.length - 1;
+        i > 0;
+        i--
+    ) {
+
+        const j =
+            Math.floor(
+                Math.random() * (i + 1)
+            );
+
+        [
+            shuffled[i],
+            shuffled[j]
+        ] = [
+            shuffled[j],
+            shuffled[i]
+        ];
+
+    }
+
+    return shuffled;
 }
 
 
