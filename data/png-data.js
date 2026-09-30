@@ -4,13 +4,10 @@ const pngData = [
     title: "Cute Dog PNG",
     category: "Animals",
     image: "assets/png/animals/cute_dog.png",
-
     downloads: 0,
     views: 0,
-
     size: "—",
     dimensions: "—",
-
     description:
         "Cute dog transparent PNG image from PNG Bazar.",
 
@@ -26,7 +23,7 @@ const pngData = [
     {
         id: 2,
         title: "Golden Retriever Dog PNG",
-        category: "Nature",
+        
         image: "assets/png/animals/Golden_Retriever_dog.png",
         downloads: 980,
         views: 2100,
@@ -60,9 +57,7 @@ const pngData = [
         "cattle",
         "Pug dog"
     ]
-},
-
-   
+}, 
 {
     id: 4,
     title: "Dog PNG",
@@ -84,8 +79,7 @@ const pngData = [
         "pet",
         "cute dog"
     ]
-},
-   
+}, 
 {
     id: 5,
     title: "German Shepherd dog PNG",
@@ -163,10 +157,8 @@ const pngData = [
     title: "dalmatian dog ",
     category: "Animals",
     image: "assets/png/animals/dalmatian-dog-standing.png",
-
     downloads: 1520,
     views: 3100,
-
     size: "245 KB",
     dimensions: "1200 × 1200 px",
 
@@ -194,10 +186,6 @@ const pngData = [
 
     size: "245 KB",
     dimensions: "1200 × 1200 px",
-
-    description:
-        "High-quality cow transparent PNG image. Perfect for designs, websites, presentations and creative projects.",
-
     tags: [
         "Dog",
         "dalmatian",
@@ -215,17 +203,11 @@ const pngData = [
     title: "orange tabby cat ",
     category: "Animals",
     image: "assets/png/animals/orange-tabby-cat-sitting.png",
-
     downloads: 1520,
     views: 3100,
-
     size: "245 KB",
     dimensions: "1200 × 1200 px",
-
-    description:
-        "High-quality cow transparent PNG image. Perfect for designs, websites, presentations and creative projects.",
-
-    tags: [
+     tags: [
         "orange tabby cat",
        "cat",
         "Puppy",
@@ -240,13 +222,10 @@ const pngData = [
     title: "golden-retriever  dog-head ",
     category: "Animals",
     image: "assets/png/animals/golden-retriever-dog-head.png",
-
     downloads: 1520,
     views: 3100,
-
     size: "245 KB",
     dimensions: "1200 × 1200 px",
-
     description:
         "High-quality cow transparent PNG image. Perfect for designs, websites, presentations and creative projects.",
 
@@ -1016,8 +995,8 @@ const pngData = [
     title: "Flat Vector Burger PNG",
     category: "Food",
     image: "assets/png/food/flat-vector-burger.png",
-    downloads: 0,
-    views: 0,
+    downloads: 688,
+    views: 1240,
     size: "—",
     dimensions: "—",
     tags: [
@@ -1048,5 +1027,231 @@ const pngData = [
         "farm",
         "cattle"
     ]
-}
+},
+{
+    id: 51,
+
+    title: "Large Green Oak Tree PNG",
+
+    category: "Nature",
+
+    image: "assets/png/nature/large-green-oak-tree.png",
+
+    downloads: 877,
+
+    views: 1220,
+
+    size: "—",
+
+    dimensions: "—",
+
+    tags: [
+        "tree",
+        "oak tree",
+        "green tree",
+        "large tree",
+        "oak",
+        "tree roots",
+        "nature",
+        "nature png"
+    ]
+},
+{
+    id: 52,
+    title: "Tall Pine Tree PNG",
+    category: "Nature",
+    image: "assets/png/nature/tall-pine-tree.png",
+    downloads: 310,
+    views: 446,
+    size: "—",
+    dimensions: "—",
+    tags: [
+        "pine tree",
+        "tree",
+        "evergreen tree",
+        "green tree",
+        "tall tree",
+        "forest tree",
+        "nature",
+        "nature png"
+    ]
+},
+{
+    id: 53,
+    title: "Coconut Palm Tree PNG",
+    category: "Nature",
+    image: "assets/png/nature/coconut-palm-tree.png",
+    downloads: 1763,
+    views: 2230,
+    size: "—",
+    dimensions: "—",
+    tags: [
+        "coconut tree",
+        "palm tree",
+        "coconut palm",
+        "green palm",
+        "coconuts",
+        "tropical tree",
+        "nature",
+        "nature png"
+    ]
+},
+{
+    id: 54,
+    title: "Mango Tree Ripe Mangoes PNG",
+    category: "Nature",
+    image: "assets/png/nature/mango-tree-ripe-mangoes.png",
+    downloads: 0,
+    views: 0,
+    size: "—",
+    dimensions: "—",
+    tags: [
+        "mango tree",
+        "mango",
+        "mangoes",
+        "green leaves",
+        "ripe mangoes",
+        "fruit tree",
+        "tree",
+        "nature",
+        "nature png"
+    ]
+},
+{
+    id: 55,
+    title: "Banyan Tree Aerial Roots PNG",
+    category: "Nature",
+    image: "assets/png/nature/banyan-tree-aerial-roots.png",
+    downloads: 322,
+    views: 546,
+
+    size: "—",
+    dimensions: "—",
+    tags: [
+        "banyan tree",
+        "tree",
+        "aerial roots",
+        "hanging roots",
+        "green tree",
+        "wide canopy",
+        "large tree",
+        "nature",
+        "nature png"
+    ]
+},
+{
+    id: 56,
+    title: "Autumn Maple Tree PNG",
+    category: "Nature",
+    image: "assets/png/nature/autumn-maple-tree.png",
+
+    downloads: 263,
+    views: 633,
+    size: "—",
+    dimensions: "—",
+
+    tags: [
+        "maple tree",
+        "autumn tree",
+        "fall tree",
+        "red leaves",
+        "orange leaves",
+        "yellow leaves",
+        "colorful tree",
+        "nature",
+        "nature png"
+    ]
+
+},
+{
+    id: 57,
+
+    title: "Cherry Blossom Tree PNG",
+    category: "Nature",
+    image: "assets/png/nature/cherry-blossom-tree.png",
+    downloads: 486,
+    views: 776,
+    size: "—",
+    dimensions: "—",
+    tags: [
+        "cherry blossom",
+        "cherry blossom tree",
+        "pink tree",
+        "pink flowers",
+        "flowering tree",
+        "spring tree",
+        "nature",
+        "nature png"
+    ]
+},
+{
+    id: 58,
+    title: "Bare Winter Leafless Tree PNG",
+    category: "Nature",
+    image: "assets/png/nature/bare-winter-leafless-tree.png",
+    downloads: 453,
+    views: 657,
+    size: "—",
+    dimensions: "—",
+    tags: [
+        "winter tree",
+        "leafless tree",
+        "bare tree",
+        "dry tree",
+        "tree branches",
+        "winter",
+        "nature",
+        "nature png"
+    ]
+},
+{
+    id: 59,
+    title: "Young Sapling Plant With Soil PNG",
+    category: "Nature",
+    image: "assets/png/nature/young-sapling-soil.png",
+    downloads: 324,
+    views: 654,
+    size: "—",
+    dimensions: "—",
+    tags: [
+        "sapling",
+        "young plant",
+        "plant",
+        "tree sapling",
+        "green plant",
+        "soil",
+        "growing plant",
+        "nature",
+        "nature png"
+    ]
+},
+{
+    id: 60,
+
+    title: "Flat Vector Green Tree PNG",
+
+    category: "Nature",
+
+    image: "assets/png/nature/flat-vector-green-tree.png",
+
+    downloads: 851,
+
+    views: 1012,
+
+    size: "—",
+
+    dimensions: "—",
+
+    tags: [
+        "tree",
+        "green tree",
+        "vector tree",
+        "flat tree",
+        "tree illustration",
+        "cartoon tree",
+        "nature",
+        "nature png"
+    ]
+
+},
 ];

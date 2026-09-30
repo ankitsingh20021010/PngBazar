@@ -1,958 +1,1999 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
+
+
 <head>
+
     <meta charset="UTF-8">
 
+
+
     <meta
+
         name="viewport"
+
         content="width=device-width, initial-scale=1.0"
+
     >
+
+
 
     <title>Categories — PNG Bazar</title>
 
+
+
     <meta
+
         name="description"
+
         content="Browse all PNG Bazar categories and find free transparent PNG images."
+
     >
 
+
+
     <link rel="stylesheet" href="css/style.css">
+
     <link rel="stylesheet" href="css/responsive.css">
+
 </head>
+
+
+
 
 
 <body>
 
+
+
     <!-- =====================================================
+
          HEADER
-    ====================================================== -->
+
+    \====================================================== -->
+
+
 
     <header class="site-header">
 
+
+
         <div class="header-container">
+
+
 
             <!-- Logo -->
 
+
+
             <a href="index.html" class="brand">
+
+
 
                 <div class="brand-icon">
 
+
+
                     <img
+
                         src="assets/images/pngbazar_con.svg"
+
                         alt="PNG Bazar"
+
                     >
 
+
+
                 </div>
+
+
 
                 <div class="brand-text">
 
+
+
                     <h1>
+
                         PNG<span>Bazar</span>
+
                     </h1>
 
+
+
                     <p>
+
                         Free PNG Images for Everyone
+
                     </p>
+
+
 
                 </div>
 
+
+
             </a>
+
+
+
 
 
             <!-- Navigation -->
 
+
+
             <nav class="main-nav">
 
+
+
                 <a
+
                     href="index.html"
+
                     class="nav-link"
+
                 >
+
                     Home
+
                 </a>
 
+
+
                 <a
+
                     href="category.html"
+
                     class="nav-link active"
+
                 >
+
                     Categories
+
                 </a>
 
+
+
                 <a
+
                     href="#"
+
                     class="nav-link"
+
                 >
+
                     Trending
+
                 </a>
 
+
+
                 <a
+
                     href="#"
+
                     class="nav-link"
+
                 >
+
                     Latest
+
                 </a>
 
+
+
                 <a
+
                     href="about.html"
+
                     class="nav-link"
+
                 >
+
                     About
+
                 </a>
+
+
 
             </nav>
 
 
+
+
+
             <!-- Header Actions -->
+
+
 
             <div class="header-actions">
 
+
+
                 <!-- Dark Mode -->
 
+
+
                 <button
+
                     class="icon-button"
+
                     id="themeToggle"
+
                     type="button"
+
                     aria-label="Toggle dark mode"
+
                 >
 
+
+
                     <img
+
                         src="assets/icons/moon.svg"
+
                         alt=""
+
                     >
 
+
+
                 </button>
+
+
+
 
 
                 <!-- Favorites -->
 
+
+
                 <button
+
                     class="icon-button"
+
                     type="button"
+
                     aria-label="Favorites"
+
                 >
 
+
+
                     <img
+
                         src="assets/icons/heart.svg"
+
                         alt=""
+
                     >
 
+
+
                 </button>
+
+
+
 
 
                 <!-- Search -->
 
+
+
                 <form
+
                     class="header-search"
+
                     id="headerSearch"
+
                 >
 
+
+
                     <input
+
                         type="search"
+
                         id="headerSearchInput"
+
                         placeholder="Search PNG images..."
+
                         autocomplete="off"
+
                     >
+
+
 
                     <button
+
                         type="submit"
+
                         aria-label="Search"
+
                     >
 
+
+
                         <img
+
                             src="assets/icons/search.svg"
+
                             alt=""
+
                         >
 
+
+
                     </button>
+
+
 
                 </form>
 
 
+
+
+
                 <!-- Mobile Menu -->
 
+
+
                 <button
+
                     class="icon-button mobile-menu-button"
+
                     id="mobileMenuButton"
+
                     type="button"
+
                     aria-label="Open menu"
+
                 >
 
+
+
                     <img
+
                         src="assets/icons/menu.svg"
+
                         alt=""
+
                     >
+
+
 
                 </button>
 
+
+
             </div>
+
+
 
         </div>
 
 
+
+
+
         <!-- Mobile Navigation -->
 
+
+
         <nav
+
             class="mobile-nav"
+
             id="mobileNav"
+
         >
 
+
+
             <a href="index.html">
+
                 Home
+
             </a>
+
+
 
             <a href="category.html">
+
                 Categories
+
             </a>
 
+
+
             <a href="#">
+
                 Trending
+
             </a>
 
+
+
             <a href="#">
+
                 Latest
+
             </a>
+
+
 
             <a href="about.html">
+
                 About
+
             </a>
 
+
+
         </nav>
+
+
 
     </header>
 
 
 
+
+
+
+
     <!-- =====================================================
+
          MAIN
-    ====================================================== -->
+
+    \====================================================== -->
+
+
 
     <main>
 
 
+
+
+
         <!-- =================================================
+
              CATEGORY HERO
-        ================================================== -->
+
+        \================================================== -->
+
+
 
         <section class="category-hero">
 
+
+
             <div class="category-hero-content">
 
+
+
                 <span class="category-eyebrow">
+
                     PNG Bazar
+
                 </span>
 
+
+
                 <h2>
+
                     Explore PNG
+
                     <span>Categories</span>
+
                 </h2>
 
+
+
                 <p>
+
                     Find the perfect transparent PNG for
+
                     your next project.
+
                 </p>
+
+
+
 
 
                 <!-- Category Search -->
 
+
+
                 <form
+
                     class="category-search"
+
                     id="categorySearch"
+
                 >
 
+
+
                     <img
+
                         src="assets/icons/search.svg"
+
                         alt=""
+
                     >
 
+
+
                     <input
+
                         type="search"
+
                         id="categorySearchInput"
+
                         placeholder="Search categories..."
+
                         autocomplete="off"
+
                     >
+
+
 
                 </form>
 
+
+
             </div>
+
+
 
         </section>
 
 
 
+
+
+
+
         <!-- =================================================
+
              CATEGORY CONTENT
-        ================================================== -->
+
+        \================================================== -->
+
+
 
         <section class="categories-section">
+
+
 
             <div class="categories-container">
 
 
+
+
+
                 <!-- Section Header -->
+
+
 
                 <div class="categories-header">
 
+
+
                     <div>
 
+
+
                         <h2>
+
                             All Categories
+
                         </h2>
 
+
+
                         <p>
+
                             Browse PNG images by category
+
                         </p>
+
+
 
                     </div>
 
+
+
                     <span class="category-total">
+
                         12 Categories
+
                     </span>
+
+
 
                 </div>
 
 
 
+
+
+
+
                 <!-- =================================================
+
                      CATEGORY GRID
-                ================================================== -->
+
+                \================================================== -->
+
+
 
                 <div
+
                     class="categories-grid"
+
                     id="categoriesGrid"
+
                 >
+
+
+
 
 
                     <!-- ALL -->
 
+
+
                     <a
+
                         href="index.html"
+
                         class="category-card"
+
                     >
+
+
 
                         <div class="category-card-icon">
 
+
+
                             <img
+
                                 src="assets/icons/grid.svg"
+
                                 alt=""
+
                             >
 
+
+
                         </div>
+
+
 
                         <div class="category-card-content">
 
+
+
                             <h3>
+
                                 All PNGs
+
                             </h3>
 
+
+
                             <p>
+
                                 Explore everything
+
                             </p>
 
+
+
                             <span>
+
                                 1,245 PNGs
+
                             </span>
+
+
 
                         </div>
 
+
+
                     </a>
+
+
+
+
 
 
 
                     <!-- ANIMALS -->
 
-                    <a
-                        href="#"
-                        class="category-card"
+
+
+                    <a href="category.html?category=Animals" class="category-card" data-category="Animals"
+
                     >
+
+
 
                         <div class="category-card-icon">
 
+
+
                             <img
+
                                 src="assets/icons/paw.svg"
+
                                 alt=""
+
                             >
 
+
+
                         </div>
+
+
 
                         <div class="category-card-content">
 
+
+
                             <h3>
+
                                 Animals
+
                             </h3>
 
+
+
                             <p>
+
                                 Dogs, cats & wildlife
+
                             </p>
 
+
+
                             <span>
+
                                 132 PNGs
+
                             </span>
+
+
 
                         </div>
 
+
+
                     </a>
+
+
+
+
 
 
 
                     <!-- NATURE -->
 
-                    <a
-                        href="#"
-                        class="category-card"
+
+
+                    <a href="category.html?category=Nature" class="category-card" data-category="Nature"
+
                     >
+
+
 
                         <div class="category-card-icon">
 
+
+
                             <img
+
                                 src="assets/icons/leaf.svg"
+
                                 alt=""
+
                             >
 
+
+
                         </div>
+
+
 
                         <div class="category-card-content">
 
+
+
                             <h3>
+
                                 Nature
+
                             </h3>
 
+
+
                             <p>
+
                                 Plants, trees & flowers
+
                             </p>
 
+
+
                             <span>
+
                                 118 PNGs
+
                             </span>
+
+
 
                         </div>
 
+
+
                     </a>
+
+
+
+
 
 
 
                     <!-- FOOD -->
 
-                    <a
-                        href="#"
-                        class="category-card"
+
+
+                    <a href="category.html?category=Food" class="category-card" data-category="Food"
+
                     >
+
+
 
                         <div class="category-card-icon">
 
+
+
                             <img
+
                                 src="assets/icons/food.svg"
+
                                 alt=""
+
                             >
 
+
+
                         </div>
+
+
 
                         <div class="category-card-content">
 
+
+
                             <h3>
+
                                 Food
+
                             </h3>
 
+
+
                             <p>
+
                                 Food & delicious items
+
                             </p>
 
+
+
                             <span>
+
                                 96 PNGs
+
                             </span>
+
+
 
                         </div>
 
+
+
                     </a>
+
+
+
+
 
 
 
                     <!-- PEOPLE -->
 
-                    <a
-                        href="#"
-                        class="category-card"
+
+
+                    <a href="category.html?category=People" class="category-card" data-category="People"
+
                     >
+
+
 
                         <div class="category-card-icon">
 
+
+
                             <img
+
                                 src="assets/icons/fruits.svg"
+
                                 alt=""
+
                             >
 
+
+
                         </div>
+
+
 
                         <div class="category-card-content">
 
+
+
                             <h3>
+
                                 People
+
                             </h3>
 
+
+
                             <p>
+
                                 People & characters
+
                             </p>
 
+
+
                             <span>
+
                                 85 PNGs
+
                             </span>
+
+
 
                         </div>
 
+
+
                     </a>
+
+
+
+
 
 
 
                     <!-- VEHICLES -->
 
-                    <a
-                        href="#"
-                        class="category-card"
+
+
+                    <a href="category.html?category=Vehicles" class="category-card" data-category="Vehicles"
+
                     >
+
+
 
                         <div class="category-card-icon">
 
+
+
                             <img
+
                                 src="assets/icons/car.svg"
+
                                 alt=""
+
                             >
 
+
+
                         </div>
+
+
 
                         <div class="category-card-content">
 
+
+
                             <h3>
+
                                 Vehicles
+
                             </h3>
 
+
+
                             <p>
+
                                 Cars, bikes & transport
+
                             </p>
 
+
+
                             <span>
+
                                 74 PNGs
+
                             </span>
+
+
 
                         </div>
 
+
+
                     </a>
+
+
+
+
 
 
 
                     <!-- TECHNOLOGY -->
 
-                    <a
-                        href="#"
-                        class="category-card"
+
+
+                    <a href="category.html?category=Technology" class="category-card" data-category="Technology"
+
                     >
+
+
 
                         <div class="category-card-icon">
 
+
+
                             <img
+
                                 src="assets/icons/laptop.svg"
+
                                 alt=""
+
                             >
 
+
+
                         </div>
+
+
 
                         <div class="category-card-content">
 
+
+
                             <h3>
+
                                 Technology
+
                             </h3>
 
+
+
                             <p>
+
                                 Computers & gadgets
+
                             </p>
 
+
+
                             <span>
+
                                 68 PNGs
+
                             </span>
+
+
 
                         </div>
 
+
+
                     </a>
+
+
+
+
 
 
 
                     <!-- GAMING -->
 
-                    <a
-                        href="#"
-                        class="category-card"
+
+
+                    <a href="category.html?category=Gaming" class="category-card" data-category="Gaming"
+
                     >
+
+
 
                         <div class="category-card-icon">
 
+
+
                             <img
+
                                 src="assets/icons/game.svg"
+
                                 alt=""
+
                             >
 
+
+
                         </div>
+
+
 
                         <div class="category-card-content">
 
+
+
                             <h3>
+
                                 Gaming
+
                             </h3>
 
+
+
                             <p>
+
                                 Games & gaming assets
+
                             </p>
 
+
+
                             <span>
+
                                 72 PNGs
+
                             </span>
+
+
 
                         </div>
 
+
+
                     </a>
+
+
+
+
 
 
 
                     <!-- ICONS -->
 
-                    <a
-                        href="#"
-                        class="category-card"
+
+
+                    <a href="category.html?category=Icons" class="category-card" data-category="Icons"
+
                     >
+
+
 
                         <div class="category-card-icon">
 
+
+
                             <img
+
                                 src="assets/icons/star.svg"
+
                                 alt=""
+
                             >
 
+
+
                         </div>
+
+
 
                         <div class="category-card-content">
 
+
+
                             <h3>
+
                                 Icons
+
                             </h3>
 
+
+
                             <p>
+
                                 Useful icons & symbols
+
                             </p>
 
+
+
                             <span>
+
                                 120 PNGs
+
                             </span>
+
+
 
                         </div>
 
+
+
                     </a>
+
+
+
+
 
 
 
                     <!-- FESTIVAL -->
 
-                    <a
-                        href="#"
-                        class="category-card"
+
+
+                    <a href="category.html?category=Festival" class="category-card" data-category="Festival"
+
                     >
+
+
 
                         <div class="category-card-icon">
 
+
+
                             <img
+
                                 src="assets/icons/partypopper.svg"
+
                                 alt=""
+
                             >
 
+
+
                         </div>
+
+
 
                         <div class="category-card-content">
 
+
+
                             <h3>
+
                                 Festival
+
                             </h3>
 
+
+
                             <p>
+
                                 Celebration & events
+
                             </p>
 
+
+
                             <span>
+
                                 64 PNGs
+
                             </span>
+
+
 
                         </div>
 
+
+
                     </a>
+
+
+
+
 
 
 
                     <!-- CARTOON -->
 
-                    <a
-                        href="#"
-                        class="category-card"
+
+
+                    <a href="category.html?category=Cartoon" class="category-card" data-category="Cartoon"
+
                     >
+
+
 
                         <div class="category-card-icon">
 
+
+
                             <img
+
                                 src="assets/icons/smile.svg"
+
                                 alt=""
+
                             >
 
+
+
                         </div>
+
+
 
                         <div class="category-card-content">
 
+
+
                             <h3>
+
                                 Cartoon
+
                             </h3>
 
+
+
                             <p>
+
                                 Fun characters & art
+
                             </p>
 
+
+
                             <span>
+
                                 86 PNGs
+
                             </span>
+
+
 
                         </div>
 
+
+
                     </a>
+
+
+
+
 
 
 
                     <!-- OBJECTS -->
 
-                    <a
-                        href="#"
-                        class="category-card"
+
+
+                    <a href="category.html?category=Objects" class="category-card" data-category="Objects"
+
                     >
+
+
 
                         <div class="category-card-icon">
 
+
+
                             <img
+
                                 src="assets/icons/star.svg"
+
                                 alt=""
+
                             >
 
+
+
                         </div>
+
+
 
                         <div class="category-card-content">
 
+
+
                             <h3>
+
                                 Objects
+
                             </h3>
 
+
+
                             <p>
+
                                 Everyday objects
+
                             </p>
 
+
+
                             <span>
+
                                 110 PNGs
+
                             </span>
+
+
 
                         </div>
 
+
+
                     </a>
+
+
 
                 </div>
 
+
+
             </div>
+
+
 
         </section>
 
 
 
+
+
+
+
         <!-- =================================================
+
              POPULAR CATEGORIES
+
+        \================================================== -->
+
+
+
+        
+        <!-- =================================================
+             SELECTED CATEGORY PNGs
         ================================================== -->
 
-        <section class="popular-categories-section">
+        <section
+            class="category-png-section"
+            id="categoryPngSection"
+            style="display:none;"
+        >
 
             <div class="categories-container">
 
                 <div class="categories-header">
 
                     <div>
-
-                        <h2>
-                            Popular Categories
+                        <h2 id="selectedCategoryTitle">
+                            PNG Images
                         </h2>
 
-                        <p>
-                            Quickly explore what people are
-                            searching for
+                        <p id="selectedCategorySubtitle">
+                            Explore transparent PNG images.
                         </p>
-
                     </div>
+
+                    <span
+                        class="category-total"
+                        id="selectedCategoryCount"
+                    >
+                        0 PNGs
+                    </span>
 
                 </div>
 
 
-                <div class="popular-category-list">
+                <div
+                    class="png-grid"
+                    id="categoryPngGrid"
+                ></div>
 
 
-                    <a
-                        href="#"
-                        class="popular-category"
+                <div
+                    class="load-more-container"
+                    id="categoryLoadMoreContainer"
+                >
+                    <button
+                        class="load-more-button"
+                        id="categoryLoadMoreButton"
+                        type="button"
                     >
-
-                        <img
-                            src="assets/icons/paw.svg"
-                            alt=""
-                        >
-
-                        <span>
-                            Animals
-                        </span>
-
-                        <strong>
-                            →
-                        </strong>
-
-                    </a>
-
-
-                    <a
-                        href="#"
-                        class="popular-category"
-                    >
-
-                        <img
-                            src="assets/icons/leaf.svg"
-                            alt=""
-                        >
-
-                        <span>
-                            Nature
-                        </span>
-
-                        <strong>
-                            →
-                        </strong>
-
-                    </a>
-
-
-                    <a
-                        href="#"
-                        class="popular-category"
-                    >
-
-                        <img
-                            src="assets/icons/car.svg"
-                            alt=""
-                        >
-
-                        <span>
-                            Vehicles
-                        </span>
-
-                        <strong>
-                            →
-                        </strong>
-
-                    </a>
-
-
-                    <a
-                        href="#"
-                        class="popular-category"
-                    >
-
-                        <img
-                            src="assets/icons/game.svg"
-                            alt=""
-                        >
-
-                        <span>
-                            Gaming
-                        </span>
-
-                        <strong>
-                            →
-                        </strong>
-
-                    </a>
-
+                        Load More PNGs
+                    </button>
                 </div>
 
             </div>
 
         </section>
 
+
+<section class="popular-categories-section">
+
+
+
+            <div class="categories-container">
+
+
+
+                <div class="categories-header">
+
+
+
+                    <div>
+
+
+
+                        <h2>
+
+                            Popular Categories
+
+                        </h2>
+
+
+
+                        <p>
+
+                            Quickly explore what people are
+
+                            searching for
+
+                        </p>
+
+
+
+                    </div>
+
+
+
+                </div>
+
+
+
+
+
+                <div class="popular-category-list">
+
+
+
+
+
+                    <a
+
+                        href="#"
+
+                        class="popular-category"
+
+                    >
+
+
+
+                        <img
+
+                            src="assets/icons/paw.svg"
+
+                            alt=""
+
+                        >
+
+
+
+                        <span>
+
+                            Animals
+
+                        </span>
+
+
+
+                        <strong>
+
+                            →
+
+                        </strong>
+
+
+
+                    </a>
+
+
+
+
+
+                    <a
+
+                        href="#"
+
+                        class="popular-category"
+
+                    >
+
+
+
+                        <img
+
+                            src="assets/icons/leaf.svg"
+
+                            alt=""
+
+                        >
+
+
+
+                        <span>
+
+                            Nature
+
+                        </span>
+
+
+
+                        <strong>
+
+                            →
+
+                        </strong>
+
+
+
+                    </a>
+
+
+
+
+
+                    <a
+
+                        href="#"
+
+                        class="popular-category"
+
+                    >
+
+
+
+                        <img
+
+                            src="assets/icons/car.svg"
+
+                            alt=""
+
+                        >
+
+
+
+                        <span>
+
+                            Vehicles
+
+                        </span>
+
+
+
+                        <strong>
+
+                            →
+
+                        </strong>
+                    </a>
+                    <a
+
+                        href="#"
+
+                        class="popular-category"
+
+                    >
+                        <img
+
+                            src="assets/icons/game.svg"
+
+                            alt="game icon"
+                        >
+                        <span>
+
+                            Gaming
+
+                        </span>
+
+
+
+                        <strong>
+
+                            →
+
+                        </strong>
+                    </a>
+                </div>
+
+            </div>
+        </section>
     </main>
 
-
-
     <!-- =====================================================
+
          FOOTER
-    ====================================================== -->
+
+    \====================================================== -->
+
+
 
     <footer class="site-footer">
+
+
 
         <div class="footer-container">
 
 
+
+
+
             <div class="footer-brand">
+
+
 
                 <div class="footer-logo">
 
+
+
                     <img
+
                         src="assets/images/pngbazar_ogo.svg"
+
                         alt="PNG Bazar"
+
                     >
+
+
 
                 </div>
 
+
+
                 <p>
+
                     Free transparent PNG images for everyone.
+
                 </p>
 
+
+
             </div>
+
+
+
 
 
             <div class="footer-links">
 
+
+
                 <a href="index.html">
+
                     Home
+
+                </a>
+                <a href="category.html">
+
+                    Categories
+
                 </a>
 
-                <a href="category.html">
-                    Categories
-                </a>
+
 
                 <a href="#">
+
                     Trending
+
                 </a>
+
+
 
                 <a href="about.html">
+
                     About
+
                 </a>
-
             </div>
-
-
             <div class="footer-copy">
 
+
+
                 <p>
+
                     © 2026 PNG Bazar. All rights reserved.
+
                 </p>
+
+
 
             </div>
 
         </div>
-
     </footer>
-
-
-
     <!-- =====================================================
+
          JAVASCRIPT
-    ====================================================== -->
+
+    \====================================================== -->
+
+
 
     <script src="data/png-data.js"></script>
 
+
+
     <script src="js/main.js"></script>
+
+
 
     <script src="js/search.js"></script>
 
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+
+            const params = new URLSearchParams(
+                window.location.search
+            );
+
+            const selectedCategory = params.get("category");
+
+            const section = document.getElementById(
+                "categoryPngSection"
+            );
+
+            const grid = document.getElementById(
+                "categoryPngGrid"
+            );
+
+            const title = document.getElementById(
+                "selectedCategoryTitle"
+            );
+
+            const subtitle = document.getElementById(
+                "selectedCategorySubtitle"
+            );
+
+            const count = document.getElementById(
+                "selectedCategoryCount"
+            );
+
+            const loadMoreContainer =
+                document.getElementById(
+                    "categoryLoadMoreContainer"
+                );
+
+            const loadMoreButton =
+                document.getElementById(
+                    "categoryLoadMoreButton"
+                );
+
+            if (
+                !selectedCategory ||
+                selectedCategory.toLowerCase() === "all"
+            ) {
+                section.style.display = "none";
+                return;
+            }
+
+            const categoryName =
+                decodeURIComponent(selectedCategory);
+
+            const categoryItems =
+                Array.isArray(window.pngData)
+                    ? window.pngData.filter(item =>
+                        String(item.category || "")
+                            .toLowerCase() ===
+                        categoryName.toLowerCase()
+                    )
+                    : [];
+
+            title.textContent =
+                `${categoryName} PNG Images`;
+
+            subtitle.textContent =
+                `Explore transparent PNG images from ${categoryName}.`;
+
+            count.textContent =
+                `${categoryItems.length} PNGs`;
+
+            if (!categoryItems.length) {
+
+                grid.innerHTML = `
+                    <div class="empty-state">
+                        <h3>No PNGs Found</h3>
+                        <p>
+                            No PNG images are currently available
+                            in this category.
+                        </p>
+                    </div>
+                `;
+                loadMoreContainer.style.display = "none";
+                section.style.display = "block";
+
+                return;
+            }
+
+            let visibleCount = 12;
+
+            function renderCategoryItems() {
+
+                grid.innerHTML = "";
+
+                categoryItems
+                    .slice(0, visibleCount)
+                    .forEach(item => {
+
+                        if (
+                            typeof createPNGCard ===
+                            "function"
+                        ) {
+                            grid.appendChild(
+                                createPNGCard(item)
+                            );
+                        }
+
+                    });
+
+                loadMoreContainer.style.display =
+                    visibleCount >= categoryItems.length
+                        ? "none"
+                        : "flex";
+            }
+
+            loadMoreButton.addEventListener(
+                "click",
+                () => {
+
+                    visibleCount += 12;
+
+                    renderCategoryItems();
+
+                }
+            );
+
+            renderCategoryItems();
+
+            section.style.display = "block";
+
+        });
+    </script>
+
 </body>
+
 
 </html>
