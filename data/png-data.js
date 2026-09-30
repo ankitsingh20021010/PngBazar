@@ -90,7 +90,7 @@ const pngData = [
     id: 5,
     title: "German Shepherd dog PNG",
     category: "Animals",
-    image: "assets/png/animals/German_Shepherd_dog.png",
+    image: "assets/png/animals/German_Shepherd_Dog.png",
 
     downloads: 1200,
     views: 1800,
