@@ -700,14 +700,15 @@ const pngData = [
         "modern car",
         "luxury car",
         "vehicle",
-        "automobile"
+        "automobile",
+        "vehicles"
     ]
 
 },
 {
     id: 34,
     title: "White SUV Three Quarter View PNG",
-    category: "Cars",
+    category: ["Cars "," vehicles"],
     image: "assets/png/car/white-suv-three-quarter-view.png",
     downloads: 0,
     views: 0,
@@ -1061,7 +1062,7 @@ const pngData = [
     title: "Tall Pine Tree PNG",
     category: "Nature",
     image: "assets/png/nature/tall-pine-tree.png",
-    downloads: 310,
+    downloads: 312,
     views: 446,
     size: "—",
     dimensions: "—",
@@ -1101,8 +1102,8 @@ const pngData = [
     title: "Mango Tree Ripe Mangoes PNG",
     category: "Nature",
     image: "assets/png/nature/mango-tree-ripe-mangoes.png",
-    downloads: 0,
-    views: 0,
+    downloads: 345,
+    views: 443,
     size: "—",
     dimensions: "—",
     tags: [
@@ -1209,8 +1210,8 @@ const pngData = [
     title: "Young Sapling Plant With Soil PNG",
     category: "Nature",
     image: "assets/png/nature/young-sapling-soil.png",
-    downloads: 324,
-    views: 654,
+    downloads: 34,
+    views: 64,
     size: "—",
     dimensions: "—",
     tags: [
@@ -1234,9 +1235,9 @@ const pngData = [
 
     image: "assets/png/nature/flat-vector-green-tree.png",
 
-    downloads: 851,
+    downloads: 51,
 
-    views: 1012,
+    views: 102,
 
     size: "—",
 
@@ -1251,6 +1252,574 @@ const pngData = [
         "cartoon tree",
         "nature",
         "nature png"
+    ]
+
+},
+{
+    id: 61,
+
+    title: "Red Rose Green Stem PNG",
+
+    category: "Nature",
+
+    image: "assets/png/nature/red-rose-green-stem.png",
+
+    downloads: 308,
+
+    views: 535,
+
+    size: "—",
+
+    dimensions: "—",
+
+    tags: [
+        "rose",
+        "red rose",
+        "red flower",
+        "rose flower",
+        "green stem",
+        "rose leaves",
+        "flower",
+        "nature",
+        "flower png"
+    ]
+
+},
+{
+    id: 62,
+    title: "Yellow Sunflower Green Stem PNG",
+    category: "Nature",
+    image: "assets/png/nature/yellow-sunflower-green-stem.png",
+    downloads: 129,
+    views: 234,
+    tags: [
+        "sunflower",
+        "yellow sunflower",
+        "yellow flower",
+        "sunflower flower",
+        "green stem",
+        "sunflower leaves",
+        "flower",
+        "nature",
+        "flower png"
+    ]
+
+},
+{
+    id: 63,
+    title: "Pink Lotus Flower PNG",
+    category: "Nature",
+    image: "assets/png/nature/pink-lotus-flower.png",
+    downloads: 653,
+    views: 981,
+    tags: [
+        "lotus",
+        "pink lotus",
+        "lotus flower",
+        "pink flower",
+        "lotus leaves",
+        "water flower",
+        "flower",
+        "nature",
+        "flower png"
+    ]
+
+},
+{
+    id: 64,
+    title: "Orange Marigold Flower PNG",
+    category: "Nature",
+    image: "assets/png/nature/orange-marigold-flower.png",
+    downloads: 187,
+    views: 255,
+    tags: [
+        "marigold",
+        "orange marigold",
+        "genda flower",
+        "orange flower",
+        "marigold flower",
+        "flower",
+        "nature",
+        "flower png"
+    ]
+
+},
+{
+    id: 65,
+    title: "White Jasmine Flower Bunch PNG",
+    category: "Nature",
+    image: "assets/png/nature/white-jasmine-flower-bunch.png",
+    downloads: 543,
+    views: 123,
+    tags: [
+        "jasmine",
+        "white jasmine",
+        "jasmine flower",
+        "white flowers",
+        "flower bunch",
+        "green leaves",
+        "floral",
+        "nature",
+        "flower png"
+    ]
+
+},
+{
+    id: 66,
+    title: "Purple Lavender Flower Bunch PNG",
+    category: "Nature",
+    image: "assets/png/nature/purple-lavender-flower-bunch.png",
+    downloads: 675,
+    views: 876,
+    tags: [
+        "lavender",
+        "purple lavender",
+        "lavender flowers",
+        "flower bunch",
+        "purple flowers",
+        "green stems",
+        "floral",
+        "nature",
+        "flower png"
+    ]
+},
+{
+    id: 67,
+    title: "Flat Vector Pink Flower PNG",
+    category: "Nature",
+    image: "assets/png/nature/flat-vector-pink-flower.png",
+    downloads: 342,
+    views: 722,
+    tags: [
+        "pink flower",
+        "pink blossom",
+        "vector flower",
+        "flat flower",
+        "flower illustration",
+        "green leaves",
+        "floral",
+        "nature",
+        "flower png"
+    ]
+
+},
+{
+    id: 70,
+    title: "Orange Yellow Flame Sticker PNG",
+    category: "Sticker",
+    image: "assets/png/sticker/orange-yellow-flame-sticker.png",
+    downloads: 623,
+    views: 981,
+    size: "—",
+    tags: [
+        "flame",
+        "fire",
+        "orange flame",
+        "yellow flame",
+        "fire sticker",
+        "flame sticker",
+        "vector flame",
+        "sticker",
+        "sticker png"
+    ]
+},
+{
+    id: 70,
+
+    title: "Orange Yellow Flame Sticker PNG",
+
+    category: "Sticker",
+
+    image: "assets/png/sticker/orange-yellow-flame-sticker.png",
+
+    downloads: 167,
+
+    views: 231,
+
+    size: "—",
+
+    dimensions: "—",
+
+    tags: [
+        "flame",
+        "fire",
+        "orange flame",
+        "yellow flame",
+        "fire sticker",
+        "flame sticker",
+        "vector flame",
+        "sticker",
+        "sticker png"
+    ]
+
+},
+{
+    id: 71,
+
+    title: "Cute Kawaii Fire Character Sticker PNG",
+
+    category: "Sticker",
+
+    image: "assets/png/sticker/cute-kawaii-fire-character-sticker.png",
+
+    downloads: 0,
+
+    views: 0,
+
+    size: "—",
+
+    dimensions: "—",
+
+    tags: [
+        "fire",
+        "cute fire",
+        "kawaii fire",
+        "fire character",
+        "fire sticker",
+        "cartoon fire",
+        "flame character",
+        "kawaii sticker",
+        "sticker png"
+    ]
+
+},
+{
+    id: 72,
+
+    title: "Fire Dragon Breathing Flames Sticker PNG",
+
+    category: "Sticker",
+
+    image: "assets/png/sticker/fire-dragon-breathing-flames-sticker.png",
+
+    downloads: 0,
+
+    views: 0,
+
+    size: "—",
+
+    dimensions: "—",
+
+    tags: [
+        "fire dragon",
+        "dragon",
+        "dragon sticker",
+        "fire breathing dragon",
+        "flame",
+        "cartoon dragon",
+        "dragon character",
+        "fantasy",
+        "sticker png"
+    ]
+
+},
+{
+    id: 73,
+    title: "Lit Matchstick Flame Sticker PNG",
+    category: "Sticker",
+    image: "assets/png/sticker/lit-matchstick-flame-sticker.png",
+    downloads: 443,
+    views: 601,
+    size: "—",
+
+    dimensions: "—",
+
+    tags: [
+        "matchstick",
+        "lit match",
+        "match flame",
+        "fire",
+        "flame",
+        "match sticker",
+        "retro match",
+        "fire sticker",
+        "sticker png"
+    ]
+
+},
+{
+    id: 74,
+    title: "Blue Flame Sticker PNG",
+
+    category: "Sticker",
+
+    image: "assets/png/sticker/blue-flame-sticker.png",
+
+    downloads: 33,
+
+    views: 65,
+
+    size: "—",
+
+    dimensions: "—",
+
+    tags: [
+        "blue flame",
+        "flame",
+        "fire",
+        "blue fire",
+        "flame sticker",
+        "vector flame",
+        "fire sticker",
+        "blue sticker",
+        "sticker png"
+    ]
+
+},
+{
+    id: 80,
+
+    title: "Black Green Masked Superhero PNG",
+
+    category: "Superheros",
+
+    image: "assets/png/superheros/black-green-masked-superhero.png",
+
+    downloads: 0,
+
+    views: 0,
+
+    size: "—",
+
+    dimensions: "—",
+
+    tags: [
+        "superhero",
+        "masked superhero",
+        "black superhero",
+        "green superhero",
+        "superhero character",
+        "comic book hero",
+        "masked hero",
+        "comic character",
+        "superhero png"
+    ]
+
+},
+{
+    id: 81,
+
+    title: "Gold Blue Lightning Shield Emblem PNG",
+
+    category: "Superheros",
+
+    image: "assets/png/superheros/gold-blue-lightning-shield-emblem.png",
+    
+
+    downloads: 77,
+
+    views: 122,
+
+    size: "—",
+
+    dimensions: "—",
+
+    tags: [
+        "superhero emblem",
+        "shield emblem",
+        "lightning bolt",
+        "gold shield",
+        "blue shield",
+        "superhero badge",
+        "lightning emblem",
+        "hero logo",
+        "superhero png"
+    ]
+
+},
+
+
+{
+    id: 101,
+
+    title: "Gold Wall Clock PNG",
+
+    category: "Objects",
+
+    image: "assets/png/objects/gold-wall-clock.png",
+
+    downloads: 126,
+
+    views: 329,
+
+    size: "—",
+
+    dimensions: "—",
+
+    tags: [
+        "wall clock",
+        "clock",
+        "gold clock",
+        "gold wall clock",
+        "analog clock",
+        "round clock",
+        "time",
+        "watch",
+        "home decor",
+        "object png"
+    ]
+},
+{
+    id: 102,
+    title: "White Wall Clock PNG",
+    category: "Objects",
+    image: "assets/png/objects/white-wall-clock.png",
+    downloads: 482,
+    views: 760,
+    size: "—",
+    dimensions: "—",
+    tags: [
+        "wall clock",
+        "clock",
+        "white clock",
+        "white wall clock",
+        "analog clock",
+        "round clock",
+        "time",
+        "watch",
+        "home decor",
+        "object png"
+    ]
+
+},
+{
+    id: 103,
+    title: "Luxury Brown Leather Wristwatch PNG",
+    category: "Objects",
+    image: "assets/png/objects/luxury-brown-leather-wristwatch.png",
+    downloads: 872,
+    views: 1022,
+    size: "—",
+    dimensions: "—",
+    tags: [
+        "wristwatch",
+        "watch",
+        "hand watch",
+        "luxury watch",
+        "brown leather watch",
+        "leather strap",
+        "analog watch",
+        "men watch",
+        "watch png"
+    ]
+
+},
+{
+    id: 104,
+    title: "Silver Metal Stainless Steel Watch PNG",
+    category: "Objects",
+    image: "assets/png/objects/silver-metal-stainless-steel-watch.png",
+    downloads: 0,
+    views: 0,
+    size: "—",
+    dimensions: "—",
+    tags: [
+        "metal watch",
+        "silver watch",
+        "stainless steel watch",
+        "wristwatch",
+        "analog watch",
+        "steel bracelet",
+        "luxury watch",
+        "men watch",
+        "watch png"
+    ]
+},
+{
+    id: 105,
+    title: "Titan Blue Dial Stainless Steel Watch PNG",
+    category: "Objects",
+    image: "assets/png/objects/titan-blue-dial-stainless-steel-watch.png",
+    downloads: 122,
+    views: 231,
+    size:"—",
+    dimensions: "—",
+    tags: [
+        "titan watch",
+        "watch",
+        "blue dial watch",
+        "stainless steel watch",
+        "metal watch",
+        "wristwatch",
+        "analog watch",
+        "luxury watch",
+        "men watch",
+        "watch png"
+    ]
+},
+{
+    id: 106,
+
+    title: "Titan Leather Blue Dial Watch PNG",
+
+    category: "Objects",
+
+    image: "assets/png/objects/titan-leather-blue-dial-watch.png",
+
+    downloads: 0,
+
+    views: 0,
+
+    size: "—",
+
+    dimensions: "—",
+
+    tags: [
+        "titan watch",
+        "leather watch",
+        "brown leather watch",
+        "blue dial watch",
+        "titan leather watch",
+        "wristwatch",
+        "analog watch",
+        "luxury watch",
+        "men watch",
+        "watch png"
+    ]
+
+},
+{
+    id: 107,
+
+    title: "Black Ballpoint Pen PNG",
+
+    category: "Objects",
+
+    image: "assets/png/objects/black-ballpoint-pen.png",
+    downloads: 130,
+    views: 239,
+    size: "—",
+    dimensions: "—",
+    tags: [
+        "pen",
+        "ballpoint pen",
+        "black pen",
+        "writing pen",
+        "office pen",
+        "stationery",
+        "writing tool",
+        "office supplies",
+        "pen png"
+    ]
+},
+{
+    id: 109,
+    title: "Clear Water Bottle Blue Cap PNG",
+    category: "Objects",
+    image: "assets/png/objects/clear-water-bottle-blue-cap.png",
+    downloads: 0,
+    views: 0,
+    size: "—",
+    dimensions: "—",
+    tags: [
+        "water bottle",
+        "bottle",
+        "clear bottle",
+        "plastic bottle",
+        "blue cap",
+        "drinking water",
+        "water container",
+        "bottle png"
     ]
 
 },
