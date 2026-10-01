@@ -566,7 +566,61 @@
 
 
 
-        <section class="categories-section">
+        <section
+            class="category-png-section"
+            id="categoryPngSection"
+            style="display:none;"
+        >
+
+            <div class="categories-container">
+
+                <div class="categories-header">
+
+                    <div>
+                        <h2 id="selectedCategoryTitle">
+                            PNG Images
+                        </h2>
+
+                        <p id="selectedCategorySubtitle">
+                            Explore transparent PNG images.
+                        </p>
+                    </div>
+
+                    <span
+                        class="category-total"
+                        id="selectedCategoryCount"
+                    >
+                        0 PNGs
+                    </span>
+
+                </div>
+
+
+                <div
+                    class="png-grid"
+                    id="categoryPngGrid"
+                ></div>
+
+
+                <div
+                    class="load-more-container"
+                    id="categoryLoadMoreContainer"
+                >
+                    <button
+                        class="load-more-button"
+                        id="categoryLoadMoreButton"
+                        type="button"
+                    >
+                        Load More PNGs
+                    </button>
+                </div>
+
+            </div>
+
+        </section>
+
+
+<section class="categories-section">
 
 
 
@@ -1489,58 +1543,7 @@
              SELECTED CATEGORY PNGs
         ================================================== -->
 
-        <section
-            class="category-png-section"
-            id="categoryPngSection"
-            style="display:none;"
-        >
-
-            <div class="categories-container">
-
-                <div class="categories-header">
-
-                    <div>
-                        <h2 id="selectedCategoryTitle">
-                            PNG Images
-                        </h2>
-
-                        <p id="selectedCategorySubtitle">
-                            Explore transparent PNG images.
-                        </p>
-                    </div>
-
-                    <span
-                        class="category-total"
-                        id="selectedCategoryCount"
-                    >
-                        0 PNGs
-                    </span>
-
-                </div>
-
-
-                <div
-                    class="png-grid"
-                    id="categoryPngGrid"
-                ></div>
-
-
-                <div
-                    class="load-more-container"
-                    id="categoryLoadMoreContainer"
-                >
-                    <button
-                        class="load-more-button"
-                        id="categoryLoadMoreButton"
-                        type="button"
-                    >
-                        Load More PNGs
-                    </button>
-                </div>
-
-            </div>
-
-        </section>
+        
 
 
 <section class="popular-categories-section">
@@ -1710,7 +1713,15 @@
                             →
 
                         </strong>
+
+
+
                     </a>
+
+
+
+
+
                     <a
 
                         href="#"
@@ -1718,12 +1729,19 @@
                         class="popular-category"
 
                     >
+
+
+
                         <img
 
                             src="assets/icons/game.svg"
 
-                            alt="game icon"
+                            alt=""
+
                         >
+
+
+
                         <span>
 
                             Gaming
@@ -1737,12 +1755,32 @@
                             →
 
                         </strong>
+
+
+
                     </a>
+
+
+
                 </div>
 
+
+
             </div>
+
+
+
         </section>
+
+
+
     </main>
+
+
+
+
+
+
 
     <!-- =====================================================
 
@@ -1807,6 +1845,9 @@
                     Home
 
                 </a>
+
+
+
                 <a href="category.html">
 
                     Categories
@@ -1828,7 +1869,15 @@
                     About
 
                 </a>
+
+
+
             </div>
+
+
+
+
+
             <div class="footer-copy">
 
 
@@ -1843,8 +1892,20 @@
 
             </div>
 
+
+
         </div>
+
+
+
     </footer>
+
+
+
+
+
+
+
     <!-- =====================================================
 
          JAVASCRIPT
@@ -1862,138 +1923,8 @@
 
 
     <script src="js/search.js"></script>
-
-    <script>
-        document.addEventListener("DOMContentLoaded", () => {
-
-            const params = new URLSearchParams(
-                window.location.search
-            );
-
-            const selectedCategory = params.get("category");
-
-            const section = document.getElementById(
-                "categoryPngSection"
-            );
-
-            const grid = document.getElementById(
-                "categoryPngGrid"
-            );
-
-            const title = document.getElementById(
-                "selectedCategoryTitle"
-            );
-
-            const subtitle = document.getElementById(
-                "selectedCategorySubtitle"
-            );
-
-            const count = document.getElementById(
-                "selectedCategoryCount"
-            );
-
-            const loadMoreContainer =
-                document.getElementById(
-                    "categoryLoadMoreContainer"
-                );
-
-            const loadMoreButton =
-                document.getElementById(
-                    "categoryLoadMoreButton"
-                );
-
-            if (
-                !selectedCategory ||
-                selectedCategory.toLowerCase() === "all"
-            ) {
-                section.style.display = "none";
-                return;
-            }
-
-            const categoryName =
-                decodeURIComponent(selectedCategory);
-
-            const categoryItems =
-                Array.isArray(window.pngData)
-                    ? window.pngData.filter(item =>
-                        String(item.category || "")
-                            .toLowerCase() ===
-                        categoryName.toLowerCase()
-                    )
-                    : [];
-
-            title.textContent =
-                `${categoryName} PNG Images`;
-
-            subtitle.textContent =
-                `Explore transparent PNG images from ${categoryName}.`;
-
-            count.textContent =
-                `${categoryItems.length} PNGs`;
-
-            if (!categoryItems.length) {
-
-                grid.innerHTML = `
-                    <div class="empty-state">
-                        <h3>No PNGs Found</h3>
-                        <p>
-                            No PNG images are currently available
-                            in this category.
-                        </p>
-                    </div>
-                `;
-                loadMoreContainer.style.display = "none";
-                section.style.display = "block";
-
-                return;
-            }
-
-            let visibleCount = 12;
-
-            function renderCategoryItems() {
-
-                grid.innerHTML = "";
-
-                categoryItems
-                    .slice(0, visibleCount)
-                    .forEach(item => {
-
-                        if (
-                            typeof createPNGCard ===
-                            "function"
-                        ) {
-                            grid.appendChild(
-                                createPNGCard(item)
-                            );
-                        }
-
-                    });
-
-                loadMoreContainer.style.display =
-                    visibleCount >= categoryItems.length
-                        ? "none"
-                        : "flex";
-            }
-
-            loadMoreButton.addEventListener(
-                "click",
-                () => {
-
-                    visibleCount += 12;
-
-                    renderCategoryItems();
-
-                }
-            );
-
-            renderCategoryItems();
-
-            section.style.display = "block";
-
-        });
-    </script>
-
 </body>
+
 
 
 </html>

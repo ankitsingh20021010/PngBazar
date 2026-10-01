@@ -700,6 +700,7 @@ const pngData = [
         "modern car",
         "luxury car",
         "vehicle",
+        "vehicles",
         "automobile",
         "vehicles"
     ]
@@ -721,6 +722,7 @@ const pngData = [
         "white suv",
         "modern suv",
         "luxury suv",
+         "vehicles",
         "vehicle",
         "automobile"
     ]
@@ -742,6 +744,7 @@ const pngData = [
         "black sports car",
         "supercar",
         "vehicle",
+         "vehicles",
         "automobile"
     ]
 },
@@ -771,6 +774,7 @@ const pngData = [
         "hatchback car",
         "rear view",
         "vehicle",
+         "vehicles",
         "automobile"
     ]
 
@@ -787,7 +791,7 @@ const pngData = [
     tags: [
         "car", "silver car", "sedan", "silver sedan",
         "headlights", "car headlights",
-        "front view", "vehicle",  "automobile"]
+        "front view", "vehicle",  "vehicles", "automobile"]
 },
 {
     id: 38,
@@ -814,6 +818,7 @@ const pngData = [
         "supercar",
         "top view",
         "vehicle",
+         "vehicles",
         "automobile"
     ]
 
@@ -1405,26 +1410,6 @@ const pngData = [
 },
 {
     id: 70,
-    title: "Orange Yellow Flame Sticker PNG",
-    category: "Sticker",
-    image: "assets/png/sticker/orange-yellow-flame-sticker.png",
-    downloads: 623,
-    views: 981,
-    size: "—",
-    tags: [
-        "flame",
-        "fire",
-        "orange flame",
-        "yellow flame",
-        "fire sticker",
-        "flame sticker",
-        "vector flame",
-        "sticker",
-        "sticker png"
-    ]
-},
-{
-    id: 70,
 
     title: "Orange Yellow Flame Sticker PNG",
 
@@ -1822,5 +1807,160 @@ const pngData = [
         "bottle png"
     ]
 
+},
+{
+    id: 110,
+
+    title: "Gold Cream Table Lamp PNG",
+    category: "Objects",
+    image: "assets/png/objects/gold-cream-table-lamp.png",
+    tags: [
+        "table lamp",
+        "lamp",
+        "gold lamp",
+        "cream lamp",
+        "desk lamp",
+        "decorative lamp",
+        "home decor",
+        "lighting",
+        "lamp png"
+    ]
+
+},
+{
+    id: 111,
+    title: "Modern Floor Stand Lamp PNG",
+    category: "Objects",
+    image: "assets/png/objects/modern-floor-stand-lamp.png",
+    tags: [
+        "stand lamp",
+        "floor lamp",
+        "lamp",
+        "modern lamp",
+        "floor standing lamp",
+        "home decor",
+        "lighting",
+        "interior lamp",
+        "lamp png"
+    ]
+
+},
+{
+    id: 112,
+
+    title: "Modern Gold Helix Table Lamp PNG",
+
+    category: "Objects",
+
+    image: "assets/png/objects/modern-gold-helix-table-lamp.png",
+
+
+    tags: [
+        "table lamp",
+        "modern lamp",
+        "gold lamp",
+        "helix lamp",
+        "decorative lamp",
+        "desk lamp",
+        "home decor",
+        "modern lighting",
+        "lamp png"
+    ]
+
+},
+{
+    id: 113,
+    title: "Old Copper Hurricane Lantern PNG",
+    category: "Objects",
+    image: "assets/png/objects/old-copper-hurricane-lantern.png",
+
+    tags: [
+        "lantern",
+        "old lantern",
+        "vintage lantern",
+        "hurricane lantern",
+        "copper lantern",
+        "kerosene lamp",
+        "oil lamp",
+        "antique lamp",
+        "lantern png"
+    ]
+
+},
+{
+    id: 114,
+    title: "Vintage Amber Oil Lamp PNG",
+    category: "Objects",
+    image: "assets/png/objects/vintage-amber-oil-lamp.png",
+    tags: [
+        "oil lamp",
+        "old lamp",
+        "vintage lamp",
+        "antique lamp",
+        "amber lamp",
+        "kerosene lamp",
+        "brass lamp",
+        "traditional lamp",
+        "lamp png"
+    ]
+},
+{
+    id: 115,
+
+    title: "Traditional Terracotta Oil Lamp PNG",
+
+    category: "Objects",
+
+    image: "assets/png/objects/traditional-terracotta-oil-lamp.png",
+    tags: [
+        "oil lamp",
+        "terracotta lamp",
+        "old lamp",
+        "vintage lamp",
+        "traditional lamp",
+        "clay lamp",
+        "antique lamp",
+        "diya",
+        "lamp png"
+    ]
+},
+{
+    id: 116,
+
+    title: "Ornate Diwali Diya PNG",
+
+    category: "Objects",
+
+    image: "assets/png/objects/ornate-diwali-diya.png",
+
+    tags: [
+        "diya",
+        "diwali diya",
+        "diwali lamp",
+        "ornate diya",
+        "decorative diya",
+        "indian lamp",
+        "oil lamp",
+        "festival lamp",
+        "diya png"
+    ]
+},
+{
+    id: 117,
+    title: "Simple Terracotta Diya PNG",
+    category: "Objects",
+    image: "assets/png/objects/simple-terracotta-diya.png",
+
+    tags: [
+        "diya",
+        "simple diya",
+        "terracotta diya",
+        "clay diya",
+        "oil lamp",
+        "indian diya",
+        "diwali lamp",
+        "traditional lamp",
+        "diya png"
+    ]
 },
 ];

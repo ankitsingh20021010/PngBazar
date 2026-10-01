@@ -1091,6 +1091,8 @@ function initImagePage() {
 
     populateImagePage(item);
 
+    setupImageNavigation(id);
+
 
 
 
@@ -1102,6 +1104,70 @@ function initImagePage() {
 
 
 
+
+
+
+
+
+
+
+/* =========================================================
+
+
+
+   IMAGE NAVIGATION
+
+
+
+   ========================================================= */
+
+
+
+function setupImageNavigation(currentId) {
+
+    const previousButton =
+        document.getElementById("previousImage");
+
+    const nextButton =
+        document.getElementById("nextImage");
+
+    if (!previousButton || !nextButton) {
+        return;
+    }
+
+    const currentIndex =
+        pngItems.findIndex(
+            item => Number(item.id) === Number(currentId)
+        );
+
+    if (currentIndex === -1) {
+        return;
+    }
+
+    const previousItem = pngItems[currentIndex - 1];
+    const nextItem = pngItems[currentIndex + 1];
+
+    previousButton.onclick = null;
+    nextButton.onclick = null;
+
+    if (previousItem) {
+        previousButton.disabled = false;
+        previousButton.onclick = () => {
+            window.location.href = `image.html?id=${previousItem.id}`;
+        };
+    } else {
+        previousButton.disabled = true;
+    }
+
+    if (nextItem) {
+        nextButton.disabled = false;
+        nextButton.onclick = () => {
+            window.location.href = `image.html?id=${nextItem.id}`;
+        };
+    } else {
+        nextButton.disabled = true;
+    }
+}
 
 
 
@@ -3802,6 +3868,14 @@ function formatNumber(number) {
 
 
 }
+
+
+
+
+
+
+
+
 
 
 
