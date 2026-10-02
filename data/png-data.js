@@ -23,7 +23,6 @@ const pngData = [
     {
         id: 2,
         title: "Golden Retriever Dog PNG",
-        
         image: "assets/png/animals/Golden_Retriever_dog.png",
         downloads: 980,
         views: 2100,
@@ -1314,7 +1313,7 @@ const pngData = [
     id: 63,
     title: "Pink Lotus Flower PNG",
     category: "Nature",
-    image: "assets/png/nature/pink-lotus-flower.png",
+    image: "assets/png/nature/Pink-lotus-flower.png",
     downloads: 653,
     views: 981,
     tags: [
@@ -1961,6 +1960,369 @@ const pngData = [
         "diwali lamp",
         "traditional lamp",
         "diya png"
+    ]
+},
+
+ {
+    id: 118,
+    title: "Classic Black White Football PNG",
+    category: "Gaming",
+    image: "assets/png/gaming/classic-black-white-football.png",
+    downloads: 548,
+    views: 783,
+    size: "—",
+    dimensions: "—",
+    tags: [
+        "football",
+        "soccer ball",
+        "black white football",
+        "classic football",
+        "soccer",
+        "sports ball",
+        "football ball",
+        "sports",
+        "football png"
+    ]
+},
+{
+    id: 119,
+
+    title: "Red Cricket Ball PNG",
+
+    category: "Sports",
+
+    image: "assets/png/gaming/red-cricket-ball.png",
+
+    downloads: 0,
+
+    views: 0,
+
+    size: "—",
+
+    dimensions: "—",
+
+    tags: [
+        "cricket ball",
+        "red ball",
+        "cricket",
+        "sports ball",
+        "red cricket ball",
+        "leather ball",
+        "sports",
+        "cricket equipment",
+        "ball png"
+    ]
+},
+{
+    id: 120,
+    title: "Real Cricket Bat PNG",
+    category: "Sports",
+    image: "assets/png/gaming/real-cricket-bat.png",
+    downloads: 322,
+    views: 430,
+    size: "1.23 MB",
+
+    dimensions: "—",
+
+    tags: [
+        "cricket bat",
+        "bat",
+        "real cricket bat",
+        "wooden bat",
+        "cricket equipment",
+        "sports bat",
+        "English willow bat",
+        "cricket",
+        "bat png"
+    ]
+},
+{
+    id: 121,
+
+    title: "Cricket Wicket Stumps PNG",
+    category: "Sports",
+    image: "assets/png/gaming/cricket-wicket-stumps.png",
+    downloads: 521,
+
+    views: 769,
+
+    size: "—",
+
+    dimensions: "—",
+
+    tags: [
+        "cricket wicket",
+        "wicket",
+        "cricket stumps",
+        "stumps",
+        "cricket wickets",
+        "wooden stumps",
+        "cricket equipment",
+        "cricket",
+        "wicket png"
+    ]
+},
+{
+    id: 122,
+    title: "Real Tennis Ball PNG",
+    category: "Sports",
+    image: "assets/png/gaming/real-tennis-ball.png",
+    downloads: 633,
+    views: 879,
+    size: "—",
+    dimensions: "—",
+    tags: [
+        "tennis ball",
+        "yellow tennis ball",
+        "green tennis ball",
+        "tennis",
+        "sports ball",
+        "fuzzy ball",
+        "tennis equipment",
+        "sports",
+        "tennis ball png"
+    ]
+},
+{
+    id: 123,
+    title: "Modern Tennis Racket PNG",
+    category: "Gaming",
+    image: "assets/png/gaming/modern-tennis-racket.png",
+    downloads: 768,
+    views: 953,
+    size: "—",
+    dimensions: "—",
+    tags: [
+        "tennis racket",
+        "tennis racquet",
+        "modern tennis racket",
+        "sports racket",
+        "tennis equipment",
+        "black tennis racket",
+        "tennis",
+        "sports",
+        "tennis racket png"
+    ]
+},
+{
+    id: 124,
+
+    title: "Modern Badminton Racket PNG",
+
+    category: "Gaming",
+
+    image: "assets/png/gaming/modern-badminton-racket.png",
+
+    downloads: 0,
+
+    views: 0,
+
+    size: "—",
+
+    dimensions: "—",
+
+    tags: [
+        "badminton racket",
+        "badminton racquet",
+        "modern badminton racket",
+        "sports racket",
+        "badminton equipment",
+        "black badminton racket",
+        "blue racket",
+        "badminton",
+        "racket png"
+    ]
+},
+{
+    id: 125,
+    title: "Badminton Shuttlecock PNG",
+    category: "Gaming",
+    image: "assets/png/gaming/badminton-shuttlecock.png",
+    downloads: 657,
+    views: 778,
+    size: "1.9 MB",
+    dimensions: "—",
+    tags: [
+        "shuttlecock",
+        "badminton shuttlecock",
+        "badminton",
+        "feather shuttlecock",
+        "white shuttlecock",
+        "badminton equipment",
+        "sports",
+        "shuttle",
+        "shuttlecock png"
+    ]
+},
+{
+    id: 126,
+    title: "Real Basketball PNG",
+    category: "Gaming",
+    image: "assets/png/gaming/real-basketball.png",
+    downloads: 654,
+    views: 879,
+    size: "2.8 MB",
+    dimensions: "—",
+    tags: [
+        "basketball",
+        "orange basketball",
+        "real basketball",
+        "sports ball",
+        "basketball ball",
+        "basketball equipment",
+        "sports",
+        "game ball",
+        "basketball png"
+    ]
+},
+{
+    id: 127,
+    title: "Real Baseball PNG",
+    category: "Gaming",
+    image: "assets/png/gaming/real-baseball.png",
+    downloads: 564,
+    views: 792,
+    size: "2.5",
+    dimensions: "—",
+    tags: [
+        "baseball",
+        "real baseball",
+        "white baseball",
+        "red stitching",
+        "sports ball",
+        "baseball equipment",
+        "sports",
+        "game ball",
+        "baseball png"
+    ]
+},
+{
+    id: 128,
+    title: "Modern Hockey Stick PNG",
+    category: "Gaming",
+    image: "assets/png/gaming/modern-hockey-stick.png",
+    downloads: 769,
+    views: 892,
+    size: "1.7 MB",
+    dimensions: "—",
+    tags: [
+        "hockey stick",
+        "field hockey stick",
+        "ice hockey stick",
+        "modern hockey stick",
+        "sports stick",
+        "hockey equipment",
+        "blue hockey stick",
+        "hockey",
+        "hockey stick png"
+    ]
+},
+{
+    id: 129,
+    title: "Ornate Bow and Arrow PNG",
+    category: "Gaming",
+    image: "assets/png/gaming/ornate-bow-and-arrow.png",
+    downloads: 546,
+    views: 783,
+    size: "1.8 MB",
+    dimensions: "—",
+    tags: [
+        "bow and arrow",
+        "bow",
+        "arrow",
+        "archery",
+        "archery equipment",
+        "wooden bow",
+        "recurve bow",
+        "fantasy bow",
+        "bow arrow png"
+    ]
+},
+{
+    id: 130,
+
+    title: "Real Skateboard PNG",
+
+    category: "Gaming",
+
+    image: "assets/png/gaming/real-skateboard.png",
+    downloads:67,
+    views:124,
+    size: "1.76 MB",
+    dimensions: "—",
+    tags: [
+        "skateboard",
+        "real skateboard",
+        "skateboard deck",
+        "skateboard wheels",
+        "skateboarding",
+        "sports equipment",
+        "black skateboard",
+        "skateboard png"
+    ]
+},
+{
+    id: 131,
+    title: "Red Boxing Gloves PNG",
+    category: "Gaming",
+    image: "assets/png/gaming/red-boxing-gloves.png",
+    downloads: 324,
+    views: 453,
+    size: "1.23 MB",
+    dimensions: "—",
+    tags: [
+        "boxing gloves",
+        "red boxing gloves",
+        "boxing",
+        "sports gloves",
+        "boxing equipment",
+        "red gloves",
+        "combat sports",
+        "sports",
+        "boxing gloves png"
+    ]
+},
+{
+    id: 132,
+    title: "Table Tennis Ball PNG",
+    category: "Gaming",
+    image: "assets/png/gaming/table-tennis-ball.png",
+    downloads: 873,
+    views: 923,
+    size: "1.32 MB",
+    dimensions: "—",
+    tags: [
+        "table tennis ball",
+        "ping pong ball",
+        "white ball",
+        "table tennis",
+        "ping pong",
+        "sports ball",
+        "table tennis equipment",
+        "sports",
+        "table tennis ball png"
+    ]
+},
+{
+    id: 133,
+    title: "Table Tennis Paddle PNG",
+    category: "Gaming",
+    image: "assets/png/gaming/table-tennis-paddle.png",
+    downloads: 232,
+    views: 354,
+    size: "—",
+    dimensions: "—",
+
+    tags: [
+        "table tennis paddle",
+        "ping pong paddle",
+        "table tennis bat",
+        "red paddle",
+        "ping pong bat",
+        "table tennis",
+        "sports equipment",
+        "ping pong",
+        "table tennis paddle png"
     ]
 },
 ];
