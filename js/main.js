@@ -2636,165 +2636,151 @@ function updateBreadcrumb(item) {
 
 
 function renderRelatedPNGs(item) {
-
-
-
-
-
-
-
-    const grid =
-
-
-
-        document.querySelector(
-
-
-
-            ".related-grid"
-
-
-
-        );
-
-
-
-
-
-
+    const grid = document.querySelector(".related-grid");
 
     if (!grid) {
-
-
-
         return;
-
-
-
     }
 
+    /*
+     * RELATED PNGS
+     * ------------
+     * Pick random images on every image-page load.
+     * Prefer the same category, then fill from matching tags,
+     * then use the remaining PNGs if necessary.
+     *
+     * The previous selection is remembered only for this image so
+     * a refresh does not keep showing the exact same four cards.
+     */
 
+    const currentId = Number(item.id);
 
+    const shuffle = (array) => {
+        const result = [...array];
 
+        for (let i = result.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [result[i], result[j]] = [result[j], result[i]];
+        }
 
+        return result;
+    };
 
+    const sameCategory = pngItems.filter(png =>
+        Number(png.id) !== currentId &&
+        String(png.category || "").toLowerCase() ===
+        String(item.category || "").toLowerCase()
+    );
 
-    const related =
+    const currentTags = Array.isArray(item.tags)
+        ? item.tags.map(tag => String(tag).toLowerCase())
+        : [];
 
+    const tagMatches = pngItems.filter(png => {
+        if (Number(png.id) === currentId) {
+            return false;
+        }
 
+        if (sameCategory.some(other =>
+            Number(other.id) === Number(png.id)
+        )) {
+            return false;
+        }
 
-        pngItems
+        const tags = Array.isArray(png.tags)
+            ? png.tags.map(tag => String(tag).toLowerCase())
+            : [];
 
+        return currentTags.some(tag => tags.includes(tag));
+    });
 
+    const others = pngItems.filter(png => {
+        if (Number(png.id) === currentId) {
+            return false;
+        }
 
-            .filter(png =>
+        return !sameCategory.some(other =>
+            Number(other.id) === Number(png.id)
+        ) && !tagMatches.some(other =>
+            Number(other.id) === Number(png.id)
+        );
+    });
 
+    /*
+     * Shuffle every source before combining them.
+     * This means the first four are not permanently tied
+     * to the order in png-data.js.
+     */
+    let pool = [
+        ...shuffle(sameCategory),
+        ...shuffle(tagMatches),
+        ...shuffle(others)
+    ];
 
+    if (pool.length === 0) {
+        grid.innerHTML = "<p>No related PNGs available.</p>";
+        return;
+    }
 
-                png.id !== item.id &&
+    /*
+     * Avoid showing exactly the same four IDs as the previous
+     * page load for the same image when enough alternatives exist.
+     */
+    const storageKey = "pngbazar_related_" + currentId;
 
+    let previousIds = [];
 
+    try {
+        previousIds =
+            JSON.parse(localStorage.getItem(storageKey) || "[]");
+    } catch (error) {
+        previousIds = [];
+    }
 
-                png.category.toLowerCase() ===
+    let related = pool.slice(0, 4);
 
+    if (pool.length > 4 && previousIds.length === related.length) {
+        const sameSelection = related.every(png =>
+            previousIds.includes(Number(png.id))
+        );
 
+        if (sameSelection) {
+            for (let attempt = 0; attempt < 5; attempt++) {
+                pool = [
+                    ...shuffle(sameCategory),
+                    ...shuffle(tagMatches),
+                    ...shuffle(others)
+                ];
 
-                item.category.toLowerCase()
+                related = pool.slice(0, 4);
 
+                const changed = related.some(png =>
+                    !previousIds.includes(Number(png.id))
+                );
 
+                if (changed) {
+                    break;
+                }
+            }
+        }
+    }
 
+    try {
+        localStorage.setItem(
+            storageKey,
+            JSON.stringify(
+                related.map(png => Number(png.id))
             )
-
-
-
-            .slice(0, 4);
-
-
-
-
-
-
-
-
-
-
-
-    if (related.length === 0) {
-
-
-
-
-
-
-
-        grid.innerHTML =
-
-
-
-            "<p>No related PNGs available.</p>";
-
-
-
-
-
-
-
-        return;
-
-
-
+        );
+    } catch (error) {
+        /* localStorage may be unavailable; random selection still works. */
     }
-
-
-
-
-
-
-
-
-
-
 
     grid.innerHTML = "";
 
-
-
-
-
-
-
     related.forEach(png => {
-
-
-
-
-
-
-
-        grid.appendChild(
-
-
-
-            createPNGCard(png)
-
-
-
-        );
-
-
-
-
-
-
-
+        grid.appendChild(createPNGCard(png));
     });
-
-
-
-
-
-
-
 }
 
 

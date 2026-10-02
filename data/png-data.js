@@ -239,7 +239,7 @@ const pngData = [
 {
     id: 12,
     title: "Black Cat PNG",
-    category: "Nature",
+    category: "animals",
     image: "assets/png/animals/black-cat-yellow-eyes.png",
     downloads: 0,
     views: 0,
@@ -256,7 +256,7 @@ const pngData = [
 {
     id: 13,
     title: "White Persian Cat PNG",
-    category: "Nature",
+    category: "animals",
     image: "assets/png/animals/white-persian-cat-sitting.png",
     downloads: 0,
     views: 0,
@@ -274,7 +274,7 @@ const pngData = [
 {
     id: 14,
     title: "Siamese Cat PNG",
-    category: "Nature",
+    category: "animals",
     image: "assets/png/animals/siamese-cat-standing.png",
     downloads: 0,
     views: 0,
@@ -292,7 +292,7 @@ const pngData = [
 {
     id: 15,
     title: "Playful Kitten PNG",
-    category: "Nature",
+    category: "animals",
     image: "assets/png/animals/playful-kitten-waving-paw.png",
     downloads: 0,
     views: 0,
@@ -310,7 +310,7 @@ const pngData = [
 {
     id: 16,
     title: "Grey British Shorthair Cat PNG",
-    category: "Nature",
+    category: "animals",
     image: "assets/png/animals/grey-british-shorthair-cat-sitting.png",
     downloads: 0,
     views: 0,
@@ -328,7 +328,7 @@ const pngData = [
 {
     id: 17,
     title: "Curled Up Cat PNG",
-    category: "Nature",
+    category: "animals",
     image: "assets/png/animals/curled-up-cat.png",
     downloads: 0,
     views: 0,
@@ -346,7 +346,7 @@ const pngData = [
 {
     id: 18,
     title: "Jumping Cat PNG",
-    category: "Nature",
+    category: "animals",
     image: "assets/png/animals/cat-jumping-mid-air.png",
     downloads: 0,
     views: 0,
@@ -364,7 +364,7 @@ const pngData = [
 {
     id: 19,
     title: "Cute Cartoon Cat PNG",
-    category: "Cartoon",
+    category: "animals",
     image: "assets/png/animals/cute-cartoon-cat-smiling.png",
     downloads: 0,
     views: 0,
@@ -382,7 +382,7 @@ const pngData = [
 {
     id: 20,
     title: "Cat Face Close Up PNG",
-    category: "Nature",
+    category: "animals",
     image: "assets/png/animals/cat-face-close-up.png",
     downloads: 0,
     views: 0,
@@ -459,8 +459,8 @@ const pngData = [
     title: "White Ultrabook Laptop PNG",
     category: "Technology",
     image: "assets/png/technology/white-ultrabook-laptop.png",
-    downloads: 0,
-    views: 0,
+    downloads: 526,
+    views: 768,
     size: "1.72 MB",
     dimensions: "1536 × 1024",
     tags: [
@@ -679,7 +679,7 @@ const pngData = [
 
     title: "Modern Red Sedan Car PNG",
 
-    category: "Cars",
+    category: "Vehicals",
 
     image: "assets/png/car/modern-red-sedan-car.png",
 
@@ -2310,7 +2310,7 @@ const pngData = [
     image: "assets/png/gaming/table-tennis-paddle.png",
     downloads: 232,
     views: 354,
-    size: "—",
+    size: "2.1 MB",
     dimensions: "—",
 
     tags: [
@@ -2323,6 +2323,220 @@ const pngData = [
         "sports equipment",
         "ping pong",
         "table tennis paddle png"
+    ]
+},
+{
+    id: 134,
+
+    title: "Gaming Controller PNG",
+
+    category: "Technology",
+
+    image: "assets/png/technology/gaming-controller.png",
+
+    downloads: 342,
+
+    views: 456,
+
+    size: "2.1 MB",
+
+    dimensions: "—",
+
+    tags: [
+        "gaming controller",
+        "game controller",
+        "wireless controller",
+        "gaming gamepad",
+        "gamepad",
+        "console controller",
+        "black controller",
+        "gaming",
+        "gaming controller png"
+    ]
+},
+{
+    id: 135,
+
+    title: "Wireless Gaming Mouse PNG",
+
+    category: "Technology",
+
+    image: "assets/png/technology/wireless-gaming-mouse.png",
+
+    downloads: 298,
+
+    views: 333,
+
+    size: "1.56 MB",
+
+    dimensions: "—",
+
+    tags: [
+        "gaming mouse",
+        "wireless gaming mouse",
+        "rgb mouse",
+        "gaming mouse rgb",
+        "computer mouse",
+        "wireless mouse",
+        "gaming",
+        "technology",
+        "gaming mouse png"
+    ]
+},
+{
+    id: 136,
+
+    title: "Gaming Keyboard PNG",
+
+    category: "Technology",
+
+    image: "assets/png/technology/gaming-keyboard.png",
+
+    downloads: 517,
+    views: 691,
+    size: "2.1 MB",
+
+    dimensions: "—",
+
+    tags: [
+        "gaming keyboard",
+        "rgb keyboard",
+        "mechanical keyboard",
+        "gaming keyboard rgb",
+        "computer keyboard",
+        "backlit keyboard",
+        "gaming",
+        "technology",
+        "keyboard png"
+    ]
+},
+{
+    id: 137,
+    title: "Wireless Earbuds PNG",
+    category: "Technology",
+    image: "assets/png/technology/wireless-earbuds.png",
+    downloads: 658,
+    views:1087,
+    size: "1.8 MB",
+    dimensions: "—",
+    tags: [
+        "wireless earbuds",
+        "bluetooth earbuds",
+        "earbuds",
+        "wireless earphones",
+        "bluetooth earphones",
+        "earbuds case",
+        "black earbuds",
+        "technology",
+        "wireless earbuds png"
+    ]
+},
+{
+    id: 138,
+    title: "Bluetooth Speaker PNG",
+    category: "Technology",
+    image: "assets/png/technology/bluetooth-speaker.png",
+    downloads: 265,
+    views: 324,
+    size: "1.4 MB",
+
+    dimensions: "—",
+
+    tags: [
+        "bluetooth speaker",
+        "wireless speaker",
+        "portable speaker",
+        "bluetooth audio",
+        "music speaker",
+        "wireless speaker",
+        "rgb speaker",
+        "technology",
+        "bluetooth speaker png"
+    ]
+},
+{
+    id: 139,
+    title: "Modern Webcam PNG",
+    category: "Technology",
+    image: "assets/png/technology/modern-webcam.png",
+    downloads: 675,
+    views:898,
+    size: "—",
+    dimensions: "—",
+    tags: [
+        "webcam",
+        "computer webcam",
+        "usb webcam",
+        "modern webcam",
+        "hd webcam",
+        "pc camera",
+        "video camera",
+        "technology",
+        "webcam png"
+    ]
+},
+{
+    id: 140,
+    title: "USB Condenser Microphone PNG",
+    category: "Technology",
+    image: "assets/png/technology/usb-condenser-microphone.png",
+    downloads: 468,
+    views: 612,
+    size: "1.7",
+    dimensions: "—",
+    tags: [
+        "microphone",
+        "usb microphone",
+        "condenser microphone",
+        "studio microphone",
+        "gaming microphone",
+        "recording microphone",
+        "black microphone",
+        "technology",
+        "microphone png"
+    ]
+},
+{
+    id: 141,
+    title: "Portable Power Bank PNG",
+    category: "Technology",
+    image: "assets/png/technology/portable-power-bank.png",
+    downloads: 188,
+    views: 275,
+    size: "—",
+    dimensions: "—",
+    tags: [
+        "power bank",
+        "portable power bank",
+        "battery charger",
+        "portable charger",
+        "usb power bank",
+        "charging device",
+        "black power bank",
+        "technology",
+        "power bank png"
+    ]
+},
+{
+    id: 142,
+
+    title: "VR Headset PNG",
+    category: "Technology",
+    image: "assets/png/technology/vr-headset.png",
+    downloads: 231,
+    views: 297,
+    size: "1.9 MB",
+    dimensions: "—",
+    tags: [
+        "vr headset",
+        "virtual reality headset",
+        "vr glasses",
+        "virtual reality",
+        "gaming headset",
+        "vr device",
+        "immersive technology",
+        "gaming",
+        "vr headset png"
     ]
 },
 ];
