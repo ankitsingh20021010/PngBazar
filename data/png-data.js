@@ -45,16 +45,12 @@ const pngData = [
 
     size: "245 KB",
     dimensions: "1200 × 1200 px",
-
-    description:
-        "High-quality cow transparent PNG image. Perfect for designs, websites, presentations and creative projects.",
-
     tags: [
         "Dog",
         "animal",
         "farm",
-        "cattle",
-        "Pug dog"
+        
+        "Pug"
     ]
 }, 
 {
@@ -1030,7 +1026,7 @@ const pngData = [
         "cow",
         "animal",
         "farm",
-        "cattle"
+        "milk"
     ]
 },
 {
@@ -2537,6 +2533,353 @@ const pngData = [
         "immersive technology",
         "gaming",
         "vr headset png"
+    ]
+},
+{
+    id: 143,
+
+    title: "Drone PNG",
+    category: "Technology",
+    image: "assets/png/technology/drone.png",
+    downloads: 0,
+    views: 0,
+    size: "—",
+    dimensions: "—",
+    tags: [
+        "drone",
+        "drone png",
+        "quadcopter",
+        "camera drone",
+        "flying drone",
+        "aerial drone",
+        "remote control drone",
+        "technology",
+        "drone technology"
+    ]
+},
+{
+    id: 144,
+
+    title: "Camera PNG",
+    category: "Technology",
+    image: "assets/png/technology/camera.png",
+    downloads: 548,
+    views: 640,
+    size: "—",
+    dimensions: "—",
+    tags: [
+        "camera",
+        "camera png",
+        "dslr camera",
+        "digital camera",
+        "professional camera",
+        "photography camera",
+        "camera lens",
+        "photography",
+        "camera technology"
+    ]
+},
+{
+    id: 145,
+
+    title: "Cinema Camera Tripod PNG",
+    category: "Technology",
+    image: "assets/png/technology/cinema-camera-tripod.png",
+    downloads: 231,
+    views: 311,
+    size: "—",
+    dimensions: "—",
+    tags: [
+        "cinema camera",
+        "camera tripod",
+        "movie camera",
+        "film camera",
+        "professional camera",
+        "movie shoot camera",
+        "video camera",
+        "cinema camera png",
+        "camera tripod png"
+    ]
+},
+{
+    id: 146,
+    title: "Red Apple PNG",
+    category: "Food",
+    image: "assets/png/fruits/red_apple.png",
+    tags: [
+        "apple",
+        "red apple",
+        "apple png",
+        "red apple png",
+        "fresh apple",
+        "fruit",
+        "fresh fruit",
+        "apple fruit",
+        "food png"
+    ]
+},
+{
+    id: 147,
+    title: "Bananas PNG",
+    category: "Food",
+    image: "assets/png/fruits/bananas.png",
+    tags: [
+        "banana",
+        "bananas",
+        "banana png",
+        "bananas png",
+        "fresh banana",
+        "yellow banana",
+        "fruit",
+        "fresh fruit",
+        "food png"
+    ]
+},
+{
+    id: 148,
+
+    title: "Mango PNG",
+    category: "Food",
+    image: "assets/png/fruits/mango.png",
+    downloads: 0,
+    views: 0,
+    size: "—",
+    dimensions: "—",
+    tags: [
+        "mango",
+        "mango png",
+        "fresh mango",
+        "ripe mango",
+        "mango fruit",
+        "mango slice",
+        "tropical fruit",
+        "fresh fruit",
+        "food png"
+    ]
+},
+{
+    id: 149,
+    title: "Single Mango PNG",
+    category: "Food",
+    image: "assets/png/fruits/single_mango.png",
+    tags: [
+        "mango",
+        "single mango",
+        "mango png",
+        "single mango png",
+        "fresh mango",
+        "ripe mango",
+        "mango fruit",
+        "fruits",
+        "tropical fruit",
+        "food png"
+    ]
+},
+{
+    id: 150,
+
+    title: "Green Mango PNG",
+    category: "Food",
+    image: "assets/png/fruits/green_mango.png",
+    downloads: 0,
+    views: 0,
+    size: "—",
+    dimensions: "—",
+    tags: [
+        "green mango",
+        "green mango png",
+        "raw mango",
+        "raw mango png",
+        "unripe mango",
+        "fresh mango",
+        "mango fruit",
+        "green fruit",
+        "food png"
+    ]
+},
+{
+    id: 151,
+    title: "Orange PNG",
+    category: "Food",
+    image: "assets/png/fruits/orange.png",
+    tags: [
+        "orange",
+        "orange png",
+        "fresh orange",
+        "orange fruit",
+        "orange slice",
+        "citrus fruit",
+        "fresh fruit",
+        "juicy orange",
+        "food png"
+    ]
+},
+{
+    id: 152,
+    title: "Single Orange PNG",
+    category: "Food",
+    image: "assets/png/fruits/single_orange.png",
+    tags: [
+        "orange",
+        "single orange",
+        "orange png",
+        "single orange png",
+        "fresh orange",
+        "orange fruit",
+        "citrus fruit",
+        "juicy orange",
+        "food png"
+    ]
+},
+{
+    id: 153,
+
+    title: "Grapes PNG",
+    category: "Food",
+    image: "assets/png/fruits/grapes.png",
+    tags: [
+        "grapes",
+        "grapes png",
+        "red grapes",
+        "purple grapes",
+        "grape bunch",
+        "fresh grapes",
+        "grape fruit",
+        "fresh fruit",
+        "food png"
+    ]
+},
+{
+    id: 154,
+    title: "Green Grapes PNG",
+    category: "Food",
+    image: "assets/png/fruits/green_grapes.png",
+    tags: [
+        "green grapes",
+        "green grapes png",
+        "grapes",
+        "grape bunch",
+        "fresh grapes",
+        "green grape",
+        "grape fruit",
+        "fresh fruit",
+        "food png"
+    ]
+},
+{
+    id: 155,
+    title: "Watermelon PNG",
+    category: "Food",
+    image: "assets/png/fruits/watermelon.png",
+    tags: [
+        "watermelon",
+        "watermelon png",
+        "watermelon slice",
+        "watermelon fruit",
+        "fresh watermelon",
+        "watermelon fruit png",
+        "summer fruit",
+        "fresh fruit",
+        "food png"
+    ]
+},
+{
+    id: 156,
+
+    title: "Whole Watermelon PNG",
+    category: "Food",
+    image: "assets/png/fruits/whole_watermelon.png",
+  
+    tags: [
+        "watermelon",
+        "whole watermelon",
+        "watermelon png",
+        "whole watermelon png",
+        "green watermelon",
+        "fresh watermelon",
+        "watermelon fruit",
+        "summer fruit",
+        "food png"
+    ]
+},
+{
+    id: 157,
+
+    title: "Watermelon Slice PNG",
+    category: "Food",
+    image: "assets/png/fruits/watermelon_slice.png",
+   
+    tags: [
+        "watermelon slice",
+        "watermelon slice png",
+        "watermelon",
+        "fresh watermelon",
+        "juicy watermelon",
+        "watermelon fruit",
+        "red watermelon",
+        "summer fruit",
+        "food png"
+    ]
+},
+{
+    id: 158,
+
+    title: "Papaya PNG",
+    category: "Food",
+    image: "assets/png/fruits/papaya.png",
+    downloads: 0,
+    views: 0,
+    size: "—",
+    dimensions: "—",
+    tags: [
+        "papaya",
+        "papaya png",
+        "fresh papaya",
+        "ripe papaya",
+        "papaya fruit",
+        "papaya slice",
+        "tropical fruit",
+        "fresh fruit",
+        "food png"
+    ]
+},
+{
+    id: 159,
+
+    title: "Pineapple PNG",
+    category: "Food",
+    image: "assets/png/fruits/pineapple.png",
+    downloads: 540,
+
+    tags: [
+        "pineapple",
+        "pineapple png",
+        "fresh pineapple",
+        "pineapple fruit",
+        "pineapple slice",
+        "tropical fruit",
+        "fresh fruit",
+        "pineapple slices",
+        "food png"
+    ]
+},
+{
+    id: 160,
+
+    title: "Strawberry PNG",
+    category: "Food",
+    image: "assets/png/fruits/strawberry.png",
+    downloads: 325,
+    tags: [
+        "strawberry",
+        "strawberry png",
+        "fresh strawberry",
+        "red strawberry",
+        "strawberry fruit",
+        "strawberry slice",
+        "fresh fruit",
+        "berry",
+        "food png"
     ]
 },
 ];

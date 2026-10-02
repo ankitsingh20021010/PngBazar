@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
@@ -6,66 +7,93 @@
     <meta charset="UTF-8">
 
     <meta name="viewport"
+
           content="width=device-width, initial-scale=1.0">
 
     <meta name="description"
+
           content="About PNG Bazar - Free transparent PNG images for everyone.">
 
     <title>About Us - PNG Bazar</title>
 
-
     <style>
 
         /* =====================================================
+
            RESET
+
            ===================================================== */
 
         * {
+
             margin: 0;
+
             padding: 0;
+
             box-sizing: border-box;
+
         }
 
         html {
+
             scroll-behavior: smooth;
+
         }
 
         body {
+
             font-family:
+
                 Inter,
+
                 -apple-system,
+
                 BlinkMacSystemFont,
+
                 "Segoe UI",
+
                 sans-serif;
 
             background: #ffffff;
+
             color: #172033;
 
             line-height: 1.5;
 
             overflow-x: hidden;
+
         }
 
         a {
+
             text-decoration: none;
+
             color: inherit;
+
         }
 
         button,
+
         input {
+
             font: inherit;
+
         }
 
-
         /* =====================================================
+
            HEADER
+
            ===================================================== */
 
         .site-header {
+
             width: 100%;
 
             position: sticky;
+
             top: 0;
+
             z-index: 1000;
 
             background: rgba(255, 255, 255, 0.95);
@@ -73,38 +101,49 @@
             border-bottom: 1px solid #e8edf5;
 
             backdrop-filter: blur(12px);
+
         }
 
         .header-container {
+
             width: min(1200px, 100%);
 
             min-height: 72px;
 
             margin: auto;
+
             padding: 0 22px;
 
             display: flex;
-            align-items: center;
-        }
 
+            align-items: center;
+
+        }
 
         /* BRAND */
 
         .brand {
+
             display: flex;
+
             align-items: center;
 
             gap: 11px;
 
             flex-shrink: 0;
+
         }
 
         .brand-icon {
+
             width: 44px;
+
             height: 44px;
 
             display: flex;
+
             align-items: center;
+
             justify-content: center;
 
             border-radius: 11px;
@@ -112,29 +151,39 @@
             background: #1769ff;
 
             overflow: hidden;
+
         }
 
         .brand-icon img {
+
             width: 100%;
+
             height: 100%;
 
             object-fit: contain;
+
         }
 
         .brand-text h1 {
+
             font-size: 21px;
+
             line-height: 1;
 
             font-weight: 800;
 
             color: #172033;
+
         }
 
         .brand-text h1 span {
+
             color: #1769ff;
+
         }
 
         .brand-text p {
+
             margin-top: 4px;
 
             font-size: 10px;
@@ -142,12 +191,13 @@
             color: #718096;
 
             white-space: nowrap;
-        }
 
+        }
 
         /* NAVIGATION */
 
         .main-nav {
+
             display: flex;
 
             align-items: center;
@@ -155,34 +205,45 @@
             gap: 28px;
 
             margin-left: auto;
+
             margin-right: 28px;
+
         }
 
         .main-nav a {
+
             position: relative;
 
             color: #5d687b;
 
             font-size: 14px;
+
             font-weight: 600;
 
             padding: 25px 0;
 
             transition: color .2s ease;
+
         }
 
         .main-nav a:hover,
+
         .main-nav a.active {
+
             color: #1769ff;
+
         }
 
         .main-nav a.active::after {
+
             content: "";
 
             position: absolute;
 
             left: 0;
+
             right: 0;
+
             bottom: 15px;
 
             height: 2px;
@@ -190,24 +251,29 @@
             border-radius: 10px;
 
             background: #1769ff;
-        }
 
+        }
 
         /* HEADER ACTIONS */
 
         .header-actions {
+
             display: flex;
 
             align-items: center;
 
             gap: 9px;
+
         }
 
         .header-search {
+
             width: 190px;
+
             height: 40px;
 
             display: flex;
+
             align-items: center;
 
             gap: 8px;
@@ -215,20 +281,27 @@
             padding: 0 12px;
 
             border: 1px solid #e2e8f0;
+
             border-radius: 9px;
 
             background: #f8fafc;
+
         }
 
         .header-search img {
+
             width: 17px;
+
             height: 17px;
+
         }
 
         .header-search input {
+
             width: 100%;
 
             border: 0;
+
             outline: 0;
 
             background: transparent;
@@ -236,16 +309,23 @@
             font-size: 13px;
 
             color: #172033;
+
         }
 
         .theme-toggle,
+
         .favorites-button,
+
         .mobile-menu-button {
+
             width: 40px;
+
             height: 40px;
 
             display: flex;
+
             align-items: center;
+
             justify-content: center;
 
             border: 1px solid #e2e8f0;
@@ -257,36 +337,53 @@
             cursor: pointer;
 
             transition: .2s ease;
+
         }
 
         .theme-toggle:hover,
+
         .favorites-button:hover,
+
         .mobile-menu-button:hover {
+
             border-color: #1769ff;
+
             background: #f1f6ff;
+
         }
 
         .theme-toggle img,
+
         .favorites-button img,
+
         .mobile-menu-button img {
+
             width: 18px;
+
             height: 18px;
+
         }
 
         .mobile-menu-button {
+
             display: none;
+
         }
 
-
         /* =====================================================
+
            HERO
+
            ===================================================== */
 
         .about-hero {
+
             min-height: 430px;
 
             display: flex;
+
             align-items: center;
+
             justify-content: center;
 
             text-align: center;
@@ -294,27 +391,39 @@
             padding: 80px 20px;
 
             background:
+
                 linear-gradient(
+
                     rgba(7, 35, 82, .72),
+
                     rgba(7, 35, 82, .72)
+
                 ),
+
                 url("assets/images/background.png");
 
             background-size: cover;
+
             background-position: center;
+
             background-repeat: no-repeat;
 
             color: #fff;
+
         }
 
         .about-hero-content {
+
             width: 100%;
+
             max-width: 800px;
 
             margin: auto;
+
         }
 
         .about-eyebrow {
+
             display: inline-flex;
 
             padding: 8px 15px;
@@ -322,24 +431,31 @@
             margin-bottom: 20px;
 
             border:
+
                 1px solid
+
                 rgba(255,255,255,.28);
 
             border-radius: 999px;
 
             background:
+
                 rgba(255,255,255,.10);
 
             font-size: 12px;
+
             font-weight: 700;
 
             letter-spacing: .4px;
+
         }
 
         .about-hero h1 {
+
             margin-bottom: 20px;
 
             font-size:
+
                 clamp(38px, 6vw, 62px);
 
             line-height: 1.08;
@@ -347,70 +463,89 @@
             font-weight: 800;
 
             letter-spacing: -1.5px;
+
         }
 
         .about-hero h1 span {
+
             color: #78aaff;
+
         }
 
         .about-hero p {
+
             max-width: 650px;
 
             margin: auto;
 
             color:
+
                 rgba(255,255,255,.88);
 
             font-size: 17px;
 
             line-height: 1.8;
+
         }
 
-
         /* =====================================================
+
            COMMON SECTION
+
            ===================================================== */
 
         .about-section {
+
             padding: 90px 20px;
+
         }
 
         .about-container {
+
             width: min(1120px, 100%);
 
             margin: auto;
+
         }
 
         .section-label {
+
             margin-bottom: 12px;
 
             color: #1769ff;
 
             font-size: 12px;
+
             font-weight: 800;
 
             text-transform: uppercase;
 
             letter-spacing: 1.4px;
+
         }
 
-
         /* =====================================================
+
            ABOUT INTRO
+
            ===================================================== */
 
         .about-intro {
+
             display: grid;
 
             grid-template-columns:
+
                 1fr 1fr;
 
             gap: 65px;
 
             align-items: center;
+
         }
 
         .about-intro h2 {
+
             margin-bottom: 20px;
 
             font-size: 40px;
@@ -418,9 +553,11 @@
             line-height: 1.18;
 
             letter-spacing: -.7px;
+
         }
 
         .about-intro p {
+
             margin-bottom: 15px;
 
             color: #667085;
@@ -428,19 +565,23 @@
             font-size: 15px;
 
             line-height: 1.85;
-        }
 
+        }
 
         /* VISUAL */
 
         .about-visual {
+
             min-height: 340px;
 
             display: flex;
+
             align-items: center;
+
             justify-content: center;
 
             border:
+
                 1px solid #e3e9f2;
 
             border-radius: 25px;
@@ -448,97 +589,143 @@
             background-color: #fff;
 
             background-image:
+
                 linear-gradient(
+
                     45deg,
+
                     #f0f4f9 25%,
+
                     transparent 25%
+
                 ),
+
                 linear-gradient(
+
                     -45deg,
+
                     #f0f4f9 25%,
+
                     transparent 25%
+
                 ),
+
                 linear-gradient(
+
                     45deg,
+
                     transparent 75%,
+
                     #f0f4f9 75%
+
                 ),
+
                 linear-gradient(
+
                     -45deg,
+
                     transparent 75%,
+
                     #f0f4f9 75%
+
                 );
 
             background-size: 30px 30px;
 
             background-position:
+
                 0 0,
+
                 0 15px,
+
                 15px -15px,
+
                 -15px 0;
 
             overflow: hidden;
+
         }
 
         .about-visual img {
+
             width: 210px;
+
             max-width: 65%;
 
             filter:
+
                 drop-shadow(
+
                     0 20px 30px
+
                     rgba(23,105,255,.16)
+
                 );
+
         }
 
-
         /* =====================================================
+
            FEATURES
+
            ===================================================== */
 
         .features-section {
+
             padding: 85px 20px;
 
             background: #f7f9fc;
+
         }
 
         .section-heading {
+
             max-width: 680px;
 
             margin: 0 auto 50px;
 
             text-align: center;
+
         }
 
         .section-heading h2 {
+
             margin-bottom: 13px;
 
             font-size: 38px;
 
             line-height: 1.2;
+
         }
 
         .section-heading p {
+
             color: #667085;
 
             font-size: 15px;
 
             line-height: 1.7;
+
         }
 
         .feature-grid {
+
             display: grid;
 
             grid-template-columns:
+
                 repeat(3, 1fr);
 
             gap: 22px;
+
         }
 
         .feature-card {
+
             padding: 30px;
 
             border:
+
                 1px solid #e4e9f1;
 
             border-radius: 18px;
@@ -546,27 +733,39 @@
             background: #fff;
 
             transition:
+
                 transform .25s ease,
+
                 box-shadow .25s ease,
+
                 border-color .25s ease;
+
         }
 
         .feature-card:hover {
+
             transform: translateY(-6px);
 
             border-color: #cfe0ff;
 
             box-shadow:
+
                 0 18px 40px
+
                 rgba(15,23,42,.08);
+
         }
 
         .feature-icon {
+
             width: 52px;
+
             height: 52px;
 
             display: flex;
+
             align-items: center;
+
             justify-content: center;
 
             margin-bottom: 20px;
@@ -578,58 +777,77 @@
             color: #1769ff;
 
             font-size: 16px;
+
             font-weight: 800;
+
         }
 
         .feature-card h3 {
+
             margin-bottom: 10px;
 
             font-size: 19px;
+
         }
 
         .feature-card p {
+
             color: #667085;
 
             font-size: 14px;
 
             line-height: 1.75;
+
         }
 
-
         /* =====================================================
+
            HOW IT WORKS
+
            ===================================================== */
 
         .how-section {
+
             padding: 90px 20px;
+
         }
 
         .how-grid {
+
             display: grid;
 
             grid-template-columns:
+
                 repeat(3, 1fr);
 
             gap: 22px;
+
         }
 
         .how-card {
+
             padding: 30px;
 
             border:
+
                 1px solid #e4e9f1;
 
             border-radius: 18px;
 
             background: #fff;
+
         }
 
         .how-number {
+
             width: 44px;
+
             height: 44px;
 
             display: flex;
+
             align-items: center;
+
             justify-content: center;
 
             margin-bottom: 20px;
@@ -641,33 +859,43 @@
             color: #fff;
 
             font-size: 13px;
+
             font-weight: 800;
+
         }
 
         .how-card h3 {
+
             margin-bottom: 10px;
 
             font-size: 18px;
+
         }
 
         .how-card p {
+
             color: #667085;
 
             font-size: 14px;
 
             line-height: 1.75;
+
         }
 
-
         /* =====================================================
+
            CTA
+
            ===================================================== */
 
         .cta-section {
+
             padding: 10px 20px 90px;
+
         }
 
         .cta-box {
+
             width: min(1120px, 100%);
 
             margin: auto;
@@ -677,38 +905,51 @@
             border-radius: 25px;
 
             background:
+
                 linear-gradient(
+
                     135deg,
+
                     #1769ff,
+
                     #0d47b8
+
                 );
 
             text-align: center;
 
             color: #fff;
+
         }
 
         .cta-box h2 {
+
             margin-bottom: 13px;
 
             font-size: 36px;
+
         }
 
         .cta-box p {
+
             max-width: 600px;
 
             margin: 0 auto 28px;
 
             color:
+
                 rgba(255,255,255,.84);
 
             line-height: 1.7;
+
         }
 
         .cta-button {
+
             display: inline-flex;
 
             align-items: center;
+
             justify-content: center;
 
             min-height: 49px;
@@ -722,35 +963,47 @@
             color: #1769ff;
 
             font-size: 14px;
+
             font-weight: 800;
 
             transition:
+
                 transform .2s ease,
+
                 box-shadow .2s ease;
+
         }
 
         .cta-button:hover {
+
             transform: translateY(-2px);
 
             box-shadow:
+
                 0 10px 25px
+
                 rgba(0,0,0,.15);
+
         }
 
-
         /* =====================================================
+
            FOOTER
+
            ===================================================== */
 
         .site-footer {
+
             background: #0d1422;
 
             color: #fff;
 
             padding-top: 55px;
+
         }
 
         .footer-container {
+
             width: min(1120px, 100%);
 
             margin: auto;
@@ -760,23 +1013,31 @@
             display: grid;
 
             grid-template-columns:
+
                 2fr 1fr 1fr;
 
             gap: 50px;
+
         }
 
         .footer-logo {
+
             width: 145px;
 
             margin-bottom: 12px;
+
         }
 
         .footer-logo img {
+
             width: 100%;
+
             height: auto;
+
         }
 
         .footer-brand p {
+
             max-width: 280px;
 
             color: #94a3b8;
@@ -784,35 +1045,45 @@
             font-size: 13px;
 
             line-height: 1.7;
+
         }
 
         .footer-links {
+
             display: flex;
 
             flex-direction: column;
 
             gap: 10px;
+
         }
 
         .footer-links h3 {
+
             margin-bottom: 6px;
 
             font-size: 14px;
+
         }
 
         .footer-links a {
+
             color: #94a3b8;
 
             font-size: 13px;
 
             transition: color .2s ease;
+
         }
 
         .footer-links a:hover {
+
             color: #fff;
+
         }
 
         .footer-bottom {
+
             min-height: 60px;
 
             width: min(1120px, 100%);
@@ -830,20 +1101,25 @@
             gap: 15px;
 
             border-top:
+
                 1px solid
+
                 rgba(255,255,255,.08);
 
             color: #718096;
 
             font-size: 12px;
+
         }
 
-
         /* =====================================================
+
            MADE BY ANKIT
+
            ===================================================== */
 
         .made-by {
+
             text-align: center;
 
             padding: 18px 15px;
@@ -855,17 +1131,23 @@
             font-size: 12px;
 
             border-top:
+
                 1px solid
+
                 rgba(255,255,255,.05);
+
         }
 
         .made-by strong {
+
             color: #fff;
 
             font-weight: 700;
+
         }
 
         .blue-heart {
+
             color: #1769ff;
 
             font-size: 15px;
@@ -873,348 +1155,514 @@
             display: inline-block;
 
             margin-left: 3px;
+
         }
 
-
         /* =====================================================
+
            TABLET
+
            ===================================================== */
 
         @media (max-width: 900px) {
 
             .main-nav {
+
                 gap: 18px;
+
                 margin-right: 18px;
+
             }
 
             .header-search {
+
                 width: 150px;
+
             }
 
             .about-intro {
+
                 gap: 35px;
+
             }
 
             .about-intro h2 {
+
                 font-size: 34px;
+
             }
 
             .feature-grid,
+
             .how-grid {
+
                 grid-template-columns:
+
                     repeat(2, 1fr);
+
             }
 
             .footer-container {
+
                 grid-template-columns:
+
                     1.5fr 1fr 1fr;
+
             }
+
         }
 
-
         /* =====================================================
+
            MOBILE
+
            ===================================================== */
 
         @media (max-width: 700px) {
 
             .header-container {
+
                 min-height: 66px;
 
                 padding:
+
                     8px 15px;
+
             }
 
             .brand-icon {
+
                 width: 40px;
+
                 height: 40px;
+
             }
 
             .brand-text h1 {
+
                 font-size: 19px;
+
             }
 
             .brand-text p {
+
                 display: none;
+
             }
 
             .main-nav {
+
                 display: none;
+
             }
 
             .header-search {
+
                 display: none;
+
+            }
+
+            /* Keep header buttons aligned to the right on mobile */
+            .header-actions {
+
+                margin-left: auto;
+
+                flex-shrink: 0;
+
             }
 
             .mobile-menu-button {
-                display: flex;
-            }
 
+                display: flex;
+
+            }
 
             /* HERO */
 
             .about-hero {
+
                 min-height: 350px;
 
                 padding:
+
                     60px 18px;
+
             }
 
             .about-hero h1 {
+
                 font-size: 39px;
+
             }
 
             .about-hero p {
-                font-size: 14px;
-            }
 
+                font-size: 14px;
+
+            }
 
             /* INTRO */
 
             .about-section {
+
                 padding: 60px 18px;
+
             }
 
             .about-intro {
+
                 grid-template-columns: 1fr;
 
                 gap: 35px;
+
             }
 
             .about-intro h2 {
+
                 font-size: 31px;
+
             }
 
             .about-visual {
-                min-height: 280px;
-            }
 
+                min-height: 280px;
+
+            }
 
             /* FEATURES */
 
             .features-section {
+
                 padding: 60px 18px;
+
             }
 
             .section-heading {
+
                 margin-bottom: 35px;
+
             }
 
             .section-heading h2 {
+
                 font-size: 30px;
+
             }
 
             .feature-grid,
-            .how-grid {
-                grid-template-columns: 1fr;
-            }
 
+            .how-grid {
+
+                grid-template-columns: 1fr;
+
+            }
 
             /* HOW */
 
             .how-section {
-                padding: 60px 18px;
-            }
 
+                padding: 60px 18px;
+
+            }
 
             /* CTA */
 
             .cta-section {
+
                 padding:
+
                     10px 15px 60px;
+
             }
 
             .cta-box {
+
                 padding:
+
                     45px 20px;
+
             }
 
             .cta-box h2 {
-                font-size: 29px;
-            }
 
+                font-size: 29px;
+
+            }
 
             /* FOOTER */
 
             .footer-container {
+
                 grid-template-columns: 1fr;
 
                 gap: 30px;
 
                 padding:
+
                     40px 18px;
+
             }
 
             .footer-bottom {
+
                 flex-direction: column;
 
                 justify-content: center;
 
                 text-align: center;
+
             }
 
         }
 
-
         /* =====================================================
+
            SMALL MOBILE
+
            ===================================================== */
 
         @media (max-width: 400px) {
 
             .about-hero h1 {
+
                 font-size: 32px;
+
             }
 
             .about-hero p {
+
                 font-size: 13px;
+
             }
 
             .about-intro h2 {
+
                 font-size: 27px;
+
             }
 
             .feature-card,
+
             .how-card {
+
                 padding: 23px;
+
             }
 
             .cta-box h2 {
+
                 font-size: 26px;
+
             }
 
             .theme-toggle,
+
             .favorites-button,
+
             .mobile-menu-button {
+
                 width: 36px;
+
                 height: 36px;
+
             }
 
         }
 
-    </style>
+    
+        /* MOBILE MENU OPEN STATE */
+        @media (max-width: 700px) {
+            .main-nav.mobile-nav-open {
+                display: flex;
+                position: absolute;
+                top: calc(100% + 1px);
+                left: 15px;
+                right: 15px;
+                z-index: 1001;
+                flex-direction: column;
+                align-items: stretch;
+                gap: 0;
+                margin: 0;
+                padding: 8px;
+                border: 1px solid #e2e8f0;
+                border-radius: 12px;
+                background: #ffffff;
+                box-shadow: 0 14px 30px rgba(15, 23, 42, .12);
+            }
+
+            .main-nav.mobile-nav-open a {
+                display: block;
+                padding: 13px 14px;
+                border-radius: 8px;
+            }
+
+            .main-nav.mobile-nav-open a.active::after {
+                display: none;
+            }
+
+            .main-nav.mobile-nav-open a:hover,
+            .main-nav.mobile-nav-open a.active {
+                background: #f1f6ff;
+            }
+        }
+
+   </style>
 
 </head>
 
-
 <body>
 
-
     <!-- =====================================================
+
          HEADER
+
          ===================================================== -->
 
     <header class="site-header">
 
         <div class="header-container">
 
-
             <a href="index.html" class="brand">
 
                 <div class="brand-icon">
 
                     <img
+
                         src="assets/images/pngbazar_con.svg"
+
                         alt="PNG Bazar">
 
                 </div>
 
-
                 <div class="brand-text">
 
                     <h1>
+
                         PNG<span>Bazar</span>
+
                     </h1>
 
                     <p>
+
                         Free PNG Images for Everyone
+
                     </p>
 
                 </div>
 
             </a>
 
-
             <nav class="main-nav">
 
                 <a href="index.html">
+
                     Home
+
                 </a>
 
                 <a href="category.html">
+
                     Categories
+
                 </a>
+
                  <a
+
                     href="privacy-policy.html"
+
                     >
+
                     Privacy-Policy
-                </a>
-                <a
-                    href="#"
-                    >
-                   Contact
+
                 </a>
 
                 <a
+
+                    href="#"
+
+                    >
+
+                   Contact
+
+                </a>
+
+                <a
+
                     href="about.html"
+
                     class="active">
+
                     About
+
                 </a>
 
             </nav>
 
-
             <div class="header-actions">
-
 
                 <div class="header-search">
 
                     <img
+
                         src="assets/icons/search.svg"
+
                         alt="Search">
 
                     <input
+
                         type="text"
+
                         placeholder="Search PNGs...">
 
                 </div>
 
-
                 <button
+
                     class="theme-toggle"
+
                     type="button"
+
                     aria-label="Toggle theme">
 
                     <img
+
                         src="assets/icons/moon.svg"
+
                         alt="Theme">
 
                 </button>
 
-
                 <button
+
                     class="favorites-button"
+
                     type="button"
+
                     aria-label="Favorites">
 
                     <img
+
                         src="assets/icons/heart.svg"
+
                         alt="Favorites">
 
                 </button>
 
-
                 <button
+
                     class="mobile-menu-button"
+
                     type="button"
+
                     aria-label="Menu">
 
                     <img
+
                         src="assets/icons/menu.svg"
+
                         alt="Menu">
 
                 </button>
-
 
             </div>
 
@@ -1222,13 +1670,13 @@
 
     </header>
 
-
     <!-- =====================================================
+
          MAIN
+
          ===================================================== -->
 
     <main>
-
 
         <!-- HERO -->
 
@@ -1237,27 +1685,32 @@
             <div class="about-hero-content">
 
                 <div class="about-eyebrow">
+
                     About PNG Bazar
+
                 </div>
 
-
                 <h1>
+
                     Free PNG Images,
+
                     <span>Made Simple.</span>
+
                 </h1>
 
-
                 <p>
+
                     PNG Bazar is a simple platform for discovering
+
                     and downloading transparent PNG images quickly
+
                     and easily.
+
                 </p>
 
             </div>
 
         </section>
-
-
 
         <!-- ABOUT -->
 
@@ -1267,53 +1720,61 @@
 
                 <div class="about-intro">
 
-
                     <div>
 
                         <div class="section-label">
+
                             About Us
+
                         </div>
 
-
                         <h2>
+
                             A simple place for
+
                             useful PNG images.
+
                         </h2>
 
-
                         <p>
+
                             PNG Bazar is designed to make finding
+
                             transparent PNG images easier for
+
                             designers, students, creators and
+
                             everyday users.
+
                         </p>
 
-
                         <p>
+
                             Browse different categories, preview
+
                             an image and download the PNG you need
+
                             without unnecessary steps.
+
                         </p>
 
                     </div>
-
 
                     <div class="about-visual">
 
                         <img
+
                             src="assets/images/pngbazar_ogo.svg"
+
                             alt="PNG Bazar Logo">
 
                     </div>
-
 
                 </div>
 
             </div>
 
         </section>
-
-
 
         <!-- FEATURES -->
 
@@ -1321,94 +1782,111 @@
 
             <div class="about-container">
 
-
                 <div class="section-heading">
 
                     <div class="section-label">
+
                         Why PNG Bazar
+
                     </div>
 
-
                     <h2>
+
                         Everything you need,
+
                         in one place.
+
                     </h2>
 
-
                     <p>
+
                         The platform focuses on keeping PNG
+
                         discovery and download simple.
+
                     </p>
 
                 </div>
 
-
                 <div class="feature-grid">
 
-
                     <article class="feature-card">
 
                         <div class="feature-icon">
+
                             PNG
+
                         </div>
 
                         <h3>
+
                             Transparent PNGs
+
                         </h3>
 
                         <p>
+
                             Find PNG images designed to work
+
                             with transparent backgrounds.
+
                         </p>
 
                     </article>
 
-
-
                     <article class="feature-card">
 
                         <div class="feature-icon">
+
                             ↓
+
                         </div>
 
                         <h3>
+
                             Easy Downloads
+
                         </h3>
 
                         <p>
+
                             Preview an image and download the
+
                             PNG with a simple experience.
+
                         </p>
 
                     </article>
-
-
 
                     <article class="feature-card">
 
                         <div class="feature-icon">
+
                             ★
+
                         </div>
 
                         <h3>
+
                             Organized Categories
+
                         </h3>
 
                         <p>
+
                             Explore Animals, Nature, Food,
+
                             Technology, Gaming and more.
+
                         </p>
 
                     </article>
-
 
                 </div>
 
             </div>
 
         </section>
-
-
 
         <!-- HOW IT WORKS -->
 
@@ -1416,93 +1894,109 @@
 
             <div class="about-container">
 
-
                 <div class="section-heading">
 
                     <div class="section-label">
+
                         How It Works
+
                     </div>
 
-
                     <h2>
+
                         Find. Preview. Download.
+
                     </h2>
 
-
                     <p>
+
                         Getting the PNG you need takes only
+
                         a few simple steps.
+
                     </p>
 
                 </div>
 
-
                 <div class="how-grid">
 
-
                     <article class="how-card">
 
                         <div class="how-number">
+
                             01
+
                         </div>
 
                         <h3>
+
                             Browse
+
                         </h3>
 
                         <p>
+
                             Explore the homepage or browse PNGs
+
                             through different categories.
+
                         </p>
 
                     </article>
 
-
-
                     <article class="how-card">
 
                         <div class="how-number">
+
                             02
+
                         </div>
 
                         <h3>
+
                             Preview
+
                         </h3>
 
                         <p>
+
                             Open an image to view its details,
+
                             dimensions and category.
+
                         </p>
 
                     </article>
-
-
 
                     <article class="how-card">
 
                         <div class="how-number">
+
                             03
+
                         </div>
 
                         <h3>
+
                             Download
+
                         </h3>
 
                         <p>
+
                             Download the PNG image and use it
+
                             in your personal or creative projects.
+
                         </p>
 
                     </article>
-
 
                 </div>
 
             </div>
 
         </section>
-
-
 
         <!-- CTA -->
 
@@ -1511,18 +2005,23 @@
             <div class="cta-box">
 
                 <h2>
+
                     Ready to find your PNG?
+
                 </h2>
 
-
                 <p>
+
                     Explore PNG Bazar and discover transparent
+
                     images across different categories.
+
                 </p>
 
-
                 <a
+
                     href="category.html"
+
                     class="cta-button">
 
                     Explore PNGs →
@@ -1533,116 +2032,166 @@
 
         </section>
 
-
     </main>
 
-
-
     <!-- =====================================================
+
          FOOTER
+
          ===================================================== -->
 
     <footer class="site-footer">
 
-
         <div class="footer-container">
-
 
             <div class="footer-brand">
 
                 <div class="footer-logo">
 
                     <img
+
                         src="assets/images/pngbazar_ogo.svg"
+
                         alt="PNG Bazar">
 
                 </div>
 
-
                 <p>
+
                     Free transparent PNG images for everyone.
+
                 </p>
 
             </div>
 
-
-
             <div class="footer-links">
 
                 <h3>
+
                     Explore
+
                 </h3>
 
                 <a href="index.html">
+
                     Home
+
                 </a>
 
                 <a href="category.html">
+
                     Categories
+
                 </a>
 
                 <a href="privacy-policy.html">Privacy-Policy</a>
 
                 <a href="#">
+
                     About
+
                 </a>
 
             </div>
-
-
 
             <div class="footer-links">
 
                 <h3>
+
                     Categories
+
                 </h3>
 
                 <a href="category.html">
+
                     Animals
+
                 </a>
 
                 <a href="category.html">
+
                     Nature
+
                 </a>
 
                 <a href="category.html">
+
                     Technology
+
                 </a>
 
             </div>
 
-
         </div>
-
-
 
         <div class="footer-bottom">
 
             <p>
+
                 © 2026 PNG Bazar. All rights reserved.
+
             </p>
 
             <p>
+
                 Free PNG resources for everyone.
+
             </p>
 
         </div>
-
 
         <!-- MADE BY -->
 
         <div class="made-by">
 
             Made with
+
             <span class="blue-heart">♥</span>
+
             by
+
             <strong>Ankit</strong>
 
         </div>
 
-
     </footer>
 
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const menuButton = document.querySelector(".mobile-menu-button");
+            const mainNav = document.querySelector(".main-nav");
+
+            if (!menuButton || !mainNav) {
+                return;
+            }
+
+            menuButton.setAttribute("aria-expanded", "false");
+
+            menuButton.addEventListener("click", function () {
+                const isOpen = mainNav.classList.toggle("mobile-nav-open");
+
+                menuButton.setAttribute(
+                    "aria-expanded",
+                    isOpen ? "true" : "false"
+                );
+            });
+
+            mainNav.querySelectorAll("a").forEach(function (link) {
+                link.addEventListener("click", function () {
+                    mainNav.classList.remove("mobile-nav-open");
+                    menuButton.setAttribute("aria-expanded", "false");
+                });
+            });
+
+            window.addEventListener("resize", function () {
+                if (window.innerWidth > 700) {
+                    mainNav.classList.remove("mobile-nav-open");
+                    menuButton.setAttribute("aria-expanded", "false");
+                }
+            });
+        });
+    </script>
 
 </body>
 
