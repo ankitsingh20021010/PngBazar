@@ -675,7 +675,7 @@ const pngData = [
 
     title: "Modern Red Sedan Car PNG",
 
-    category: "car",
+    category:"Vehicles",
 
     image: "assets/png/car/modern-red-sedan-car.png",
 
@@ -704,7 +704,7 @@ const pngData = [
 {
     id: 34,
     title: "White SUV Three Quarter View PNG",
-    category: "car",
+    category:"Vehicles",
     image: "assets/png/car/white-suv-three-quarter-view.png",
     downloads: 0,
     views: 0,
@@ -725,7 +725,7 @@ const pngData = [
 {
     id: 35,
     title: "Black Luxury Sports Car PNG",
-    category: "Car",
+    category:"Vehicles",
     image: "assets/png/car/black-luxury-sports-car.png",
     downloads: 88,
     views: 154,
@@ -749,7 +749,7 @@ const pngData = [
 
     title: "Blue Hatchback Rear View PNG",
 
-    category: "Car",
+    category:"Vehicles",
 
     image: "assets/png/car/blue-hatchback-rear-view.png",
 
@@ -777,7 +777,7 @@ const pngData = [
 {
     id: 37,
     title: "Silver Car Headlights On PNG",
-    category: "Car",
+    category:"Vehicles",
     image: "assets/png/car/silver-car-headlights-on.png",
     downloads: 657,
     views: 989,
@@ -792,7 +792,7 @@ const pngData = [
 
     title: "Yellow Sports Car Top View PNG",
 
-    category: "Car",
+    category:"Vehicles",
 
     image: "assets/png/car/yellow-sports-car-top-view.png",
 
@@ -2996,6 +2996,352 @@ const pngData = [
         "condenser microphone",
         "streaming microphone",
         "technology png"
+    ]
+},
+{
+    id: 168,
+
+    title: "WiFi Router PNG",
+    category: "Technology",
+    image: "assets/png/technology/wifi_router.png",
+    tags: [
+        "wifi router",
+        "wifi router png",
+        "router",
+        "wireless router",
+        "wifi",
+        "internet router",
+        "network router",
+        "wireless network",
+        "technology png"
+    ]
+},
+{
+    id: 169,
+
+    title: "Digital Globe Network PNG",
+    category: "Technology",
+    image: "assets/png/technology/digital_globe_network.png",
+    downloads: 0,
+    views: 0,
+    size: "—",
+    dimensions: "—",
+    tags: [
+        "digital globe",
+        "digital globe png",
+        "network globe",
+        "global network",
+        "technology globe",
+        "internet network",
+        "connection network",
+        "digital technology",
+        "technology png"
+    ]
+},
+{
+    id: 170,
+
+    title: "5G Cell Tower PNG",
+    category: "Technology",
+    image: "assets/png/technology/5g_cell_tower.png",
+    downloads: 0,
+    views: 0,
+    size: "—",
+    dimensions: "—",
+    tags: [
+        "5g cell tower",
+        "5g tower png",
+        "cell tower",
+        "telecom tower",
+        "5g antenna",
+        "mobile network tower",
+        "wireless tower",
+        "5g network",
+        "technology png"
+    ]
+},
+{
+    id: 171,
+
+    title: "Fiber Optic Cable PNG",
+    category: "Technology",
+    image: "assets/png/technology/fiber_optic_cable.png",
+    downloads: 0,
+    views: 0,
+    size: "—",
+    dimensions: "—",
+    tags: [
+        "fiber optic cable",
+        "fiber optic cable png",
+        "fiber optic",
+        "optical fiber",
+        "fiber cable",
+        "internet cable",
+        "network cable",
+        "data cable",
+        "technology png"
+    ]
+},
+{
+    id: 172,
+    title: "White Satellite Dish PNG",
+    category: "Technology",
+    image: "assets/png/technology/white_satellite_dish.png",
+    tags: [
+        "satellite dish",
+        "satellite dish png",
+        "white satellite dish",
+        "dish antenna",
+        "satellite antenna",
+        "communication antenna",
+        "parabolic antenna",
+        "tv satellite dish",
+        "technology png"
+    ]
+},
+{
+    id: 173,
+
+    title: "Ethernet Server Cable PNG",
+    category: "Technology",
+    image: "assets/png/technology/ethernet_server_cable.png",
+    size: "1.6 MB",
+    tags: [
+        "ethernet cable",
+        "ethernet cable png",
+        "server cable",
+        "network cable",
+        "rj45 cable",
+        "rj45 connector",
+        "lan cable",
+        "internet cable",
+        "technology png"
+    ]
+},
+{
+    id: 174,
+
+    title: "Futuristic Humanoid Robot PNG",
+    category: "Technology",
+    image: "assets/png/technology/humanoid_robot.png",
+
+    tags: [
+        "humanoid robot",
+        "humanoid robot png",
+        "futuristic robot",
+        "robot png",
+        "ai robot",
+        "robot technology",
+        "android robot",
+        "artificial intelligence",
+        "technology png"
+    ]
+},
+
+{
+    id: 175,
+    title: "Chatbot Icon PNG",
+    category: "Technology",
+    image: "assets/png/technology/chatbot_icon.png",
+    tags: [
+        "chatbot",
+        "chatbot icon",
+        "chatbot icon png",
+        "ai chatbot",
+        "ai robot",
+        "chat bot",
+        "virtual assistant",
+        "artificial intelligence",
+        "technology png"
+    ]
+},
+{
+    id: 176,
+    title: "Neural Network Visualization PNG",
+    category: "Technology",
+    image: "assets/png/technology/neural_network.png",
+    tags: [
+        "neural network",
+        "neural network png",
+        "artificial intelligence",
+        "ai network",
+        "machine learning",
+        "deep learning",
+        "neural nodes",
+        "network visualization",
+        "technology png"
+    ]
+},
+{
+    id: 177,
+
+    title: "Modern Tablet PNG",
+    category: "Technology",
+    image: "assets/png/technology/modern_tablet.png",
+  
+    tags: [
+        "tablet",
+        "tablet png",
+        "modern tablet",
+        "tablet device",
+        "tablet computer",
+        "touchscreen tablet",
+        "digital tablet",
+        "smart device",
+        "technology png"
+    ]
+},
+{
+    id: 178,
+    title: "Modern Smartwatch PNG",
+    category: "Technology",
+    image: "assets/png/technology/modern_smartwatch.png",
+    tags: [
+        "smartwatch",
+        "smartwatch png",
+        "modern smartwatch",
+        "fitness smartwatch",
+        "fitness tracker",
+        "digital watch",
+        "smart watch",
+        "wearable technology",
+        "technology png"
+    ]
+},
+{
+    id: 179,
+
+    title: "Square Smartwatch PNG",
+    category: "Technology",
+    image: "assets/png/technology/square_smartwatch.png",
+    tags: [
+        "square smartwatch",
+        "smartwatch png",
+        "square smart watch",
+        "smartwatch",
+        "fitness smartwatch",
+        "digital smartwatch",
+        "white smartwatch",
+        "wearable technology",
+        "technology png"
+    ]
+},
+{
+    id: 180,
+    title: "Artificial Intelligence Brain PNG",
+    category: "Technology",
+    image: "assets/png/technology/artificial_intelligence_brain.png",
+   
+    tags: [
+        "artificial intelligence",
+        "ai brain",
+        "artificial intelligence brain",
+        "digital brain",
+        "technology brain",
+        "neural network",
+        "neural connections",
+        "blue circuit brain",
+        "machine learning",
+        "ai technology png"
+    ]
+},
+{
+    id: 181,
+
+    title: "Industrial Robotic Arm PNG",
+    category: "Technology",
+    image: "assets/png/technology/industrial_robotic_arm.png",
+    tags: [
+        "industrial robotic arm",
+        "robotic arm",
+        "industrial robot",
+        "robot arm",
+        "robotic machinery",
+        "automation robot",
+        "factory robot",
+        "mechanical arm",
+        "robotics",
+        "technology png"
+    ]
+},
+
+{
+    id: 182,
+
+    title: "Modern Tablet PNG",
+    category: "Technology",
+    image: "assets/png/technology/modern_tablet.png",
+   
+    tags: [
+        "tablet",
+        "modern tablet",
+        "tablet png",
+        "black tablet",
+        "touchscreen tablet",
+        "digital tablet",
+        "tablet computer",
+        "colorful tablet",
+        "technology png"
+    ]
+},
+{
+    id: 183,
+
+    title: "Tablet with Detachable Keyboard PNG",
+    category: "Technology",
+    image: "assets/png/technology/tablet_keyboard_cover.png",
+    tags: [
+        "tablet keyboard",
+        "tablet with keyboard",
+        "detachable keyboard",
+        "keyboard cover",
+        "tablet computer",
+        "landscape tablet",
+        "space gray tablet",
+        "2 in 1 tablet",
+        "technology png"
+    ]
+},
+{
+    id: 184,
+
+    title: "Luxury Gold Smartwatch PNG",
+    category: "Technology",
+    image: "assets/png/technology/luxury_gold_smartwatch.png",
+  
+    tags: [
+        "luxury smartwatch",
+        "gold smartwatch",
+        "gold smartwatch png",
+        "smartwatch png",
+        "leather strap smartwatch",
+        "premium smartwatch",
+        "smart watch",
+        "wearable technology",
+        "technology png"
+    ]
+},
+{
+    id: 185,
+
+    title: "Neon Green Smartwatch PNG",
+    category: "Technology",
+    image: "assets/png/technology/neon_green_smartwatch.png",
+    downloads: 0,
+    views: 0,
+    size: "—",
+    dimensions: "—",
+    tags: [
+        "smartwatch",
+        "smart watch",
+        "neon green smartwatch",
+        "fitness smartwatch",
+        "heart rate monitor",
+        "heart rate watch",
+        "fitness tracker",
+        "wearable technology",
+        "black smartwatch",
+        "smartwatch png"
     ]
 },
 ];
