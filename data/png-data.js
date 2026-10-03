@@ -675,7 +675,7 @@ const pngData = [
 
     title: "Modern Red Sedan Car PNG",
 
-    category: "Vehicals",
+    category: "car",
 
     image: "assets/png/car/modern-red-sedan-car.png",
 
@@ -704,7 +704,7 @@ const pngData = [
 {
     id: 34,
     title: "White SUV Three Quarter View PNG",
-    category: ["Cars "," vehicles"],
+    category: "car",
     image: "assets/png/car/white-suv-three-quarter-view.png",
     downloads: 0,
     views: 0,
@@ -725,7 +725,7 @@ const pngData = [
 {
     id: 35,
     title: "Black Luxury Sports Car PNG",
-    category: "Cars",
+    category: "Car",
     image: "assets/png/car/black-luxury-sports-car.png",
     downloads: 88,
     views: 154,
@@ -749,7 +749,7 @@ const pngData = [
 
     title: "Blue Hatchback Rear View PNG",
 
-    category: "Cars",
+    category: "Car",
 
     image: "assets/png/car/blue-hatchback-rear-view.png",
 
@@ -777,12 +777,11 @@ const pngData = [
 {
     id: 37,
     title: "Silver Car Headlights On PNG",
-    category: "Cars",
+    category: "Car",
     image: "assets/png/car/silver-car-headlights-on.png",
     downloads: 657,
     views: 989,
-    size: "—",
-    dimensions: "—",
+
     tags: [
         "car", "silver car", "sedan", "silver sedan",
         "headlights", "car headlights",
@@ -793,17 +792,13 @@ const pngData = [
 
     title: "Yellow Sports Car Top View PNG",
 
-    category: "Cars",
+    category: "Car",
 
     image: "assets/png/car/yellow-sports-car-top-view.png",
 
     downloads: 335,
 
     views: 545,
-
-    size: "—",
-
-    dimensions: "—",
 
     tags: [
         "car",
@@ -2880,6 +2875,127 @@ const pngData = [
         "fresh fruit",
         "berry",
         "food png"
+    ]
+},
+{
+    id: 161,
+
+    title: "CPU PNG",
+    category: "Technology",
+    image: "assets/png/technology/Angled_Intel_Core_i7_processor Chip.png",
+
+    tags: [
+        "cpu",
+        "cpu png",
+        "processor",
+        "computer processor",
+        "intel cpu",
+        "core i7",
+        "computer chip",
+        "processor chip",
+        "technology png"
+    ]
+},
+{
+    id: 162,
+    title: "Gaming Keyboard PNG",
+    category: "Technology",
+    image: "assets/png/technology/gaming_keyboard.png",
+    tags: [
+        "keyboard",
+        "gaming keyboard",
+        "keyboard png",
+        "gaming keyboard png",
+        "mechanical keyboard",
+        "rgb keyboard",
+        "computer keyboard",
+        "gaming",
+        "technology png"
+    ]
+},
+{
+    id: 163,
+    title: "White Keyboard PNG",
+    category: "Technology",
+    image: "assets/png/technology/white_keyboard.png",
+    tags: [
+        "keyboard",
+        "white keyboard",
+        "white keyboard png",
+        "keyboard png",
+        "computer keyboard",
+        "wireless keyboard",
+        "minimal keyboard",
+        "desktop keyboard",
+        "technology png"
+    ]
+},
+{
+    id: 164,
+    title: "Monitor PNG",
+    category: "Technology",
+    image: "assets/png/technology/monitor.png",
+    tags: [
+        "monitor",
+        "monitor png",
+        "computer monitor",
+        "display",
+        "computer screen",
+        "desktop monitor",
+        "led monitor",
+        "screen png",
+        "technology png"
+    ]
+},
+{
+    id: 165,
+    title: "Full PC Setup PNG",
+    category: "Technology",
+    image: "assets/png/technology/full_pc_setup.png",
+    tags: [
+        "pc setup",
+        "full pc setup",
+        "pc setup png",
+        "desktop computer",
+        "gaming pc",
+        "gaming setup",
+        "computer setup",
+        "desktop setup",
+        "technology png"
+    ]
+},
+{
+    id: 166,
+    title: "Simple PC PNG",
+    category: "Technology",
+    image: "assets/png/technology/simple_pc.png",
+    tags: [
+        "pc",
+        "simple pc",
+        "pc png",
+        "desktop computer",
+        "computer",
+        "desktop pc",
+        "computer setup",
+        "office computer",
+        "technology png"
+    ]
+},
+{
+    id: 167,
+    title: "Podcast Microphone PNG",
+    category: "Technology",
+    image: "assets/png/technology/podcast_microphone.png",
+    tags: [
+        "podcast microphone",
+        "podcast mic",
+        "microphone png",
+        "podcast microphone png",
+        "studio microphone",
+        "recording microphone",
+        "condenser microphone",
+        "streaming microphone",
+        "technology png"
     ]
 },
 ];
