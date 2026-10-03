@@ -3323,7 +3323,6 @@ const pngData = [
 },
 {
     id: 185,
-
     title: "Neon Green Smartwatch PNG",
     category: "Technology",
     image: "assets/png/technology/neon_green_smartwatch.png",
@@ -3344,4 +3343,487 @@ const pngData = [
         "smartwatch png"
     ]
 },
+{
+    id: 186,
+
+    title: "Christmas Tree with Gifts PNG",
+    category: "Objects",
+    image: "assets/png/objects/christmas-tree-with-gifts.png",
+  
+    tags: [
+        "christmas tree",
+        "christmas tree png",
+        "decorated christmas tree",
+        "christmas decorations",
+        "christmas gifts",
+        "wrapped presents",
+        "golden star",
+        "christmas ornaments",
+        "christmas",
+        "holiday png"
+    ]
+},
+{
+    id: 187,
+
+    title: "Santa Claus Waving PNG",
+    category: "People",
+    image: "assets/png/people/santa_claus_waving.png",
+    tags: [
+        "santa claus",
+        "santa claus png",
+        "santa waving",
+        "christmas santa",
+        "santa with gifts",
+        "christmas character",
+        "santa cartoon",
+        "santa gift sack",
+        "christmas png",
+        "holiday png"
+    ]
+},
+{
+    id: 188,
+
+    title: "Christmas Ball Ornaments PNG",
+    category: "Objects",
+    image: "assets/png/objects/christmas_ball_ornaments.png",
+  
+    tags: [
+        "christmas ornaments",
+        "christmas balls",
+        "christmas baubles",
+        "christmas ball ornaments",
+        "red christmas ball",
+        "gold christmas ball",
+        "green christmas ball",
+        "silver christmas ball",
+        "christmas decorations",
+        "christmas png"
+    ]
+},
+{
+    id: 189,
+    title: "Traditional Christmas Wreath PNG",
+    category: "Objects",
+    image: "assets/png/objects/christmas_wreath.png",
+    tags: [
+        "christmas wreath",
+        "christmas wreath png",
+        "holiday wreath",
+        "holly leaves",
+        "red berries",
+        "pine cones",
+        "red bow",
+        "christmas decoration",
+        "christmas decor",
+        "holiday png"
+    ]
+},
+{
+    id: 190,
+
+    title: "Christmas Wreath with Red Bow PNG",
+    category: "Objects",
+    image: "assets/png/objects/christmas_wreath_red_bow.png",
+    tags: [
+        "christmas wreath",
+        "christmas wreath png",
+        "red bow wreath",
+        "holly wreath",
+        "red berries",
+        "pine cones",
+        "christmas decoration",
+        "holiday wreath",
+        "christmas decor",
+        "christmas png"
+    ]
+},
+{
+    id: 191,
+    title: "Christmas Stockings with Gifts PNG",
+    category: "Objects",
+    image: "assets/png/objects/christmas-stockings.png",
+    tags: [
+        "christmas stockings",
+        "christmas stocking png",
+        "red christmas stockings",
+        "christmas socks",
+        "candy cane",
+        "christmas gifts",
+        "holiday stockings",
+        "christmas decoration",
+        "watercolor christmas",
+        "christmas png"
+    ]
+},
+{
+    id: 192,
+    title: "Kawaii Snowman with Broom PNG",
+    category: "Objects",
+    image: "assets/png/objects/kawaii_snowman.png",
+    
+    tags: [
+        "snowman",
+        "kawaii snowman",
+        "snowman png",
+        "christmas snowman",
+        "cute snowman",
+        "snowman with broom",
+        "red scarf",
+        "top hat",
+        "winter character",
+        "christmas png"
+    ]
+},
+{
+    id: 193,
+
+    title: "Cute Christmas Reindeer PNG",
+    category: "Animals",
+    image: "assets/png/animals/christmas_reindeer.png",
+    tags: [
+        "christmas reindeer",
+        "reindeer png",
+        "cute reindeer",
+        "christmas deer",
+        "rudolph reindeer",
+        "red nose reindeer",
+        "christmas lights",
+        "reindeer antlers",
+        "christmas character",
+        "holiday png"
+    ]
+},
+{
+    id: 194,
+
+    title: "Cute Christmas Penguin PNG",
+    category: "Animals",
+    image: "assets/png/animals/christmas_penguin.png",
+    
+    tags: [
+        "christmas penguin",
+        "penguin png",
+        "cute penguin",
+        "baby penguin",
+        "chibi penguin",
+        "santa hat penguin",
+        "green scarf",
+        "christmas character",
+        "winter penguin",
+        "christmas png"
+    ]
+},
+{
+    id: 195,
+
+    title: "Christmas Elf with Present PNG",
+    category: "People",
+    image: "assets/png/people/christmas-elf-with-present.png",
+    tags: [
+        "christmas elf",
+        "elf png",
+        "cute christmas elf",
+        "elf with present",
+        "christmas character",
+        "green elf",
+        "jingle bell hat",
+        "christmas gift",
+        "holiday elf",
+        "christmas png"
+    ]
+},
+{
+    id: 196,
+    title: "Christmas Gift Boxes PNG",
+    category: "Objects",
+    image: "assets/png/objects/christmas-gift-boxes.png",
+    tags: [
+        "christmas gifts",
+        "gift boxes",
+        "christmas gift boxes",
+        "wrapped presents",
+        "christmas presents",
+        "red gift box",
+        "green gift box",
+        "gift ribbons",
+        "christmas decoration",
+        "christmas png"
+    ]
+},
+{
+    id: 197,
+
+    title: "Cozy Gingerbread House PNG",
+    category: "Objects",
+    image: "assets/png/objects/gingerbread-house.png",
+    downloads: 547,
+    views: 633,
+    size: "2.5 MB",
+    tags: [
+        "gingerbread house",
+        "gingerbread house png",
+        "christmas gingerbread house",
+        "snow covered house",
+        "candy house",
+        "christmas candy",
+        "gingerbread cottage",
+        "christmas decoration",
+        "holiday house",
+        "christmas png"
+    ]
+},
+{
+    id: 198,
+    title: "Merry Christmas Text PNG",
+    category: "Text",
+    image: "assets/png/sticker/merry-christmas-text.png",
+    tags: [
+        "merry christmas",
+        "merry christmas text",
+        "christmas lettering",
+        "christmas calligraphy",
+        "christmas typography",
+        "christmas greeting",
+        "red gold christmas",
+        "christmas text png",
+        "holiday text",
+        "christmas png"
+    ]
+},
+{
+    id: 201,
+
+    title: "Golden Floral Frame PNG",
+    category: "nature",
+    image: "assets/png/nature/golden_floral_frame.png",
+   
+    tags: [
+        "golden frame",
+        "golden floral frame",
+        "floral frame png",
+        "gold frame png",
+        "decorative frame",
+        "wedding frame",
+        "ornamental frame",
+        "flower frame",
+        "design png"
+    ]
+},
+{
+    id: 202,
+
+    title: "Financial Consultant Business Card PNG",
+    category: "Design",
+    image: "assets/png/design/business_cards/financial_consultant_business_card.png",
+
+    tags: [
+        "business card",
+        "financial consultant",
+        "business card png",
+        "financial business card",
+        "consultant business card",
+        "corporate business card",
+        "professional business card",
+        "blue business card",
+        "silver business card",
+        "design png"
+    ]
+},
+{
+    id: 203,
+    title: "Insurance Agent Business Card PNG",
+    category: "Design",
+    image: "assets/png/design/business_cards/insurance_agent_business_card.png",
+    tags: [
+        "insurance agent",
+        "insurance business card",
+        "insurance business card png",
+        "business card",
+        "business card png",
+        "insurance agent card",
+        "professional business card",
+        "blue business card",
+        "corporate business card",
+        "design png"
+    ]
+},
+{
+    id: 204,
+
+    title: "Marketing Agency Business Card PNG",
+    category: "Design",
+    image: "assets/png/design/business_cards/marketing_agency_business_card.png",
+    tags: [
+        "marketing agency",
+        "marketing business card",
+        "marketing business card png",
+        "business card",
+        "business card png",
+        "agency business card",
+        "digital marketing",
+        "orange business card",
+        "corporate business card",
+        "design png"
+    ]
+},
+{
+    id: 205,
+
+    title: "Makeup Artist Business Card PNG",
+    category: "Design",
+    image: "assets/png/design/business_cards/makeup_artist_business_card.png",
+    tags: [
+        "makeup artist",
+        "makeup artist business card",
+        "makeup business card png",
+        "business card",
+        "business card png",
+        "beauty business card",
+        "makeup card",
+        "pink business card",
+        "rose gold business card",
+        "design png"
+    ]
+},
+{
+    id: 206,
+    title: "Fashion Designer Business Card PNG",
+    category: "Design",
+    image: "assets/png/design/business_cards/fashion_designer_business_card.png",
+    tags: [
+        "fashion designer",
+        "fashion designer business card",
+        "fashion business card png",
+        "business card",
+        "business card png",
+        "fashion design",
+        "designer business card",
+        "black white business card",
+        "sewing needle icon",
+        "design png"
+    ]
+},
+
+
+{
+    id: 207,
+    title: "Yoga Instructor Business Card PNG",
+    category: "Design",
+    image: "assets/png/design/business_cards/yoga_instructor_business_card.png",
+    tags: [
+        "yoga instructor",
+        "yoga business card",
+        "yoga business card png",
+        "business card",
+        "business card png",
+        "yoga card",
+        "meditation business card",
+        "wellness business card",
+        "lotus flower",
+        "design png"
+    ]
+},
+{
+    id: 208,
+
+    title: "Jewelry Brand Business Card PNG",
+    category: "Design",
+    image: "assets/png/design/business_cards/jewelry_brand_business_card.png",
+
+    tags: [
+        "jewelry brand",
+        "jewelry business card",
+        "jewelry business card png",
+        "business card",
+        "business card png",
+        "luxury business card",
+        "gold business card",
+        "emerald green business card",
+        "diamond icon",
+        "design png"
+    ]
+},
+{
+    id: 209,
+
+    title: "Salon and Spa Business Card PNG",
+    category: "Design",
+    image: "assets/png/design/business_cards/salon_spa_business_card.png",
+
+    tags: [
+        "salon and spa",
+        "salon business card",
+        "spa business card",
+        "salon spa business card png",
+        "business card",
+        "business card png",
+        "beauty business card",
+        "lavender business card",
+        "floral business card",
+        "design png"
+    ]
+},
+{
+    id: 210,
+
+    title: "Software Developer Business Card PNG",
+    category: "Design",
+    image: "assets/png/design/business_cards/software_developer_business_card.png",
+
+    tags: [
+        "software developer",
+        "software developer business card",
+        "developer business card png",
+        "business card",
+        "business card png",
+        "developer card",
+        "programmer business card",
+        "coding business card",
+        "terminal business card",
+        "design png"
+    ]
+},
+{
+    id: 211,
+
+    title: "YouTuber and Content Creator Business Card PNG",
+    category: "Design",
+    image: "assets/png/design/business_cards/youtuber_content_creator_business_card.png",
+
+    tags: [
+        "youtuber",
+        "content creator",
+        "youtuber business card",
+        "content creator business card",
+        "business card png",
+        "youtube business card",
+        "creator card",
+        "social media business card",
+        "red black business card",
+        "design png"
+    ]
+},
+{
+    id: 212,
+
+    title: "Plumber and Electrician Business Card PNG",
+    category: "Design",
+    image: "assets/png/design/business_cards/plumber_electrician_business_card.png",
+
+    tags: [
+        "plumber",
+        "electrician",
+        "plumber electrician business card",
+        "plumber business card",
+        "electrician business card",
+        "business card png",
+        "plumbing services",
+        "electrical services",
+        "yellow black business card",
+        "design png"
+    ]
+},
+
 ];
