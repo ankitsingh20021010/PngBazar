@@ -3347,7 +3347,7 @@ const pngData = [
     id: 186,
 
     title: "Christmas Tree with Gifts PNG",
-    category: "Objects",
+    category: "festival",
     image: "assets/png/objects/christmas-tree-with-gifts.png",
   
     tags: [
@@ -3367,8 +3367,8 @@ const pngData = [
     id: 187,
 
     title: "Santa Claus Waving PNG",
-    category: "People",
-    image: "assets/png/people/santa_claus_waving.png",
+    category: "festival",
+    image: "assets/png/people/santa-claus-waving.png",
     tags: [
         "santa claus",
         "santa claus png",
@@ -3386,8 +3386,8 @@ const pngData = [
     id: 188,
 
     title: "Christmas Ball Ornaments PNG",
-    category: "Objects",
-    image: "assets/png/objects/christmas_ball_ornaments.png",
+    category: "festival",
+    image: "assets/png/objects/christmas-ball-ornaments.png",
   
     tags: [
         "christmas ornaments",
@@ -3404,27 +3404,27 @@ const pngData = [
 },
 {
     id: 189,
-    title: "Traditional Christmas Wreath PNG",
-    category: "Objects",
-    image: "assets/png/objects/christmas_wreath.png",
+    title: "Goddess Lakshmi and Lord Ganesha PNG",
+    category: "festival",
+    image: "assets/png/festival/lakshmi_ganesha.png",
     tags: [
-        "christmas wreath",
-        "christmas wreath png",
-        "holiday wreath",
-        "holly leaves",
-        "red berries",
-        "pine cones",
-        "red bow",
-        "christmas decoration",
-        "christmas decor",
-        "holiday png"
+        "lakshmi ganesha",
+        "lakshmi ganesha png",
+        "goddess lakshmi",
+        "lord ganesha",
+        "diwali god png",
+        "diwali decoration",
+        "indian festival",
+        "divine gods",
+        "lakshmi ganesha diwali",
+        "festival png"
     ]
 },
 {
     id: 190,
 
     title: "Christmas Wreath with Red Bow PNG",
-    category: "Objects",
+    category: "festival",
     image: "assets/png/objects/christmas_wreath_red_bow.png",
     tags: [
         "christmas wreath",
@@ -3442,8 +3442,8 @@ const pngData = [
 {
     id: 191,
     title: "Christmas Stockings with Gifts PNG",
-    category: "Objects",
-    image: "assets/png/objects/christmas-stockings.png",
+    category: "festival",
+    image: "assets/png/festival/christmas-stockings.png",
     tags: [
         "christmas stockings",
         "christmas stocking png",
@@ -3460,7 +3460,7 @@ const pngData = [
 {
     id: 192,
     title: "Kawaii Snowman with Broom PNG",
-    category: "Objects",
+    category: "festival",
     image: "assets/png/objects/kawaii_snowman.png",
     
     tags: [
@@ -3477,10 +3477,10 @@ const pngData = [
     ]
 },
 {
-    id: 193,
+    id: 212,
 
     title: "Cute Christmas Reindeer PNG",
-    category: "Animals",
+    category: "festival",
     image: "assets/png/animals/christmas_reindeer.png",
     tags: [
         "christmas reindeer",
@@ -3499,8 +3499,8 @@ const pngData = [
     id: 194,
 
     title: "Cute Christmas Penguin PNG",
-    category: "Animals",
-    image: "assets/png/animals/christmas_penguin.png",
+    category: "festival",
+    image: "assets/png/animals/christmas-penguin.png",
     
     tags: [
         "christmas penguin",
@@ -3519,7 +3519,7 @@ const pngData = [
     id: 195,
 
     title: "Christmas Elf with Present PNG",
-    category: "People",
+    category: "festival",
     image: "assets/png/people/christmas-elf-with-present.png",
     tags: [
         "christmas elf",
@@ -3537,7 +3537,7 @@ const pngData = [
 {
     id: 196,
     title: "Christmas Gift Boxes PNG",
-    category: "Objects",
+    category: "festival",
     image: "assets/png/objects/christmas-gift-boxes.png",
     tags: [
         "christmas gifts",
@@ -3553,10 +3553,10 @@ const pngData = [
     ]
 },
 {
-    id: 197,
+    id: 208,
 
     title: "Cozy Gingerbread House PNG",
-    category: "Objects",
+    category: "festival",
     image: "assets/png/objects/gingerbread-house.png",
     downloads: 547,
     views: 633,
@@ -3577,8 +3577,8 @@ const pngData = [
 {
     id: 198,
     title: "Merry Christmas Text PNG",
-    category: "Text",
-    image: "assets/png/sticker/merry-christmas-text.png",
+    category: "festival",
+    image: "assets/png/festival/merry-christmas-text.png",
     tags: [
         "merry christmas",
         "merry christmas text",
@@ -3726,7 +3726,7 @@ const pngData = [
     ]
 },
 {
-    id: 208,
+    id: 197,
 
     title: "Jewelry Brand Business Card PNG",
     category: "Design",
@@ -3767,11 +3767,9 @@ const pngData = [
 },
 {
     id: 210,
-
     title: "Software Developer Business Card PNG",
     category: "Design",
     image: "assets/png/design/business_cards/software_developer_business_card.png",
-
     tags: [
         "software developer",
         "software developer business card",
@@ -3785,13 +3783,12 @@ const pngData = [
         "design png"
     ]
 },
+
 {
     id: 211,
-
     title: "YouTuber and Content Creator Business Card PNG",
     category: "Design",
     image: "assets/png/design/business_cards/youtuber_content_creator_business_card.png",
-
     tags: [
         "youtuber",
         "content creator",
@@ -3806,12 +3803,10 @@ const pngData = [
     ]
 },
 {
-    id: 212,
-
+    id: 193,
     title: "Plumber and Electrician Business Card PNG",
     category: "Design",
     image: "assets/png/design/business_cards/plumber_electrician_business_card.png",
-
     tags: [
         "plumber",
         "electrician",
@@ -3825,5 +3820,561 @@ const pngData = [
         "design png"
     ]
 },
+{
+    id: 213,
 
+    title: "Diwali Rangoli PNG",
+    category: "festival",
+    image: "assets/png/festival/diwali_rangoli.png",
+
+    tags: [
+        "diwali rangoli",
+        "rangoli png",
+        "diwali rangoli design",
+        "colorful rangoli",
+        "rangoli design",
+        "mandala rangoli",
+        "lotus rangoli",
+        "diwali decoration",
+        "festive rangoli",
+        "diwali png"
+    ]
+},
+{
+    id: 214,
+    title: "Diwali Diya Set with Marigold Flowers PNG",
+    category: "festival",
+    image: "assets/png/festival/diwali_diya_marigold_set.png",
+    tags: [
+        "diwali diya",
+        "diya set png",
+        "diwali diya png",
+        "marigold flowers",
+        "diwali decoration",
+        "decorated diyas",
+        "diya flowers",
+        "festive decoration",
+        "diwali festival",
+        "diwali png"
+    ]
+},
+{
+    id: 215,
+
+    title: "Colorful Diwali Fireworks PNG",
+    category: "festival",
+    image: "assets/png/festival/colorful_diwali_fireworks.png",
+
+    tags: [
+        "diwali fireworks",
+        "fireworks png",
+        "diwali crackers",
+        "colorful fireworks",
+        "gold fireworks",
+        "red fireworks",
+        "purple fireworks",
+        "festival fireworks",
+        "diwali decoration",
+        "diwali png"
+    ]
+},
+{
+    id: 216,
+
+    title: "Decorative Diwali Sweets Thali PNG",
+    category: "festival",
+    image: "assets/png/festival/decorative_diwali_sweets_thali.png",
+
+    tags: [
+        "diwali thali",
+        "sweets thali png",
+        "indian sweets",
+        "diwali sweets",
+        "laddu",
+        "barfi",
+        "jalebi",
+        "gulab jamun",
+        "diya thali",
+        "diwali png"
+    ]
+},
+{
+    id: 217,
+
+    title: "Star Shaped Diwali Lantern PNG",
+    category: "festival",
+    image: "assets/png/festival/star_shaped_diwali_lantern.png",
+
+    tags: [
+        "diwali lantern",
+        "star lantern png",
+        "diwali paper lantern",
+        "star shaped lantern",
+        "diwali decoration",
+        "red yellow lantern",
+        "golden tassels",
+        "festival lantern",
+        "diwali decor",
+        "diwali png"
+    ]
+},
+{
+    id: 218,
+
+    title: "Diwali Crackers Set PNG",
+    category: "festival",
+    image: "assets/png/festival/diwali_crackers_set.png",
+
+    tags: [
+        "diwali crackers",
+        "diwali crackers png",
+        "firecrackers set",
+        "phuljhadi",
+        "anar cracker",
+        "diwali rocket",
+        "chakri",
+        "diwali fireworks",
+        "festival crackers",
+        "diwali png"
+    ]
+},
+{
+    id: 219,
+
+    title: "Lit Phuljhadi Sparkler PNG",
+    category: "festival",
+    image: "assets/png/festival/lit_phuljhadi_sparkler.png",
+
+    tags: [
+        "phuljhadi",
+        "phuljhadi png",
+        "sparkler",
+        "sparkler png",
+        "lit sparkler",
+        "diwali sparkler",
+        "golden sparks",
+        "diwali fireworks",
+        "festival decoration",
+        "diwali png"
+    ]
+},
+{
+    id: 220,
+
+    title: "Decorated Anar Cone PNG",
+    category: "festival",
+    image: "assets/png/festival/decorated_anar_cone.png",
+
+    tags: [
+        "anar",
+        "anar cracker",
+        "anar cone png",
+        "diwali anar",
+        "flower pot cracker",
+        "decorated anar",
+        "diwali crackers",
+        "firework cone",
+        "festival cracker",
+        "diwali png"
+    ]
+},
+{
+    id: 221,
+    title: "Luxury Diwali Gift Box with Diyas PNG",
+    category: "festival",
+    image: "assets/png/festival/luxury_diwali_gift_box_with_diyas.png",
+    tags: [
+        "diwali gift box",
+        "diwali gift box png",
+        "luxury gift box",
+        "diwali decorations",
+        "golden ribbon",
+        "diwali diya",
+        "diyas png",
+        "dry fruits",
+        "indian festival",
+        "diwali png"
+    ]
+},
+{
+    id: 222,
+
+    title: "Three Crossed Sparklers PNG",
+    category: "festival",
+    image: "assets/png/festival/three_crossed_sparklers.png",
+
+    tags: [
+        "sparklers",
+        "sparkler png",
+        "three sparklers",
+        "crossed sparklers",
+        "diwali sparklers",
+        "golden sparks",
+        "fireworks",
+        "festive lights",
+        "diwali decoration",
+        "diwali png"
+    ]
+},
+{
+    id: 223,
+
+    title: "Red and Gold Anar Flower Pot PNG",
+    category: "festival",
+    image: "assets/png/festival/red_gold_anar_flower_pot.png",
+
+    tags: [
+        "anar",
+        "anar cracker",
+        "flower pot cracker",
+        "diwali anar",
+        "diwali cracker",
+        "red gold anar",
+        "golden sparks",
+        "green sparks",
+        "orange sparks",
+        "diwali png"
+    ]
+},
+{
+    id: 224,
+
+    title: "Multicolor Anar Firework PNG",
+    category: "festival",
+    image: "assets/png/festival/multicolor_anar_firework.png",
+
+    tags: [
+        "anar firework",
+        "multicolor anar",
+        "anar png",
+        "diwali firework",
+        "diwali cracker",
+        "golden sparks",
+        "red sparks",
+        "blue sparks",
+        "green sparks",
+        "diwali png"
+    ]
+},
+{
+    id: 225,
+
+    title: "Pink and White Lotus Rangoli PNG",
+    category: "festival",
+    image: "assets/png/festival/pink_white_lotus_rangoli.png",
+
+    tags: [
+        "lotus rangoli",
+        "rangoli png",
+        "diwali rangoli",
+        "pink rangoli",
+        "white rangoli",
+        "lotus design",
+        "gold rangoli",
+        "festive rangoli",
+        "diwali decoration",
+        "diwali png"
+    ]
+},
+{
+    id: 226,
+
+    title: "Diya Rangoli with Glowing Center PNG",
+    category: "festival",
+    image: "assets/png/festival/diya_rangoli_with_glowing_center.png",
+
+    tags: [
+        "diya rangoli",
+        "rangoli png",
+        "diwali rangoli",
+        "glowing diya",
+        "diya decoration",
+        "floral rangoli",
+        "diwali diyas",
+        "marigold rangoli",
+        "diwali decoration",
+        "diwali png"
+    ]
+},
+{
+    id: 227,
+
+    title: "Corner Rangoli with Diyas PNG",
+    category: "festival",
+    image: "assets/png/festival/corner_rangoli_with_diyas.png",
+
+    tags: [
+        "corner rangoli",
+        "rangoli corner design",
+        "rangoli png",
+        "diwali rangoli",
+        "corner decoration",
+        "floral rangoli",
+        "paisley rangoli",
+        "diya rangoli",
+        "diwali decoration",
+        "diwali png"
+    ]
+},
+{
+    id: 228,
+
+    title: "Decorated Dandiya Sticks PNG",
+    category: "festival",
+    image: "assets/png/festival/decorated_dandiya_sticks.png",
+
+    tags: [
+        "dandiya sticks",
+        "dandiya png",
+        "decorated dandiya",
+        "navratri dandiya",
+        "garba sticks",
+        "colorful dandiya",
+        "red green yellow dandiya",
+        "dandiya with ribbons",
+        "festival decoration",
+        "navratri png"
+    ]
+},
+
+{
+    id: 229,
+
+    title: "Gujarati Garba Dance Couple PNG",
+    category: "festival",
+    image: "assets/png/festival/gujarati_garba_dance_couple.png",
+
+    tags: [
+        "garba couple",
+        "garba dance",
+        "garba png",
+        "dandiya couple",
+        "navratri couple",
+        "gujarati traditional dress",
+        "chaniya choli",
+        "kediyu",
+        "dandiya dance",
+        "navratri png"
+    ]
+},
+
+
+{
+    id: 230,
+
+    title: "Large Circular Diwali Rangoli PNG",
+    category: "festival",
+    image: "assets/png/festival/large_circular_diwali_rangoli.png",
+
+    tags: [
+        "diwali rangoli",
+        "large rangoli",
+        "rangoli png",
+        "circular rangoli",
+        "lotus rangoli",
+        "mandala rangoli",
+        "colorful rangoli",
+        "diwali decoration",
+        "festive rangoli",
+        "diwali png"
+    ]
+},
+{
+    id: 231,
+
+    title: "Peacock Rangoli PNG",
+    category: "festival",
+    image: "assets/png/festival/peacock_rangoli.png",
+
+    tags: [
+        "peacock rangoli",
+        "peacock rangoli png",
+        "rangoli design",
+        "peacock design",
+        "colorful rangoli",
+        "traditional rangoli",
+        "peacock feathers",
+        "diwali decoration",
+        "festive rangoli",
+        "diwali png"
+    ]
+},
+{
+    id: 232,
+
+    title: "Contemporary Geometric Rangoli PNG",
+    category: "festival",
+    image: "assets/png/festival/contemporary_geometric_rangoli.png",
+
+    tags: [
+        "geometric rangoli",
+        "modern rangoli",
+        "rangoli png",
+        "star mandala",
+        "contemporary rangoli",
+        "neon rangoli",
+        "colorful rangoli",
+        "mandala design",
+        "diwali decoration",
+        "diwali png"
+    ]
+},
+{
+    id: 233,
+
+    title: "Goddess Durga with Lion PNG",
+    category: "festival",
+    image: "assets/png/festival/goddess_durga_with_lion.png",
+
+    tags: [
+        "goddess durga",
+        "durga maa png",
+        "durga with lion",
+        "durga ten arms",
+        "durga idol png",
+        "hindu goddess",
+        "durga festival",
+        "navratri png",
+        "divine goddess",
+        "festival png"
+    ]
+},
+{
+    id: 234,
+
+    title: "Traditional Clay Garba Pot Diya PNG",
+    category: "festival",
+    image: "assets/png/festival/traditional_clay_garba_pot_diya.png",
+
+    tags: [
+        "garba pot",
+        "garba pot png",
+        "clay garba pot",
+        "diya pot",
+        "decorated clay pot",
+        "diwali decoration",
+        "hanging diya",
+        "traditional indian decoration",
+        "colorful garba pot",
+        "festival png"
+    ]
+},
+{
+    id: 235,
+
+    title: "Decorative Brass Puja Thali PNG",
+    category: "festival",
+    image: "assets/png/festival/decorative_brass_puja_thali.png",
+
+    tags: [
+        "puja thali",
+        "brass puja thali",
+        "puja thali png",
+        "diya thali",
+        "hibiscus flowers",
+        "kumkum",
+        "rice puja",
+        "incense sticks",
+        "indian worship",
+        "festival png"
+    ]
+},
+{
+    id: 236,
+
+    title: "Til Gud Laddus in Brass Bowl PNG",
+    category: "festival",
+    image: "assets/png/festival/til_gud_laddus_brass_bowl.png",
+
+    tags: [
+        "til gud laddus",
+        "til gud ladoo",
+        "sesame laddus",
+        "laddus png",
+        "til ladoo png",
+        "jaggery sweets",
+        "indian sweets",
+        "brass bowl",
+        "festival sweets",
+        "festival png"
+    ]
+},
+{
+    id: 237,
+
+    title: "Traditional Pongal Pot with Sugarcane PNG",
+    category: "festival",
+    image: "assets/png/festival/traditional_pongal_pot_sugarcane.png",
+
+    tags: [
+        "pongal pot",
+        "pongal pot png",
+        "traditional pongal",
+        "pongal festival",
+        "sugarcane",
+        "pongal decoration",
+        "south indian festival",
+        "clay pot",
+        "thai pongal",
+        "festival png"
+    ]
+},
+{
+    id: 240,
+    title: "Navratri Puja Kalash with Coconut PNG",
+    category: "festival",
+    image: "assets/png/festival/navratri_puja_kalash_with_coconut.png",
+    tags: [
+        "kalash",
+        "kalash png",
+        "navratri kalash",
+        "puja kalash",
+        "brass kalash",
+        "coconut kalash",
+        "mango leaves",
+        "marigold garland",
+        "navratri puja",
+        "navratri png"
+    ]
+},
+{
+    id: 241,
+    title: "Colorful Kites Set PNG",
+    category: "festival",
+    image: "assets/png/festival/colorful_kites_set.png",
+
+    tags: [
+        "kites",
+        "colorful kites",
+        "kite png",
+        "kite set",
+        "festival kites",
+        "red kite",
+        "yellow kite",
+        "blue kite",
+        "green kite",
+        "orange kite",
+        "manja string",
+        "kite festival png"
+    ]
+},
+{
+    id: 242,
+    title: "Wooden Charkhi with Colorful Kites PNG",
+    category: "festival",
+    image: "assets/png/festival/wooden_charkhi_with_kites.png",
+    tags: [
+        "charkhi",
+        "charkhi png",
+        "kite spool",
+        "wooden charkhi",
+        "kite thread",
+        "colorful kite thread",
+        "kite festival",
+        "small kites",
+        "manja spool",
+        "kite png",
+        "festival png"
+    ]
+},
 ];
