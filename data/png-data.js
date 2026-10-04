@@ -3230,8 +3230,8 @@ const pngData = [
     id: 180,
     title: "Artificial Intelligence Brain PNG",
     category: "Technology",
-    image: "assets/png/technology/artificial_intelligence_brain.png",
-   
+    image: "assets/png/technology/artificial-intelligence-brain.png",
+
     tags: [
         "artificial intelligence",
         "ai brain",
@@ -3247,7 +3247,6 @@ const pngData = [
 },
 {
     id: 181,
-
     title: "Industrial Robotic Arm PNG",
     category: "Technology",
     image: "assets/png/technology/industrial_robotic_arm.png",
@@ -3271,7 +3270,6 @@ const pngData = [
     title: "Modern Tablet PNG",
     category: "Technology",
     image: "assets/png/technology/modern_tablet.png",
-   
     tags: [
         "tablet",
         "modern tablet",
@@ -3286,7 +3284,6 @@ const pngData = [
 },
 {
     id: 183,
-
     title: "Tablet with Detachable Keyboard PNG",
     category: "Technology",
     image: "assets/png/technology/tablet_keyboard_cover.png",
@@ -3308,7 +3305,6 @@ const pngData = [
     title: "Luxury Gold Smartwatch PNG",
     category: "Technology",
     image: "assets/png/technology/luxury_gold_smartwatch.png",
-  
     tags: [
         "luxury smartwatch",
         "gold smartwatch",
@@ -3326,10 +3322,6 @@ const pngData = [
     title: "Neon Green Smartwatch PNG",
     category: "Technology",
     image: "assets/png/technology/neon_green_smartwatch.png",
-    downloads: 0,
-    views: 0,
-    size: "—",
-    dimensions: "—",
     tags: [
         "smartwatch",
         "smart watch",
@@ -3558,8 +3550,8 @@ const pngData = [
     title: "Cozy Gingerbread House PNG",
     category: "festival",
     image: "assets/png/objects/gingerbread-house.png",
-    downloads: 547,
-    views: 633,
+    downloads: 247,
+    views: 313,
     size: "2.5 MB",
     tags: [
         "gingerbread house",
@@ -4374,6 +4366,203 @@ const pngData = [
         "small kites",
         "manja spool",
         "kite png",
+        "festival png"
+    ]
+},
+{
+    id: 243,
+    title: "Holi Color Powder Burst PNG",
+    category: "festival",
+    image: "assets/png/festival/holi_color_powder_burst.png",
+    tags: [
+        "holi colors",
+        "holi color powder",
+        "holi powder png",
+        "color explosion",
+        "holi festival",
+        "pink color powder",
+        "yellow color powder",
+        "green color powder",
+        "blue color powder",
+        "orange color powder",
+        "holi png"
+    ]
+},
+{
+    id: 144,
+
+    title: "Colorful Water Balloons PNG",
+    category: "festival",
+    image: "assets/png/festival/colorful_water_balloons.png",
+    tags: [
+        "water balloons",
+        "water balloons png",
+        "holi water balloons",
+        "colorful balloons",
+        "holi balloons",
+        "water splash",
+        "color splash",
+        "holi festival",
+        "holi decoration",
+        "holi png"
+    ]
+},
+{
+    id: 245,
+    title: "Holi Celebration Couple PNG",
+    category: "festival",
+    image: "assets/png/festival/holi_celebration_couple.png",
+    tags: [
+        "holi couple",
+        "holi celebration",
+        "holi couple png",
+        "indian couple",
+        "holi festival",
+        "gulal",
+        "holi colors",
+        "color powder",
+        "holi celebration png",
+        "holi png"
+    ]
+},
+{
+    id: 246,
+
+    title: "Holi Children with Pichkari PNG",
+    category: "festival",
+    image: "assets/png/festival/holi_children_with_pichkari.png",
+    tags: [
+        "holi children",
+        "holi kids",
+        "pichkari",
+        "pichkari png",
+        "holi kids png",
+        "children playing holi",
+        "holi colors",
+        "water colors",
+        "holi celebration",
+        "holi festival",
+        "holi png"
+    ]
+},
+{
+    id: 247,
+
+    title: "Holika Dahan Bonfire PNG",
+    category: "festival",
+    image: "assets/png/festival/holika_dahan_bonfire.png",
+
+    tags: [
+        "holika dahan",
+        "holika dahan png",
+        "holi bonfire",
+        "holika bonfire",
+        "bonfire png",
+        "holi festival",
+        "wood fire",
+        "cow dung cakes",
+        "marigold decoration",
+        "holi png"
+    ]
+},
+{
+    id: 248,
+
+    title: "Holi Gujiya Thandai Tray PNG",
+    category: "festival",
+    image: "assets/png/festival/holi_gujiya_thandai_tray.png",
+
+    tags: [
+        "holi food",
+        "gujiya",
+        "gujiya png",
+        "thandai",
+        "thandai png",
+        "holi thali",
+        "holi tray",
+        "holi sweets",
+        "gulal bowl",
+        "holi festival",
+        "holi png"
+    ]
+},
+
+
+
+
+
+{
+    id: 151,
+    title: "Holi Pichkari Colour Water PNG",
+    category: "festival",
+    image: "assets/png/festival/holi_pichkari_colour_water.png",
+    tags: [
+        "holi pichkari",
+        "pichkari png",
+        "holi water gun",
+        "holi colour water",
+        "pink blue water",
+        "holi festival",
+        "holi celebration",
+        "colour splash",
+        "holi decoration",
+        "festival png"
+    ]
+},
+{
+    id: 152,
+
+    title: "Holi Gulal Thali PNG",
+    category: "festival",
+    image: "assets/png/festival/holi_gulal_thali.png",
+    tags: [
+        "holi gulal",
+        "gulal thali",
+        "holi thali png",
+        "holi colors",
+        "color powder",
+        "holi festival",
+        "brass thali",
+        "gulal powder",
+        "holi decoration",
+        "festival png"
+    ]
+},
+{
+    id: 153,
+
+    title: "Holi Colourful Clay Matka PNG",
+    category: "festival",
+    image: "assets/png/festival/holi_colourful_clay_matka.png",
+
+    tags: [
+        "holi matka",
+        "clay matka png",
+        "holi pot",
+        "colourful matka",
+        "holi colours",
+        "holi handprints",
+        "colour splash",
+        "hanging matka",
+        "holi decoration",
+        "festival png"
+    ]
+},
+{
+    id: 254,
+    title: "Holi Colourful Handprints & Splashes PNG",
+    category: "festival",
+    image: "assets/png/festival/holi_colourful_handprints_splashes.png",
+    tags: [
+        "holi handprints",
+        "handprint png",
+        "holi paint splashes",
+        "colour splash png",
+        "holi colors",
+        "pink blue green yellow",
+        "paint splatter",
+        "holi decoration",
+        "poster decoration",
         "festival png"
     ]
 },
