@@ -840,6 +840,7 @@ const pngData = [
         "food png"
     ]
 },
+
 {
     id: 41,
     title: "Pepperoni Pizza Top View PNG",
@@ -5028,6 +5029,269 @@ const pngData = [
         "realistic sunflower",
         "garden flower",
         "nature png"
+    ]
+},
+
+
+
+
+{
+    id: 278,
+
+    title: "Bengali Cham Cham Sweets PNG",
+
+    category: "Food",
+
+    image: "assets/png/food/bengali-cham-cham-sweets.png",
+    tags: [
+        "cham cham",
+        "cham cham sweets",
+        "bengali cham cham",
+        "cham cham png",
+        "bengali sweets",
+        "indian sweets",
+        "cream filled sweet",
+        "pistachio sweet",
+        "indian dessert",
+        "food png"
+    ]
+},
+{
+    id: 279,
+
+    title: "Rasmalai PNG",
+
+    category: "Food",
+
+    image: "assets/png/food/rasmalai.png",
+    tags: [
+        "rasmalai",
+        "rasmalai png",
+        "indian sweets",
+        "indian dessert",
+        "saffron rasmalai",
+        "milk sweet",
+        "pistachio rasmalai",
+        "almond rasmalai",
+        "traditional sweet",
+        "food png"
+    ]
+},
+{
+    id: 280,
+
+    title: "Gulab Jamun PNG",
+
+    category: "Food",
+
+    image: "assets/png/food/gulab-jamun.png",
+    tags: [
+        "gulab jamun",
+        "gulab jamun png",
+        "indian sweets",
+        "indian dessert",
+        "sweet",
+        "sugar syrup",
+        "pistachio gulab jamun",
+        "gulab jamun dessert",
+        "food png"
+    ]
+},
+{
+    id: 281,
+
+    title: "White Rasgulla PNG",
+
+    category: "Food",
+
+    image: "assets/png/food/white-rasgulla.png",
+    tags: [
+        "rasgulla",
+        "white rasgulla",
+        "rasgulla png",
+        "indian sweets",
+        "indian dessert",
+        "syrup rasgulla",
+        "spongy rasgulla",
+        "sweet",
+        "dessert",
+        "food png"
+    ]
+},
+{
+    id: 282,
+
+    title: "Kaju Katli PNG",
+
+    category: "Food",
+
+    image: "assets/png/food/kaju-katli.png",
+    tags: [
+        "kaju katli",
+        "kaju katli png",
+        "cashew sweet",
+        "indian sweets",
+        "indian dessert",
+        "diamond sweets",
+        "silver leaf sweet",
+        "cashew barfi",
+        "sweet",
+        "food png"
+    ]
+},
+{
+    id: 283,
+
+    title: "Indian Peda Sweets PNG",
+
+    category: "Food",
+
+    image: "assets/png/food/indian-peda-sweets.png",
+    tags: [
+        "peda",
+        "peda sweets",
+        "indian peda",
+        "peda png",
+        "indian sweets",
+        "milk sweets",
+        "milk peda",
+        "pistachio peda",
+        "indian dessert",
+        "food png"
+    ]
+},
+
+{
+    id: 284,
+
+    title: "Soan Papdi PNG",
+
+    category: "Food",
+
+    image: "assets/png/food/soan-papdi.png",
+    tags: [
+        "soan papdi",
+        "soan papdi png",
+        "sohan papdi",
+        "indian sweets",
+        "indian dessert",
+        "flaky sweet",
+        "pistachio sweet",
+        "golden sweet",
+        "traditional sweet",
+        "food png"
+    ]
+},
+
+
+
+{
+    id: 285,
+
+    title: "Jalebi PNG",
+
+    category: "Food",
+
+    image: "assets/png/food/jalebi.png",
+
+    tags: [
+        "jalebi",
+        "jalebi png",
+        "indian sweets",
+        "indian dessert",
+        "sweet",
+        "crispy jalebi",
+        "orange jalebi",
+        "sugar syrup jalebi",
+        "jalebi dessert",
+        "food png"
+    ]
+},
+{
+    id: 286,
+    title: "Motichoor Laddu PNG",
+    category: "Food",
+    image: "assets/png/food/motichoor-laddu.png",
+    tags: [
+        "motichoor laddu",
+        "motichoor laddu png",
+        "boondi laddu",
+        "indian sweets",
+        "indian dessert",
+        "sweet",
+        "orange laddu",
+        "golden boondi",
+        "motichoor dessert",
+        "food png"
+    ]
+},
+{
+    id: 287,
+
+    title: "Milk Barfi PNG",
+
+    category: "Food",
+
+    image: "assets/png/food/milk-barfi.png",
+
+    tags: [
+        "milk barfi",
+        "milk barfi png",
+        "barfi",
+        "indian sweets",
+        "indian dessert",
+        "sweet",
+        "white barfi",
+        "pistachio barfi",
+        "milk sweet",
+        "barfi dessert",
+        "food png"
+    ]
+},
+{
+    id: 288,
+
+    title: "Mysore Pak PNG",
+
+    category: "Food",
+
+    image: "assets/png/food/mysore-pak.png",
+
+    tags: [
+        "mysore pak",
+        "mysore pak png",
+        "indian sweets",
+        "indian dessert",
+        "sweet",
+        "golden mysore pak",
+        "ghee sweet",
+        "crumbly sweet",
+        "south indian sweet",
+        "mysore pak dessert",
+        "food png"
+    ]
+},
+{
+    id: 289,
+
+    title: "Kalakand PNG",
+
+    category: "Food",
+
+    image: "assets/png/food/kalakand.png",
+
+    tags: [
+        "kalakand",
+        "kalakand png",
+        "indian sweets",
+        "indian dessert",
+        "milk sweet",
+        "kalakand sweet",
+        "white kalakand",
+        "pistachio kalakand",
+        "saffron kalakand",
+        "grainy milk sweet",
+        "food png"
     ]
 },
 ];
