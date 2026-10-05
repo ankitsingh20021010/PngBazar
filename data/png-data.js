@@ -4993,8 +4993,8 @@ const pngData = [
     id: 277,
 
     title: "Pink Lotus Flower PNG",
-    category: "objects",
-    image: "assets/png/objects/pink_lotus_flower.png",
+    category: "nature",
+    image: "assets/png/nature/pink_lotus_flower.png",
 
     tags: [
         "pink lotus",
