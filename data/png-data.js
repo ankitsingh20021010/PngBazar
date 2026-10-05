@@ -4566,4 +4566,407 @@ const pngData = [
         "festival png"
     ]
 },
+{
+    id: 255,
+
+    title: "Modern Study Table PNG",
+    category: "Objects",
+    image: "assets/png/objects/modern-study-table.png",
+    tags: [
+        "study table",
+        "study desk",
+        "wooden study table",
+        "modern study table",
+        "computer desk",
+        "student desk",
+        "office desk",
+        "wooden desk",
+        "home furniture",
+        "object png"
+    ]
+},
+{
+    id: 256,
+
+    title: "School Desk and Bench Set PNG",
+    category: "Objects",
+    image: "assets/png/objects/school_desk_bench_set.png",
+    tags: [
+        "school desk",
+        "school bench",
+        "student desk",
+        "student bench",
+        "classroom desk",
+        "classroom furniture",
+        "school furniture",
+        "wooden desk",
+        "desk bench set",
+        "object png"
+    ]
+},
+{
+    id: 257,
+
+    title: "Teacher's Chair PNG",
+    category: "Objects",
+    image: "assets/png/objects/teachers-chair.png",
+    tags: [
+        "teacher chair",
+        "teachers chair",
+        "classroom chair",
+        "school chair",
+        "wooden armrest chair",
+        "padded chair",
+        "cushioned chair",
+        "dark brown chair",
+        "classroom furniture",
+        "object png"
+    ]
+},
+{
+    id: 258,
+
+    title: "Executive Leather Boss Chair PNG",
+    category: "Objects",
+    image: "assets/png/objects/executive-leather-boss-chair.png",
+    tags: [
+        "boss chair",
+        "executive chair",
+        "executive office chair",
+        "leather office chair",
+        "premium office chair",
+        "high back chair",
+        "brown leather chair",
+        "office furniture",
+        "manager chair",
+        "object png"
+    ]
+},
+
+{
+    id: 259,
+
+    title: "Modern Office Desk PNG",
+    category: "Objects",
+    image: "assets/png/objects/modern-office-desk.png",
+    tags: [
+        "office desk",
+        "modern office desk",
+        "computer desk",
+        "work desk",
+        "wooden office desk",
+        "white office desk",
+        "executive desk",
+        "desk with drawers",
+        "office furniture",
+        "object png"
+    ]
+},
+
+{
+    id: 260,
+
+    title: "Electric Wheelchair PNG",
+    category: "Objects",
+    image: "assets/png/objects/electric-wheelchair.png",
+    tags: [
+        "electric wheelchair",
+        "wheelchair png",
+        "power wheelchair",
+        "motorized wheelchair",
+        "wheelchair with joystick",
+        "mobility chair",
+        "medical equipment",
+        "wheelchair",
+        "mobility aid",
+        "object png"
+    ]
+},
+
+{
+    id: 261,
+
+    title: "Ergonomic Study Chair PNG",
+    category: "objects",
+    image: "assets/png/objects/ergonomic_study_chair.png",
+
+    tags: [
+        "study chair",
+        "ergonomic chair",
+        "student chair",
+        "office chair",
+        "computer chair",
+        "adjustable chair",
+        "blue chair",
+        "gray chair",
+        "swivel chair",
+        "study furniture",
+        "chair png"
+    ]
+},
+{
+    id: 262,
+
+    title: "Kids Colorful Study Chair and Table Set PNG",
+    category: "objects",
+    image: "assets/png/objects/kids_study_chair_table_set.png",
+
+    tags: [
+        "kids study chair",
+        "kids study table",
+        "study table set",
+        "children furniture",
+        "kids furniture",
+        "colorful study set",
+        "yellow blue red chair",
+        "children study table",
+        "kids desk png",
+        "study chair png",
+        "kids table png"
+    ]
+},
+{
+    id: 262,
+    title: "Teacher's Table with Drawers PNG",
+    category: "objects",
+    image: "assets/png/objects/teachers_table_with_drawers.png",
+    tags: [
+        "teacher table",
+        "teacher desk",
+        "teacher table png",
+        "classroom table",
+        "school desk",
+        "wooden teacher desk",
+        "office table",
+        "table with drawers",
+        "classroom furniture",
+        "teacher desk png",
+        "school furniture"
+    ]
+},
+{
+    id: 263,
+
+    title: "Black Mesh Ergonomic Office Chair PNG",
+    category: "objects",
+    image: "assets/png/objects/black_mesh_ergonomic_office_chair.png",
+
+    tags: [
+        "office chair",
+        "ergonomic office chair",
+        "mesh office chair",
+        "black office chair",
+        "office chair png",
+        "ergonomic chair png",
+        "lumbar support chair",
+        "headrest chair",
+        "adjustable armrest chair",
+        "chrome base chair",
+        "computer chair",
+        "office furniture"
+    ]
+},
+{
+    id: 264,
+
+    title: "Manual Wheelchair PNG",
+    category: "objects",
+    image: "assets/png/objects/manual_wheelchair.png",
+
+    tags: [
+        "wheelchair",
+        "manual wheelchair",
+        "wheelchair png",
+        "medical wheelchair",
+        "folding wheelchair",
+        "wheelchair with wheels",
+        "silver wheelchair",
+        "black wheelchair",
+        "mobility aid",
+        "wheelchair side view",
+        "medical equipment"
+    ]
+},
+{
+    id: 265,
+
+    title: "Hospital Waiting Room Chair Set PNG",
+    category: "objects",
+    image: "assets/png/objects/hospital_waiting_chair_set.png",
+
+    tags: [
+        "hospital chair",
+        "waiting room chair",
+        "hospital waiting chair",
+        "three seat chair",
+        "hospital chair png",
+        "waiting room furniture",
+        "blue waiting chair",
+        "metal chair",
+        "clinic furniture",
+        "medical furniture",
+        "hospital furniture"
+    ]
+},
+{
+    id: 266,
+
+    title: "Classic Wooden Dining Chair PNG",
+    category: "Objects",
+    image: "assets/png/objects/classic-wooden-dining-chair.png",
+    tags: [
+        "dining chair",
+        "wooden dining chair",
+        "classic chair",
+        "carved chair",
+        "wooden chair png",
+        "cushioned chair",
+        "brown wooden chair",
+        "dining furniture",
+        "home furniture",
+        "object png"
+    ]
+},
+{
+    id: 267,
+    title: "Wooden Dining Table with Six Chairs PNG",
+    category: "objects",
+    image: "assets/png/objects/wooden_dining_table_six_chairs.png",
+
+    tags: [
+        "dining table",
+        "dining chairs",
+        "dining table set",
+        "six chairs",
+        "wooden dining table",
+        "dining set png",
+        "home furniture",
+        "dining room furniture",
+        "cushioned chairs",
+        "wooden furniture",
+        "dining table png"
+    ]
+},
+{
+    id: 268,
+
+    title: "Traditional Wooden Rocking Chair PNG",
+    category: "objects",
+    image: "assets/png/objects/traditional_wooden_rocking_chair.png",
+
+    tags: [
+        "rocking chair",
+        "wooden rocking chair",
+        "rocking chair png",
+        "traditional chair",
+        "vintage rocking chair",
+        "wooden chair",
+        "dark wood chair",
+        "cane back chair",
+        "cushioned rocking chair",
+        "classic furniture",
+        "home furniture"
+    ]
+},
+{
+    id: 269,
+
+    title: "Woven Rattan Hanging Swing Chair PNG",
+    category: "objects",
+    image: "assets/png/objects/rattan_hanging_swing_chair.png",
+
+    tags: [
+        "hanging swing chair",
+        "rattan swing chair",
+        "swing chair png",
+        "egg swing chair",
+        "hanging chair",
+        "rattan chair",
+        "boho swing chair",
+        "woven chair",
+        "cushioned swing chair",
+        "hanging egg chair",
+        "home furniture"
+    ]
+},
+
+
+{
+    id: 271,
+
+    title: "Modern Teal Armchair PNG",
+    category: "Objects",
+    image: "assets/png/objects/modern-teal-armchair.png",
+    tags: [
+        "armchair",
+        "teal armchair",
+        "modern armchair",
+        "comfortable chair",
+        "cushioned chair",
+        "fabric armchair",
+        "wooden legs chair",
+        "living room chair",
+        "modern furniture",
+        "object png"
+    ]
+},
+{
+    id: 272,
+
+    title: "Red and Black Gaming Chair PNG",
+    category: "Objects",
+    image: "assets/png/objects/red-black-gaming-chair.png",
+    tags: [
+        "gaming chair",
+        "red black gaming chair",
+        "gaming chair png",
+        "racing gaming chair",
+        "computer chair",
+        "high back gaming chair",
+        "gaming seat",
+        "ergonomic gaming chair",
+        "gamer chair",
+        "object png"
+    ]
+},
+
+{
+    id: 273,
+
+    title: "Adjustable Bar Stool PNG",
+    category: "Objects",
+    image: "assets/png/objects/adjustable-bar-stool.png",
+    tags: [
+        "bar stool",
+        "bar stool png",
+        "adjustable bar stool",
+        "black bar stool",
+        "chrome bar stool",
+        "counter stool",
+        "swivel stool",
+        "tall stool",
+        "kitchen stool",
+        "object png"
+    ]
+},
+{
+    id: 274,
+
+    title: "Red Rose with Water Droplets PNG",
+    category: "Nature",
+    image: "assets/png/nature/red-rose-water-droplets.png",
+
+    tags: [
+        "red rose",
+        "red rose png",
+        "rose flower",
+        "rose with water droplets",
+        "fresh rose",
+        "romantic flower",
+        "red flower",
+        "rose petals",
+        "natural rose",
+        "nature png"
+    ]
+},
 ];
