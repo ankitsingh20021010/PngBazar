@@ -4969,4 +4969,65 @@ const pngData = [
         "nature png"
     ]
 },
+{
+    id: 275,
+
+    title: "Orange and Yellow Marigold Flowers PNG",
+    category: "Nature",
+    image: "assets/png/nature/orange-yellow-marigold-flowers.png",
+
+    tags: [
+        "marigold flowers",
+        "orange marigold",
+        "yellow marigold",
+        "marigold flower png",
+        "orange flowers",
+        "yellow flowers",
+        "marigold bouquet",
+        "green leaves",
+        "flower bouquet",
+        "nature png"
+    ]
+},
+{
+    id: 277,
+
+    title: "Pink Lotus Flower PNG",
+    category: "objects",
+    image: "assets/png/objects/pink_lotus_flower.png",
+
+    tags: [
+        "pink lotus",
+        "lotus flower",
+        "lotus png",
+        "pink flower",
+        "lotus flower png",
+        "blooming lotus",
+        "lotus petals",
+        "lotus leaf",
+        "flower png",
+        "realistic lotus",
+        "floral png"
+    ]
+},
+{
+    id: 276,
+
+    title: "Large Yellow Sunflower PNG",
+    category: "Nature",
+    image: "assets/png/nature/large-yellow-sunflower.png",
+
+    tags: [
+        "sunflower",
+        "yellow sunflower",
+        "sunflower png",
+        "sunflower flower",
+        "yellow flower",
+        "sunflower with leaves",
+        "sunflower stem",
+        "realistic sunflower",
+        "garden flower",
+        "nature png"
+    ]
+},
 ];
