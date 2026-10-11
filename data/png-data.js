@@ -5550,7 +5550,7 @@ const pngData = [
 
     category: "Vehicles",
 
-    image: "assets/png/motorcycle/simple_classic_motorcycle.png",
+    image: "assets/png/bike/simple_classic_motorcycle.png",
 
     tags: [
         "motorcycle",
@@ -5575,8 +5575,7 @@ const pngData = [
 
     category: "Vehicles",
 
-    image: "assets/png/motorcycle/premium_classic_cruiser_motorcycle.png",
-
+    image: "assets/png/bike/premium_classic_cruiser_motorcycle.png",
     tags: [
         "motorcycle",
         "motorbike",
@@ -5597,13 +5596,9 @@ const pngData = [
 },
 {
     id: 317,
-
     title: "Modern City Scooter",
-
     category: "Vehicles",
-
-    image: "assets/png/scooter/modern_city_scooter.png",
-
+    image: "assets/png/bike/modern_city_scooter.png",
     tags: [
         "scooter",
         "city scooter",
@@ -5620,9 +5615,301 @@ const pngData = [
     ]
 
 },
+{
+    id: 318,
+    title: "Classic Retro Blue and White Scooter PNG",
+    description: "A stylish classic retro scooter featuring a pastel blue and white finish, rounded body design, comfortable brown seat, chrome mirrors, elegant headlight, and compact alloy wheels. Perfect for vehicle collections, transport designs, and creative projects.",
+    category: "Vehicles",
+    image: "assets/png/bike/classic_retro_scooter_blue_white.png",
+    tags: [
+        "classic scooter",
+        "retro scooter",
+        "blue scooter",
+        "white scooter",
+        "scooter png",
+        "vintage scooter",
+        "pastel blue scooter",
+        "classic retro bike",
+        "chrome mirror scooter",
+        "modern vintage scooter",
+        "two wheeler",
+        "vehicle png",
+        "vehicles"
+    ]
+
+},
+{
+    id: 319,
+    title: "Modern Sporty City Scooter PNG",
+    description: "A modern sporty city scooter featuring a matte black body, bold red accents, aerodynamic panels, sharp LED headlights, black alloy wheels, dual rear-view mirrors, and a comfortable seat. Ideal for vehicle collections, transportation designs, automotive websites, and creative projects.",
+    category: "Vehicles",
+    image: "assets/png/bike/modern_sporty_city_scooter.png",
+    tags: [
+        "sporty scooter",
+        "modern scooter",
+        "city scooter",
+        "black red scooter",
+        "scooter png",
+        "sports scooter",
+        "aerodynamic scooter",
+        "LED headlight scooter",
+        "black alloy wheels",
+        "modern two wheeler",
+        "vehicle png",
+        "vehicles"
+    ]
+
+},
+{
+    id: 320,
+    title: "Premium Electric Scooter PNG",
+    description: "A premium electric scooter featuring a futuristic minimalist design, elegant pearl white and silver bodywork, integrated LED lighting, modern alloy wheels, a comfortable padded seat, and a sleek flat footboard. Its clean aerodynamic styling makes it ideal for electric vehicle collections, automotive websites, transportation designs, and creative projects.",
+    category: "Vehicles",
+    image: "assets/png/bike/premium_electric_scooter.png",
+    tags: [
+        "electric scooter",
+        "premium electric scooter",
+        "electric scooter png",
+        "white electric scooter",
+        "silver scooter",
+        "futuristic scooter",
+        "modern scooter",
+        "eco friendly vehicle",
+        "LED scooter",
+        "electric two wheeler",
+        "EV scooter",
+        "vehicle png",
+        "vehicles"
+    ]
+},
+{
+    id: 321,
+
+    title: "Cute Pastel Pink and White Scooter PNG",
+
+    description: "A cute compact scooter featuring a beautiful pastel pink and white color scheme, rounded body panels, stylish alloy wheels, a classic round headlamp, chrome mirrors, and a comfortable brown seat. Its elegant design is perfect for vehicle collections, scooter illustrations, automotive websites, and creative design projects.",
+
+    category: "Vehicles",
+
+    image: "assets/png/bike/cute_pastel_pink_white_scooter.png",
+
+    tags: [
+        "pink scooter",
+        "white scooter",
+        "cute scooter",
+        "scooter png",
+        "pastel pink scooter",
+        "compact scooter",
+        "classic scooter",
+        "stylish scooter",
+        "pink and white scooter",
+        "small scooter",
+        "two wheeler",
+        "vehicle png",
+        "vehicles"
+    ]
+
+},
+{
+    id: 322,
+
+    title: "Luxury Navy Blue Maxi Scooter PNG",
+
+    description: "A premium maxi-style scooter featuring a bold muscular body, metallic navy blue finish, elegant gold accents, large alloy wheels, a comfortable dual seat, aerodynamic front fairing, and modern LED headlights. Its luxurious styling and detailed suspension make it perfect for vehicle collections, automotive websites, transportation designs, and creative projects.",
+
+    category: "Vehicles",
+
+    image: "assets/png/bike/luxury_navy_blue_maxi_scooter.png",
+
+    tags: [
+        "maxi scooter",
+        "luxury scooter",
+        "navy blue scooter",
+        "blue scooter png",
+        "premium scooter",
+        "gold accent scooter",
+        "modern maxi scooter",
+        "sport touring scooter",
+        "large alloy wheels",
+        "LED headlight scooter",
+        "luxury two wheeler",
+        "vehicle png",
+        "vehicles"
+    ]
+
+},
+{
+    id: 323,
+
+    title: "Laughing with Tears Emoji Sticker PNG",
+
+    category: "sticker",
+
+    image: "assets/png/sticker/laughing_with_tears_emoji.png",
+
+    description: "A cute, glossy 3D yellow laughing emoji with tightly closed eyes, a wide open smile, bright blue tears of joy, and a playful expression. This vibrant sticker is perfect for WhatsApp stickers, social media reactions, memes, chats, and funny digital designs.",
+
+    tags: [
+        "laughing emoji",
+        "tears of joy emoji",
+        "laughing emoji png",
+        "funny emoji",
+        "crying laughing emoji",
+        "joy emoji sticker",
+        "yellow emoji",
+        "3d emoji",
+        "kawaii emoji",
+        "funny sticker",
+        "reaction sticker",
+        "whatsapp sticker",
+        "emoji png",
+        "transparent sticker"
+    ]
+
+},
+{
+    id: 324,
+
+    title: "Cute Pink Heart Character Sticker PNG",
+
+    category: "sticker",
+
+    image: "assets/png/sticker/cute_pink_heart_character.png",
+
+    description: "An adorable glossy pink heart character with tiny arms, rosy cheeks, sparkling eyes, and a cheerful smile. Its kawaii cartoon design features shiny highlights and a playful expression, making it perfect for love-themed stickers, Valentine's Day designs, romantic messages, WhatsApp stickers, and social media graphics.",
+
+    tags: [
+        "pink heart",
+        "heart sticker",
+        "cute heart",
+        "heart character",
+        "kawaii heart",
+        "pink heart png",
+        "love sticker",
+        "cute sticker",
+        "3d heart",
+        "glossy heart",
+        "valentines day sticker",
+        "romantic sticker",
+        "whatsapp sticker",
+        "cartoon heart",
+        "transparent png"
+    ]
+
+},
+{
+    id: 325,
+
+    title: "Metallic Golden Star Sticker PNG",
+
+    category: "sticker",
+
+    image: "assets/png/sticker/metallic_golden_star.png",
+
+    description: "A shiny metallic golden five-point star featuring a premium glossy 3D finish, smooth beveled edges, symmetrical shape, and brilliant reflective highlights. Perfect for rating badges, reward stickers, achievement graphics, award designs, certificates, social media posts, and decorative digital projects.",
+
+    tags: [
+        "golden star",
+        "gold star sticker",
+        "star png",
+        "metallic star",
+        "3d star",
+        "gold star png",
+        "shiny star",
+        "glossy star",
+        "five point star",
+        "premium star",
+        "rating star",
+        "achievement sticker",
+        "reward sticker",
+        "award star",
+        "transparent png"
+    ]
+
+},
+{
+  id: 226,
+  title: "Cool Sunglasses Thumbs Up Emoji PNG",
+  category: "Sticker",
+  image: "assets/png/sticker/cool-sunglasses-thumbs-up-emoji.png",
+  description: "A cool glossy yellow smiley emoji wearing sleek black sunglasses, showing a confident smile and giving a thumbs-up. This playful 3D cartoon character is perfect for positive reactions, social media posts, messaging, and creative designs.",
+  dimensions: "1024x1024",
+  tags: [
+    "cool emoji",
+    "sunglasses emoji",
+    "thumbs up emoji",
+    "cool emoji png",
+    "smiley sticker",
+    "good job emoji",
+    "awesome emoji",
+    "3d emoji",
+    "positive reaction sticker",
+    "transparent png"
+  ]
+},
 
 
-
+{
+  id: 240,
+  title: "Crying Emoji Sticker PNG",
+  category: "Sticker",
+  image: "assets/png/sticker/crying-emoji-sticker.png",
+  description: "A cute glossy yellow crying emoji with oversized sparkling blue tears, sad eyebrows, and an expressive trembling mouth. Perfect for emotional reactions, messaging, social media designs, and creative projects.",
+ 
+  dimensions: "1024x1024",
+  tags: [
+    "crying emoji",
+    "sad emoji",
+    "cry emoji png",
+    "tears emoji",
+    "cute emoji",
+    "3d emoji",
+    "emotional sticker",
+    "sad sticker png",
+    "transparent png",
+    "sticker png"
+  ]
+},
+{
+  id: 242,
+  title: "Angry Emoji Sticker PNG",
+  category: "Sticker",
+  image: "assets/png/sticker/angry-emoji-sticker.png",
+  description: "A funny angry red and yellow cartoon emoji with furrowed eyebrows, puffed cheeks, an expressive grumpy mouth, and steam puffs. Perfect for reaction stickers, memes, messaging, and social media designs.",
+  dimensions: "1024x1024",
+  tags: [
+    "angry emoji",
+    "angry emoji png",
+    "mad emoji",
+    "grumpy emoji",
+    "funny emoji",
+    "rage emoji",
+    "3d emoji",
+    "reaction sticker",
+    "angry sticker png",
+    "transparent png"
+  ]
+},
+{
+  id: 242,
+  title: "Angry Emoji Sticker PNG",
+  category: "Sticker",
+  image: "assets/png/sticker/angry-emoji-sticker.png",
+  description: "A funny angry red and yellow cartoon emoji with furrowed eyebrows, puffed cheeks, an expressive grumpy mouth, and steam puffs. Perfect for reaction stickers, memes, messaging, and social media designs.",
+  dimensions: "1024x1024",
+  tags: [
+    "angry emoji",
+    "angry emoji png",
+    "mad emoji",
+    "grumpy emoji",
+    "funny emoji",
+    "rage emoji",
+    "3d emoji",
+    "reaction sticker",
+    "angry sticker png",
+    "transparent png"
+  ]
+},
 
 ];
 
