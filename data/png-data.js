@@ -5828,7 +5828,7 @@ const pngData = [
 
 },
 {
-  id: 226,
+  id: 326,
   title: "Cool Sunglasses Thumbs Up Emoji PNG",
   category: "Sticker",
   image: "assets/png/sticker/cool-sunglasses-thumbs-up-emoji.png",
@@ -5847,10 +5847,180 @@ const pngData = [
     "transparent png"
   ]
 },
-
+{
+  id: 227,
+  title: "Kawaii Rainbow Cloud Sticker PNG",
+  category: "Sticker",
+  image: "assets/png/sticker/kawaii-rainbow-cloud.png",
+  description: "A cute fluffy white cloud with a pastel rainbow, colorful sparkles, rosy cheeks, and an adorable kawaii expression. Perfect for stickers, kids' designs, digital planners, social media, and creative projects.",
+  dimensions: "1024x1024",
+  tags: [
+    "rainbow cloud",
+    "cloud sticker png",
+    "kawaii cloud",
+    "cute cloud png",
+    "rainbow sticker",
+    "pastel rainbow",
+    "cute sticker png",
+    "kawaii sticker",
+    "colorful sparkles",
+    "transparent png"
+  ]
+},
 
 {
-  id: 240,
+    id: 328,
+    title: "Cute White Ghost Cartoon Sticker PNG",
+    category: "sticker",
+    image: "assets/png/sticker/cute_white_ghost_sticker.png",
+    description: "An adorable white cartoon ghost with a playful smile, sparkling purple eyes, rosy cheeks, tiny floating arms, and a vibrant purple outline. Its glossy finish and soft pastel highlights create a cute kawaii design, perfect for Halloween stickers, WhatsApp reactions, spooky decorations, social media graphics, and digital scrapbooking.",
+    dimensions: "1024x1024",
+
+    tags: [
+        "cute ghost",
+        "ghost sticker",
+        "white ghost png",
+        "ghost png",
+        "kawaii ghost",
+        "cartoon ghost",
+        "halloween sticker",
+        "cute halloween",
+        "purple outline ghost",
+        "funny ghost",
+        "spooky sticker",
+        "whatsapp sticker",
+        "floating ghost",
+        "transparent png",
+        "halloween png"
+    ]
+
+},
+{
+  id: 229,
+  title: "Black Magnifying Glass Search Icon PNG",
+  category: "Icons",
+  image: "assets/png/icons/black-magnifying-glass-search.png",
+  description: "A minimal black magnifying glass search icon featuring a geometric circular lens, clean handle, consistent stroke width, and a flat vector design. Ideal for websites, mobile apps, search bars, UI interfaces, and digital projects.",
+  dimensions: "512x512",
+  tags: [
+    "search icon",
+    "magnifying glass png",
+    "search icon png",
+    "black search icon",
+    "magnifier icon",
+    "minimal icon",
+    "vector search icon",
+    "UI icon",
+    "website icon",
+    "transparent png"
+  ]
+},
+{
+    id: 330,
+
+    title: "Blue Download Icon Sticker PNG",
+
+    category: "sticker",
+
+    image: "assets/png/sticker/blue_download_icon.png",
+
+    description: "A modern blue download icon featuring a bold downward arrow and a clean horizontal tray, finished with glossy cyan-to-deep-blue gradients, smooth beveled edges, and polished highlights. Ideal for download buttons, website UI designs, app interfaces, digital product pages, and technology-themed graphics.",
+
+    dimensions: "512x512",
+
+    tags: [
+        "download icon",
+        "blue download icon",
+        "download png",
+        "download arrow",
+        "download button icon",
+        "download symbol",
+        "blue arrow icon",
+        "3d download icon",
+        "glossy icon",
+        "technology icon",
+        "website icon",
+        "app icon",
+        "UI icon",
+        "transparent png",
+        "sticker png"
+    ]
+
+},
+{
+  id: 331,
+  title: "Blue Notification Bell Icon PNG",
+  category: "Icons",
+  image: "assets/png/sticker/blue-notification-bell.png",
+  description: "A clean modern blue notification bell icon with a bright red notification badge. Features a crisp silhouette, vibrant blue tones, and a polished design, ideal for websites, mobile apps, dashboards, and user interface elements.",
+  dimensions: "512x512",
+  tags: [
+    "notification bell",
+    "notification icon png",
+    "blue bell icon",
+    "alert icon",
+    "red notification dot",
+    "bell icon png",
+    "app notification icon",
+    "UI icon",
+    "website icon",
+    "transparent png"
+  ]
+},
+{
+    id: 332,
+
+    title: "Green Checkmark Success Badge Sticker PNG",
+
+    category: "sticker",
+
+    image: "assets/png/sticker/green_checkmark_badge.png",
+
+    description: "A polished glossy green checkmark inside a circular badge, featuring a bold emerald tick, smooth beveled edges, reflective highlights, and a clean white center. This modern 3D success symbol is perfect for verified badges, success notifications, approval indicators, completed tasks, website UI designs, and social media graphics.",
+
+    dimensions: "1024x1024",
+
+    tags: [
+        "green checkmark",
+        "checkmark sticker",
+        "checkmark png",
+        "success badge",
+        "green tick",
+        "tick mark png",
+        "verified badge",
+        "approval icon",
+        "correct symbol",
+        "success icon",
+        "3d checkmark",
+        "confirmation symbol",
+        "completed task icon",
+        "glossy green icon",
+        "transparent png"
+    ]
+
+},
+{
+  id: 333,
+  title: "Golden Trophy Cup PNG",
+  category: "Objects",
+  image: "assets/png/sticker/golden-trophy-cup.png",
+  description: "A premium golden trophy cup with elegant curved handles, a raised star emblem, and a polished metallic 3D finish. Perfect for award ceremonies, sports graphics, winner designs, achievement illustrations, and celebration projects.",
+  dimensions: "1024x1024",
+  tags: [
+    "golden trophy",
+    "trophy png",
+    "gold trophy cup",
+    "winner trophy",
+    "award trophy",
+    "star trophy",
+    "3d trophy",
+    "sports trophy png",
+    "achievement icon",
+    "transparent png"
+  ]
+},
+{
+  id: 340,
   title: "Crying Emoji Sticker PNG",
   category: "Sticker",
   image: "assets/png/sticker/crying-emoji-sticker.png",
@@ -5870,8 +6040,9 @@ const pngData = [
     "sticker png"
   ]
 },
+
 {
-  id: 242,
+  id: 341,
   title: "Angry Emoji Sticker PNG",
   category: "Sticker",
   image: "assets/png/sticker/angry-emoji-sticker.png",
@@ -5891,7 +6062,7 @@ const pngData = [
   ]
 },
 {
-  id: 242,
+  id: 342,
   title: "Angry Emoji Sticker PNG",
   category: "Sticker",
   image: "assets/png/sticker/angry-emoji-sticker.png",
