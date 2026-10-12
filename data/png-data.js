@@ -1404,7 +1404,7 @@ const pngData = [
 
     title: "Orange Yellow Flame Sticker PNG",
 
-    category: "Sticker",
+    category: "Icons",
 
     image: "assets/png/sticker/orange-yellow-flame-sticker.png",
 
@@ -1434,7 +1434,7 @@ const pngData = [
 
     title: "Cute Kawaii Fire Character Sticker PNG",
 
-    category: "Sticker",
+    category: "Icons",
 
     image: "assets/png/sticker/cute-kawaii-fire-character-sticker.png",
 
@@ -1464,7 +1464,7 @@ const pngData = [
 
     title: "Fire Dragon Breathing Flames Sticker PNG",
 
-    category: "Sticker",
+    category: "Icons",
 
     image: "assets/png/sticker/fire-dragon-breathing-flames-sticker.png",
 
@@ -1492,7 +1492,7 @@ const pngData = [
 {
     id: 73,
     title: "Lit Matchstick Flame Sticker PNG",
-    category: "Sticker",
+    category: "Icons",
     image: "assets/png/sticker/lit-matchstick-flame-sticker.png",
     downloads: 443,
     views: 601,
@@ -1517,7 +1517,7 @@ const pngData = [
     id: 74,
     title: "Blue Flame Sticker PNG",
 
-    category: "Sticker",
+    category: "Icons",
 
     image: "assets/png/sticker/blue-flame-sticker.png",
 
@@ -5743,7 +5743,7 @@ const pngData = [
 
     title: "Laughing with Tears Emoji Sticker PNG",
 
-    category: "sticker",
+    category: "Icons",
 
     image: "assets/png/sticker/laughing_with_tears_emoji.png",
 
@@ -5772,7 +5772,7 @@ const pngData = [
 
     title: "Cute Pink Heart Character Sticker PNG",
 
-    category: "sticker",
+    category: "Icons",
 
     image: "assets/png/sticker/cute_pink_heart_character.png",
 
@@ -5802,7 +5802,7 @@ const pngData = [
 
     title: "Metallic Golden Star Sticker PNG",
 
-    category: "sticker",
+    category: "Icons",
 
     image: "assets/png/sticker/metallic_golden_star.png",
 
@@ -5830,7 +5830,7 @@ const pngData = [
 {
   id: 326,
   title: "Cool Sunglasses Thumbs Up Emoji PNG",
-  category: "Sticker",
+  category: "Icons",
   image: "assets/png/sticker/cool-sunglasses-thumbs-up-emoji.png",
   description: "A cool glossy yellow smiley emoji wearing sleek black sunglasses, showing a confident smile and giving a thumbs-up. This playful 3D cartoon character is perfect for positive reactions, social media posts, messaging, and creative designs.",
   dimensions: "1024x1024",
@@ -5850,7 +5850,7 @@ const pngData = [
 {
   id: 227,
   title: "Kawaii Rainbow Cloud Sticker PNG",
-  category: "Sticker",
+  category: "Icons",
   image: "assets/png/sticker/kawaii-rainbow-cloud.png",
   description: "A cute fluffy white cloud with a pastel rainbow, colorful sparkles, rosy cheeks, and an adorable kawaii expression. Perfect for stickers, kids' designs, digital planners, social media, and creative projects.",
   dimensions: "1024x1024",
@@ -5871,7 +5871,7 @@ const pngData = [
 {
     id: 328,
     title: "Cute White Ghost Cartoon Sticker PNG",
-    category: "sticker",
+    category: "Icons",
     image: "assets/png/sticker/cute_white_ghost_sticker.png",
     description: "An adorable white cartoon ghost with a playful smile, sparkling purple eyes, rosy cheeks, tiny floating arms, and a vibrant purple outline. Its glossy finish and soft pastel highlights create a cute kawaii design, perfect for Halloween stickers, WhatsApp reactions, spooky decorations, social media graphics, and digital scrapbooking.",
     dimensions: "1024x1024",
@@ -5899,7 +5899,7 @@ const pngData = [
   id: 229,
   title: "Black Magnifying Glass Search Icon PNG",
   category: "Icons",
-  image: "assets/png/icons/black-magnifying-glass-search.png",
+  image: "assets/png/Sticker/black-magnifying-glass-search.png",
   description: "A minimal black magnifying glass search icon featuring a geometric circular lens, clean handle, consistent stroke width, and a flat vector design. Ideal for websites, mobile apps, search bars, UI interfaces, and digital projects.",
   dimensions: "512x512",
   tags: [
@@ -5920,7 +5920,7 @@ const pngData = [
 
     title: "Blue Download Icon Sticker PNG",
 
-    category: "sticker",
+    category: "Icons",
 
     image: "assets/png/sticker/blue_download_icon.png",
 
@@ -5972,7 +5972,7 @@ const pngData = [
 
     title: "Green Checkmark Success Badge Sticker PNG",
 
-    category: "sticker",
+    category: "Icons",
 
     image: "assets/png/sticker/green_checkmark_badge.png",
 
@@ -6020,9 +6020,61 @@ const pngData = [
   ]
 },
 {
-  id: 340,
+    id: 334,
+
+    title: "Blue Purple Cloud Upload Icon Sticker PNG",
+
+    category: "icons",
+
+    image: "assets/png/sticker/blue_purple_cloud_upload_icon.png",
+
+    description: "A modern glossy 3D cloud upload icon featuring a smooth blue and purple gradient, a bold upward-pointing arrow, rounded surfaces, and vibrant reflective highlights. This premium technology sticker is ideal for upload buttons, cloud storage graphics, app interfaces, website UI elements, file-sharing designs, and digital technology projects.",
+
+    dimensions: "1024x1024",
+
+    tags: [
+        "cloud upload icon",
+        "upload icon png",
+        "cloud upload sticker",
+        "blue purple icon",
+        "upload arrow",
+        "cloud symbol",
+        "3d upload icon",
+        "glossy cloud icon",
+        "file upload",
+        "cloud storage icon",
+        "technology sticker",
+        "app icon",
+        "website UI icon",
+        "digital upload symbol",
+        "transparent png"
+    ]
+
+},
+{
+  id: 235,
+  title: "Black Play Button Circle Icon PNG",
+  category: "Icons",
+  image: "assets/png/icons/black-play-button-circle.png",
+  description: "A clean modern play button icon featuring a centered right-facing black triangle inside a circular outline. Designed with balanced geometry and sharp edges, ideal for video players, media controls, websites, mobile apps, and user interfaces.",
+  dimensions: "512x512",
+  tags: [
+    "play button icon",
+    "play icon png",
+    "video play icon",
+    "circle play button",
+    "black play icon",
+    "media control icon",
+    "video player icon",
+    "minimal icon",
+    "UI icon",
+    "transparent png"
+  ]
+},
+{
+  id: 336,
   title: "Crying Emoji Sticker PNG",
-  category: "Sticker",
+  category: "Icons",
   image: "assets/png/sticker/crying-emoji-sticker.png",
   description: "A cute glossy yellow crying emoji with oversized sparkling blue tears, sad eyebrows, and an expressive trembling mouth. Perfect for emotional reactions, messaging, social media designs, and creative projects.",
  
@@ -6042,9 +6094,9 @@ const pngData = [
 },
 
 {
-  id: 341,
+  id: 337,
   title: "Angry Emoji Sticker PNG",
-  category: "Sticker",
+  category: "Icons",
   image: "assets/png/sticker/angry-emoji-sticker.png",
   description: "A funny angry red and yellow cartoon emoji with furrowed eyebrows, puffed cheeks, an expressive grumpy mouth, and steam puffs. Perfect for reaction stickers, memes, messaging, and social media designs.",
   dimensions: "1024x1024",
@@ -6062,9 +6114,9 @@ const pngData = [
   ]
 },
 {
-  id: 342,
+  id: 338,
   title: "Angry Emoji Sticker PNG",
-  category: "Sticker",
+  category: "Icons",
   image: "assets/png/sticker/angry-emoji-sticker.png",
   description: "A funny angry red and yellow cartoon emoji with furrowed eyebrows, puffed cheeks, an expressive grumpy mouth, and steam puffs. Perfect for reaction stickers, memes, messaging, and social media designs.",
   dimensions: "1024x1024",
@@ -6081,6 +6133,401 @@ const pngData = [
     "transparent png"
   ]
 },
+{
+    id: 340,
 
+    title: "Majestic Male Lion Wildlife Sticker PNG",
+    category: "sticker",
+    image: "assets/png/animals/majestic_male_lion.png",
+    description: "A majestic adult male African lion standing proudly in an alert pose, featuring a magnificent golden-brown mane, realistic tawny fur, sharp amber eyes, a detailed muzzle, powerful legs, and a long tail with a dark tuft. This realistic wildlife sticker is perfect for animal collections, safari designs, jungle-themed artwork, educational projects, and nature graphics.",
+    dimensions: "1536x1024",
+
+    tags: [
+        "lion",
+        "male lion",
+        "lion png",
+        "majestic lion",
+        "wildlife sticker",
+        "african lion",
+        "golden mane lion",
+        "king of the jungle",
+        "wild animal png",
+        "realistic lion",
+        "lion cutout",
+        "safari animal",
+        "jungle animal",
+        "animal sticker",
+        "transparent png"
+    ]
+
+},
+{
+    id: 341,
+    title: "Cute Baby Elephant Animal PNG",
+    category: "animals",
+    image: "assets/png/animals/cute_baby_elephant.png",
+    description: "An adorable baby elephant standing with its trunk raised, featuring soft grey wrinkled skin, large floppy ears, expressive sparkling eyes, and a cheerful smile. This realistic 3D animal PNG is perfect for wildlife collections, children's designs, educational materials, jungle-themed artwork, and animal stickers.",
+    dimensions: "1280x1280",
+    tags: [
+        "baby elephant",
+        "baby elephant png",
+        "cute elephant",
+        "elephant png",
+        "elephant with raised trunk",
+        "grey elephant",
+        "realistic elephant",
+        "wildlife animal",
+        "african elephant",
+        "cute animal png",
+        "3d elephant",
+        "jungle animal",
+        "animal cutout",
+        "transparent png",
+        "wildlife png"
+    ]
+
+},
+{
+    id: 342,
+
+    title: "Beautiful Red Fox Wildlife PNG",
+
+    category: "animals",
+
+    image: "assets/png/animals/beautiful_red_fox.png",
+
+    description: "A beautiful red fox sitting upright with rich orange-red fur, a fluffy white chest, black paws, pointed ears, and a bushy tail with a white tip. Its amber eyes and finely detailed fur create a realistic wildlife appearance. Perfect for animal collections, educational projects, wildlife illustrations, nature designs, and creative digital artwork.",
+
+    dimensions: "1080x1350",
+
+    tags: [
+        "red fox",
+        "red fox png",
+        "fox png",
+        "beautiful fox",
+        "wildlife animal",
+        "orange fox",
+        "sitting fox",
+        "realistic fox",
+        "fox transparent png",
+        "wild animal png",
+        "forest animal",
+        "fox cutout",
+        "animal png",
+        "nature wildlife",
+        "fox illustration"
+    ]
+
+},
+{
+    id: 343,
+
+    title: "Cute Giant Panda with Bamboo PNG",
+
+    category: "animals",
+
+    image: "assets/png/animals/cute_giant_panda_bamboo.png",
+
+    description: "An adorable giant panda sitting comfortably and holding a fresh green bamboo stem, featuring classic black-and-white fur, round fluffy ears, expressive brown eyes, and a friendly smile. This realistic 3D wildlife image is perfect for animal collections, wildlife education, zoo designs, children's projects, and nature-themed graphics.",
+
+    dimensions: "1170x1300",
+
+    tags: [
+        "giant panda",
+        "panda png",
+        "cute panda",
+        "panda with bamboo",
+        "panda animal png",
+        "black and white panda",
+        "realistic panda",
+        "panda transparent png",
+        "bamboo eating panda",
+        "wildlife animal",
+        "bear family",
+        "zoo animal",
+        "cute animal png",
+        "3d panda",
+        "animal cutout"
+    ]
+
+},
+{
+    id: 344,
+
+    title: "Fluffy White Rabbit Animal PNG",
+
+    category: "animals",
+
+    image: "assets/png/animals/fluffy_white_rabbit.png",
+
+    description: "An adorable fluffy white rabbit sitting upright on its hind legs, featuring soft detailed fur, long ears with pink inner coloring, expressive dark eyes, a tiny pink nose, delicate whiskers, and cute little paws. Perfect for animal collections, Easter designs, children's illustrations, educational projects, and wildlife-themed graphics.",
+
+    dimensions: "1024x1536",
+
+    tags: [
+        "white rabbit",
+        "rabbit png",
+        "cute rabbit",
+        "bunny png",
+        "fluffy rabbit",
+        "white bunny",
+        "rabbit transparent png",
+        "realistic rabbit",
+        "sitting rabbit",
+        "pink ears rabbit",
+        "cute animal png",
+        "bunny animal",
+        "3d rabbit",
+        "rabbit cutout",
+        "animal png"
+    ]
+
+},
+{
+    id: 345,
+
+    title: "Graceful Deer Stag Wildlife PNG",
+
+    category: "animals",
+
+    image: "assets/png/animals/graceful_deer_stag.png",
+
+    description: "A majestic adult deer stag standing gracefully with large branching antlers, a warm reddish-brown coat, a cream-colored chest, detailed fur, alert eyes, and realistic wildlife anatomy. This high-quality isolated animal PNG is perfect for wildlife collections, forest-themed designs, educational projects, nature illustrations, and creative digital artwork.",
+
+    dimensions: "1280x1280",
+
+    tags: [
+        "deer stag",
+        "deer png",
+        "stag png",
+        "male deer",
+        "deer with antlers",
+        "wildlife animal",
+        "realistic deer",
+        "brown deer",
+        "majestic stag",
+        "antler deer png",
+        "forest animal",
+        "wild animal png",
+        "deer cutout",
+        "nature wildlife",
+        "transparent animal png"
+    ]
+
+},
+{
+    id: 346,
+
+    title: "African Giraffe Wildlife PNG",
+
+    category: "animals",
+
+    image: "assets/png/animals/african_giraffe_wildlife.png",
+
+    description: "A tall and graceful African giraffe standing elegantly, featuring a long neck, distinctive brown polygonal patches on a cream-colored coat, small horn-like ossicones, expressive eyes, and a long tail with a dark tuft. This realistic wildlife PNG is perfect for animal collections, safari designs, educational projects, zoo illustrations, and nature-themed graphics.",
+
+    dimensions: "1024x1536",
+
+    tags: [
+        "giraffe",
+        "giraffe png",
+        "african giraffe",
+        "giraffe animal png",
+        "wildlife animal",
+        "tall giraffe",
+        "brown spotted giraffe",
+        "realistic giraffe",
+        "giraffe transparent png",
+        "safari animal",
+        "zoo animal",
+        "wild animal png",
+        "giraffe cutout",
+        "nature wildlife",
+        "animal png"
+    ]
+
+},
+
+{
+  id: 350,
+  title: "Cute Orange Kitten PNG",
+  category: "Animals",
+  image: "assets/png/animals/cute-orange-kitten.png",
+  description: "An adorable fluffy orange tabby kitten sitting with its tail curled around its paws, featuring bright expressive eyes, soft detailed fur, a tiny pink nose, and a sweet innocent expression. Perfect for pet designs, animal stickers, wallpapers, and creative projects.",
+  dimensions: "1024x1024",
+  tags: [
+    "orange kitten",
+    "cute kitten png",
+    "cat png",
+    "fluffy kitten",
+    "orange cat png",
+    "cute cat transparent",
+    "realistic kitten",
+    "pet png",
+    "baby cat",
+    "transparent png"
+  ]
+},
+
+{
+  id: 351,
+  title: "Royal Bengal Tiger PNG",
+  category: "Animals",
+  image: "assets/png/animals/royal-bengal-tiger.png",
+  description: "A realistic Royal Bengal tiger standing in a powerful side-profile pose, featuring a vivid orange coat, crisp black stripes, detailed white facial fur, golden eyes, and a muscular natural build. Perfect for wildlife designs, educational projects, jungle themes, posters, and creative compositions.",
+  dimensions: "1536x1024",
+  tags: [
+    "royal bengal tiger",
+    "tiger png",
+    "bengal tiger png",
+    "tiger transparent png",
+    "wild tiger",
+    "wildlife png",
+    "orange tiger",
+    "realistic tiger",
+    "wild animal png",
+    "tiger cutout"
+  ]
+},
+{
+  id: 352,
+  title: "Indian Peacock with Open Feathers PNG",
+  category: "Animals",
+  image: "assets/png/animals/indian-peacock-open-feathers.png",
+  description: "A beautiful Indian peacock standing proudly with its spectacular blue-green tail fully fanned open, featuring iridescent feather eye patterns, a vibrant blue neck, and detailed realistic plumage. Perfect for wildlife designs, Indian festival graphics, nature projects, educational materials, and decorative artwork.",
+  dimensions: "1344x1344",
+  tags: [
+    "indian peacock",
+    "peacock png",
+    "peacock feathers",
+    "peacock transparent png",
+    "blue peacock",
+    "peacock with open feathers",
+    "national bird of india",
+    "realistic bird png",
+    "wildlife png",
+    "bird cutout"
+  ]
+},
+{
+  id: 353,
+  title: "Bald Eagle Wildlife PNG",
+  category: "Animals",
+  image: "assets/png/animals/bald-eagle-wildlife.png",
+  description: "A majestic bald eagle with folded wings, a distinctive white head, a powerful hooked yellow beak, detailed dark brown feathers, and sharp golden eyes. This realistic full-body wildlife cutout is ideal for nature designs, educational projects, bird collections, posters, and creative compositions.",
+  dimensions: "1024x1536",
+  tags: [
+    "bald eagle",
+    "bald eagle png",
+    "eagle transparent png",
+    "american eagle",
+    "eagle bird png",
+    "realistic eagle",
+    "wildlife bird",
+    "bird cutout png",
+    "eagle full body",
+    "transparent png"
+  ]
+},
+{
+  id: 354,
+  title: "Emerald Hummingbird Flying PNG",
+  category: "Animals",
+  image: "assets/png/animals/emerald-hummingbird-flying.png",
+  description: "A tiny vibrant hummingbird hovering in midair with emerald green feathers, an iridescent blue-purple throat, a long slender beak, and wings spread in a natural flying pose. Features crisp realistic feather details, perfect for wildlife designs, nature projects, educational graphics, and creative compositions.",
+  dimensions: "1536x1024",
+  tags: [
+    "hummingbird png",
+    "flying hummingbird",
+    "emerald hummingbird",
+    "hummingbird transparent png",
+    "colorful bird png",
+    "realistic hummingbird",
+    "exotic bird",
+    "wildlife png",
+    "bird cutout",
+    "transparent bird png"
+  ]
+},
+{
+  id: 355,
+  title: "Red Northern Cardinal Bird PNG",
+  category: "Animals",
+  image: "assets/png/animals/red-northern-cardinal.png",
+  description: "A bright red northern cardinal standing in side profile, featuring a pointed crest, distinctive black face mask, vibrant orange beak, and intricately detailed feathers. This realistic full-body bird cutout is perfect for wildlife designs, nature illustrations, educational projects, and creative compositions.",
+  dimensions: "1344x1344",
+  tags: [
+    "red cardinal",
+    "northern cardinal png",
+    "red bird png",
+    "cardinal bird transparent",
+    "red songbird",
+    "realistic bird png",
+    "wildlife bird",
+    "bird cutout",
+    "colorful bird png",
+    "transparent png"
+  ]
+},
+{
+  id: 356,
+  title: "Barn Owl Front View PNG",
+  category: "Animals",
+  image: "assets/png/animals/barn-owl-front-view.png",
+  description: "A beautiful barn owl facing forward with a distinctive heart-shaped pale facial disc, large dark eyes, golden-brown feather markings, and intricately detailed plumage. Its wings are slightly open, creating a majestic full-body wildlife cutout perfect for nature designs, educational graphics, bird collections, and creative projects.",
+  dimensions: "1024x1536",
+  tags: [
+    "barn owl",
+    "barn owl png",
+    "owl transparent png",
+    "white owl",
+    "realistic owl",
+    "owl front view",
+    "wildlife bird",
+    "owl cutout",
+    "bird png",
+    "transparent background"
+  ]
+},
+{
+  id: 357,
+  title: "Elegant White Swan PNG",
+  category: "Animals",
+  image: "assets/png/animals/elegant-white-swan.png",
+  description: "An elegant white swan with a gracefully curved neck, vibrant orange beak, slightly raised wings, and finely layered white feathers. This realistic full-body bird cutout is perfect for wildlife designs, wedding graphics, nature illustrations, decorative artwork, and creative projects.",
+  dimensions: "1280x1280",
+  tags: [
+    "white swan",
+    "swan png",
+    "white swan transparent png",
+    "elegant swan",
+    "realistic bird png",
+    "swan cutout",
+    "graceful bird",
+    "water bird",
+    "wildlife png",
+    "transparent background"
+  ]
+},
+{
+  id: 358,
+  title: "Scarlet Macaw Parrot PNG",
+  category: "Animals",
+  image: "assets/png/animals/scarlet-macaw-parrot.png",
+  description: "A vibrant scarlet macaw parrot featuring brilliant red, blue, yellow, and green feathers, a powerful curved beak, detailed facial markings, and visible claws. This realistic full-body tropical bird cutout is perfect for wildlife designs, educational graphics, tropical themes, posters, and creative projects.",
+  dimensions: "1024x1536",
+  tags: [
+    "scarlet macaw",
+    "macaw parrot png",
+    "red parrot png",
+    "colorful parrot",
+    "tropical bird png",
+    "parrot transparent png",
+    "realistic parrot",
+    "exotic bird png",
+    "wildlife png",
+    "bird cutout"
+  ]
+},
 ];
 
