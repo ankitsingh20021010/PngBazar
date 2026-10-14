@@ -6529,5 +6529,102 @@ const pngData = [
     "bird cutout"
   ]
 },
+{
+    id: 359,
+
+    title: "Realistic Crocodile Wildlife PNG",
+
+    category: "animals",
+
+    image: "assets/png/animals/realistic_crocodile.png",
+
+    description: "A realistic crocodile in a low walking pose, featuring detailed olive-green and brown armored scales, a powerful long tail, strong clawed legs, sharp ivory teeth, and alert golden eyes. This high-quality wildlife cutout is ideal for reptile collections, wildlife education, jungle-themed designs, educational projects, and nature graphics.",
+
+    dimensions: "1920x1024",
+
+    tags: [
+        "crocodile",
+        "crocodile png",
+        "realistic crocodile",
+        "crocodile animal",
+        "reptile png",
+        "wildlife animal",
+        "green crocodile",
+        "crocodile transparent png",
+        "crocodile teeth",
+        "crocodile cutout",
+        "reptile wildlife",
+        "dangerous animal",
+        "3d crocodile",
+        "animal png",
+        "wildlife png"
+    ]
+
+},
+{
+    id: 360,
+
+    title: "Colorful Chameleon Wildlife PNG",
+
+    category: "animals",
+
+    image: "assets/png/animals/colorful_chameleon.png",
+
+    description: "A colorful chameleon shown in side profile, featuring textured green scales with vibrant yellow, blue, orange, and turquoise accents, independently focused eyes, a curled spiral tail, gripping feet, and realistic reptile anatomy. This detailed wildlife PNG is perfect for animal collections, reptile education, nature illustrations, wildlife websites, and creative digital designs.",
+
+    dimensions: "1536x1024",
+
+    tags: [
+        "chameleon",
+        "chameleon png",
+        "colorful chameleon",
+        "reptile png",
+        "green chameleon",
+        "rainbow chameleon",
+        "realistic chameleon",
+        "curled tail chameleon",
+        "wildlife animal",
+        "exotic reptile",
+        "lizard png",
+        "chameleon transparent png",
+        "reptile wildlife",
+        "animal cutout",
+        "wildlife png"
+    ]
+
+},
+
+{
+    id: 361,
+
+    title: "Monarch Butterfly Wildlife PNG",
+
+    category: "animals",
+
+    image: "assets/png/animals/monarch_butterfly.png",
+
+    description: "A beautiful monarch butterfly with vibrant orange wings, bold black veins, delicate white spots, and a slender dark body with curved antennae. Its symmetrical, fully spread wings feature realistic natural patterns and intricate details. Perfect for insect collections, nature illustrations, educational projects, wildlife websites, and decorative digital designs.",
+
+    dimensions: "1536x1024",
+
+    tags: [
+        "monarch butterfly",
+        "butterfly png",
+        "orange butterfly",
+        "monarch butterfly png",
+        "butterfly transparent png",
+        "realistic butterfly",
+        "butterfly wings",
+        "black and orange butterfly",
+        "insect png",
+        "wildlife png",
+        "beautiful butterfly",
+        "butterfly cutout",
+        "nature illustration",
+        "flying insect",
+        "animal png"
+    ]
+
+},
 ];
 
