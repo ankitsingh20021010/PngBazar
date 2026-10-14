@@ -6626,5 +6626,181 @@ const pngData = [
     ]
 
 },
+{
+    id: 362,
+
+    title: "Powerful Grey Wolf Wildlife PNG",
+
+    category: "animals",
+
+    image: "assets/png/animals/powerful_grey_wolf.png",
+
+    description: "A powerful adult grey wolf standing in an alert side-profile pose, featuring thick silver-grey and charcoal fur, cream-colored chest fur, pointed ears, intelligent amber eyes, strong legs, and a bushy tail. This realistic wildlife PNG is ideal for animal collections, wildlife education, nature illustrations, wolf-themed designs, and digital artwork.",
+
+    dimensions: "1536x1024",
+
+    tags: [
+        "grey wolf",
+        "grey wolf png",
+        "wolf png",
+        "gray wolf",
+        "wild wolf",
+        "realistic wolf",
+        "silver grey wolf",
+        "charcoal wolf",
+        "wildlife animal",
+        "wolf transparent png",
+        "wolf cutout",
+        "wild animal png",
+        "canine wildlife",
+        "wolf illustration",
+        "animal png"
+    ]
+
+},
+{
+    id: 363,
+
+    title: "Powerful Black Panther Wildlife PNG",
+
+    category: "animals",
+
+    image: "assets/png/animals/powerful_black_panther.png",
+
+    description: "A powerful black panther crouching in an alert hunting pose, featuring glossy charcoal-black fur with subtle rosette markings, piercing golden amber eyes, muscular legs, sharp claws, and a long curved tail. This highly detailed realistic wildlife PNG is perfect for animal collections, jungle-themed artwork, wildlife education, nature websites, graphic design, and creative digital projects.",
+
+    dimensions: "1536x1024",
+
+    tags: [
+        "black panther",
+        "black panther png",
+        "panther png",
+        "black leopard",
+        "realistic black panther",
+        "wildlife animal",
+        "black panther transparent png",
+        "panther hunting pose",
+        "crouching panther",
+        "black big cat",
+        "golden eyes panther",
+        "wild cat png",
+        "jungle animal",
+        "panther cutout",
+        "wild animal png",
+        "animal png",
+        "wildlife png"
+    ]
+
+},
+{
+    id: 364,
+
+    title: "Sleek Cheetah Wildlife PNG",
+
+    category: "animals",
+
+    image: "assets/png/animals/sleek_cheetah_wildlife.png",
+
+    description: "A sleek adult cheetah standing in an alert side-profile pose, featuring a golden-tawny coat covered in small black spots, distinctive black tear marks beneath its amber eyes, an athletic body, long slender legs, and a curved spotted tail. This realistic wildlife PNG is perfect for animal collections, safari designs, educational resources, nature illustrations, and wildlife-themed creative projects.",
+
+    dimensions: "1536x1024",
+
+    tags: [
+        "cheetah",
+        "cheetah png",
+        "sleek cheetah",
+        "wildlife animal",
+        "spotted cheetah",
+        "realistic cheetah",
+        "cheetah transparent png",
+        "african cheetah",
+        "fastest land animal",
+        "wild cat png",
+        "golden cheetah",
+        "cheetah side profile",
+        "safari animal",
+        "animal cutout",
+        "wildlife png"
+    ]
+
+},
+{
+    id: 365,
+
+    title: "Realistic Hippopotamus Wildlife PNG",
+
+    category: "animals",
+
+    image: "assets/png/animals/realistic_hippopotamus.png",
+
+    description: "A realistic adult hippopotamus standing with its mouth open, featuring thick grey skin with pinkish tones, a massive rounded body, short powerful legs, textured wrinkles, small rounded ears, expressive eyes, and prominent ivory tusks. This detailed 3D wildlife PNG is perfect for animal collections, zoo illustrations, wildlife education, children's projects, and nature-themed designs.",
+
+    dimensions: "1536x1024",
+
+    tags: [
+        "hippopotamus",
+        "hippopotamus png",
+        "hippo png",
+        "realistic hippo",
+        "grey hippopotamus",
+        "hippo animal png",
+        "wildlife animal",
+        "hippo open mouth",
+        "hippo tusks",
+        "african wildlife",
+        "zoo animal png",
+        "3d hippopotamus",
+        "hippo transparent png",
+        "animal cutout",
+        "wildlife png"
+    ]
+
+},
+
+
+
+
+
+
+{
+  id: 366,
+  title: "Common Kingfisher Bird PNG",
+  category: "Animals",
+  image: "assets/png/animals/common-kingfisher-bird.png",
+  description: "A stunning common kingfisher in side profile, featuring vivid turquoise-blue wings, a bright orange chest, a long pointed beak, and intricately detailed iridescent feathers. This realistic full-body bird cutout is perfect for wildlife designs, nature illustrations, educational graphics, and creative projects.",
+  dimensions: "1280x1280",
+  tags: [
+    "common kingfisher",
+    "kingfisher bird png",
+    "blue bird png",
+    "orange chest bird",
+    "kingfisher transparent png",
+    "realistic bird png",
+    "turquoise bird",
+    "wildlife png",
+    "bird cutout",
+    "transparent png"
+  ]
+},
+{
+  id: 367,
+  title: "Snow Leopard Wildlife PNG",
+  category: "Animals",
+  image: "assets/png/animals/snow-leopard-wildlife.png",
+  description: "A beautiful snow leopard standing sideways with thick pale grey and cream fur, distinctive dark rosette spots, icy blue eyes, and a long fluffy ringed tail. This realistic full-body wildlife cutout is perfect for animal collections, educational graphics, wildlife posters, nature projects, and creative designs.",
+  dimensions: "1536x1024",
+  tags: [
+    "snow leopard",
+    "snow leopard png",
+    "snow leopard transparent png",
+    "wild cat png",
+    "white leopard",
+    "snow leopard cutout",
+    "realistic wildlife",
+    "rare animal png",
+    "big cat png",
+    "transparent background"
+  ]
+},
 ];
 
